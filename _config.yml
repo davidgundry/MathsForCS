@@ -1,12 +1,11 @@
 # Site settings
-title: Jekyll Doc Theme
+title: Maths for CS
 email: your-email@domain.com
 description: >
-  Jekyll Template for Project Websites
-  providing documentation and blog post pages.
-lang: en-US
+  A first-year course in maths and problem solving for computer science students.
+lang: en-GB
 
-baseurl: "/jekyll-doc-theme" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
 git_address: https://github.com/aksakalli/jekyll-doc-theme
 git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
@@ -31,7 +30,7 @@ exclude:
   - .idea/
   - .gitignore
   - README.md
-timezone: Europe/Berlin
+timezone: Europe/London
 defaults:
 - scope:
     path: _posts

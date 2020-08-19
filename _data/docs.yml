@@ -1,8 +1,60 @@
 - title: Getting Started
   docs:
   - home
-  - themes
-  - customization
+  - who-am-i
+  - assessment
+
+- title: Number Systems
+  docs:
+  - number-systems
+  - intro-to-number-systems
+  - bases
+  - binary-arithmatic
+  - number-systems-challenges
+
+- title: Modular Arithmatic
+  docs:
+  - modular-arithmatic
+  - modulus
+  - cyphers
+  - maths-with-mod
+  - modular-challenges
+
+- title: Asymptotic Complexity
+  docs:
+  - complexity
+  - algorithms
+
+
+- title: Propositional Logic
+  docs:
+    - propositional-logic
+    - intro-to-propositional-logic
+    - logical-operators
+    - proof-propositional-logic
+    - propositional-logic-challenges
+
+- title: Set Theory
+  docs:
+    - set-theory
+    - sets
+    - subsets-supersets
+    - set-operations
+    - proof-set-theory
+    - set-theory-challenges
+
+- title: Descriptive Statistics
+  docs:
+    - descriptive-statistics
+    - statistics
+    - central-tendancy
+    - spread
+    - descriptive-statistics-challenges
+
+- title: Inferrential Statistics
+
+
+
 
 - title: Examples
   docs:

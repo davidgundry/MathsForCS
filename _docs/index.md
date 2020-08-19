@@ -6,45 +6,34 @@ redirect_from: /docs/index.html
 
 ## Getting started
 
-[GitHub Pages](https://pages.github.com) can automatically generate and serve the website for you.
-Let's say you have a username/organisation `my-org` and project `my-proj`; if you locate Jekyll source under `docs` folder of master branch in your repo `github.com/my-org/my-proj`, the website will be served on `my-org.github.io/my-proj`.
-The good thing about coupling your documentation with the source repo is, whenever you merge features with regarding content to master branch, it will also be published on the webpage instantly.
+This website holds all of the content for the Maths for CS course. The course is broken down into several topics, one for each week of the course. Each topic is broken down into multiple sections. Each section has a short video lecture and questions and challenges for you to complete. Each week there will also be a live lab session with the demonstrator. You should complete each section before that week's lab session. During the lab we will build on what you have learned.
 
-1. Just [download the source](https://github.com/aksakalli/jekyll-doc-theme/archive/gh-pages.zip) into your repo under `docs` folder.
-2. Edit site settings in  `_config.yml` file according to your project. !!! `baseurl` should be your website's relative URI like `/my-proj` !!!
-3. Replace `favicon.ico` and `assets/img/logonav.png` with your own logo.
+| Week          | Topic         | Dates  |
+| ------------- |-------------  | -----|
+| Week 1        | [Number Systems](/docs/number-systems) | $1600 |
+| Week 2        | [Modulo Arithmatic](/docs/modulo-arithmatic)  |   $12 |
+| Week 3        | Asymptotic Complexity      |    $1 |
+| Week 4        | Propositional Logic      |    $1 |
+| Week 5        | Set Theory      |    $1 |
+| Week 6        | Descriptive Statistics     |    $1 |
+| Week 7        | Inferrential Statistics |    $1 |
 
-## Writing content
+## Outline of the course
 
-### Docs
+This course will focus on presenting pratical situations where maths is needed to solve a problem. We will solve the problem together over the course of a topic, learning the maths we need as we go. On the way, you will be presented with problems to solve to develop your understanding of the material. Each section also has a number of challenges to test your ability on new problems. Completing these challenges will help you prepare for the exam
 
-Docs are [collections](https://jekyllrb.com/docs/collections/) of pages stored under `_docs` folder. To create a new page:
+### Labs
 
-**1.** Create a new Markdown as `_docs/my-page.md` and write [front matter](https://jekyllrb.com/docs/frontmatter/) & content such as:
+Labs will be run online via `Microsoft Teams`.
 
-```
----
-title: My Page
-permalink: /docs/my-page/
----
+### Support
 
-Hello World!
-```
+This course is being run by David Gundry. You can contact me by email at `d.gundry@yorksj.ac.uk`.
 
-**2.** Add the pagename to `_data/docs.yml` file in order to list in docs navigation panel:
+### Assessment
 
-```
-- title: My Group Title
-  docs:
-  - my-page
-```
+This course is 100% assessed by coursework. The exam will be released `at some point`, and you will have until `some later point` to return your completed assessment. The assessment will present you with a number of problems that you have to solve. Many of the problems will require you to use a programming language. Throughout the course we will be using Python, and it is recommend you use that.
 
-### Blog posts
+### Python
 
-Add a new Markdown file such as `2017-05-09-my-post.md` and write the content similar to other post examples.
-
-### Pages
-
-The homepage is located under `index.html` file. You can change the content or design completely different welcome page for your taste. (You can use [bootstrap components](http://getbootstrap.com/components/))
-
-In order to add a new page, create a new `.html` or `.md` (markdown) file under root directory and link it in `_includes/topnav.html`.
+You will apply your mathematical knowledge to problems requiring programming in the Python programming language. You will be taking the `Introduction to Programming` module alongside this one. That module will focus on teaching you how to use Python. In this module, you will have a chance to apply what you are learning.
