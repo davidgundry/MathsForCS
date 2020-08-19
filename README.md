@@ -1,6 +1,12 @@
-# Jekyll Doc Theme
+# Maths for CS Website
 
-Go to [the website](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information and demo.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d9a10574-0b7e-4785-85bf-96ded66c6201/deploy-status)](https://app.netlify.com/sites/mathsforcs/deploys)
+
+A first-year course for computer science students at York St John University, covering number systems, modulo arithmatic, algorithms, logic, set theory, and statistics.
+
+This is the source code for [the module website](https://mathsforcs.netlify.app). It uses the [Jekyll Doc theme](https://github.com/aksakalli/jekyll-doc-theme) for [Jekyll](https://jekyllrb.com/).
+
+Unless you want to fork this repository, you are probably looking for [the module website](https://mathsforcs.netlify.app).
 
 ## Running locally
 
@@ -20,17 +26,6 @@ bundle install
 # run jekyll with dependencies
 bundle exec jekyll serve
 ```
-
-### Theme Assets
-
-As of the move to support [Github Pages](https://pages.github.com/) a number of files have been relocated to the `/asset` folder.
-- css/
-- fonts/
-- img/
-- js/
-- 404.html
-- allposts.html
-- search.json
 
 ## Docker
 
@@ -101,58 +96,6 @@ $container-large-desktop: (900px + $grid-gutter-width) !default;
 
 3) Import or override any other theme styles after the standard imports
 
-## Projects using Jekyll Doc Theme
-
-* http://teavm.org/
-* https://su2code.github.io/
-* https://launchany.github.io/mvd-template/
-* https://knowit.github.io/kubernetes-workshop/
-* https://rec.danmuji.org/
-* https://nethesis.github.io/icaro/
-* http://ai.cs.ucl.ac.uk/
-* http://tizonia.org
-* https://lakka-switch.github.io/documentation/
-* https://cs.anu.edu.au/cybersec/issisp2018/
-* http://www.channotation.org/
-* http://nemo.apache.org/
-* https://csuf-acm.github.io/
-* https://extemporelang.github.io/
-* https://media-ed-online.github.io/intro-web-dev-2018spr/
-* https://midlevel.github.io/MLAPI/
-* https://pulp-platform.github.io/ariane/docs/home/
-* https://koopjs.github.io/
-* https://developer.apiture.com/
-* https://contextmapper.github.io/
-* https://www.bruttin.com/CosmosDbExplorer/
-* http://mosaic-lopow.github.io/dash7-ap-open-source-stack/
-* http://www.vstream.ml/
-* http://docs.fronthack.com/
-* https://repaircafeportsmouth.org.uk/
-* http://brotherskeeperkenya.com/
-* https://hschne.at/Fluentast/
-* https://zoe-analytics.eu/
-* https://uli.kmz-brno.cz/
-* https://lime.software/
-* https://weft.aka.farm
-* https://microros.github.io/
-* https://citystoriesucla.github.io/citystories-LA-docs
-* http://lessrt.org/
-* http://kivik.io/
-* https://www.iot-kit.nl/
-* http://justindietz.com/
-* https://universalsplitscreen.github.io/
-* https://docs.oneflowcloud.com/
-* https://actlist.silentsoft.org/
-* https://teevid.github.io
-* https://developer.ipums.org
-* https://osmpersia.github.io (right-to-left)
-* https://ecmlpkdd2019.org
-* https://idle.land
-* https://mqless.com
-* https://muict-seru.github.io/
-* https://www.invoice-x.org
-* https://www.devops.geek.nz
-
 ## License
 
-Released under [the MIT license](LICENSE).
+Jekyll Doc theme is released under [the MIT license](LICENSE).
