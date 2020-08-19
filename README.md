@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d9a10574-0b7e-4785-85bf-96ded66c6201/deploy-status)](https://app.netlify.com/sites/mathsforcs/deploys)
 
-A first-year course for computer science students at York St John University, covering number systems, modulo arithmatic, algorithms, logic, set theory, and statistics.
+A first-year course for computer science students at York St John University, covering number systems, modular arithmatic, algorithms, logic, set theory, and statistics.
 
 This is the source code for [the module website](https://mathsforcs.netlify.app). It uses the [Jekyll Doc theme](https://github.com/aksakalli/jekyll-doc-theme) for [Jekyll](https://jekyllrb.com/).
 
