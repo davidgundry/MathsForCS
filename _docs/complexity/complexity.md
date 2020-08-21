@@ -4,7 +4,7 @@ topic_title: Asymptotic Complexity
 permalink: /docs/complexity/
 layout: topic-page
 teaser: This is some info about complexity
-start_target: /docs/algorithms
+start_target: /docs/big-oh
 ---
 
 <div class="col-sm-4">

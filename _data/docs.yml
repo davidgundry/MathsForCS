@@ -23,8 +23,9 @@
 - title: Asymptotic Complexity
   docs:
   - complexity
-  - algorithms
-
+  - big-oh
+  - polynomials
+  - summation
 
 - title: Propositional Logic
   docs:
@@ -43,16 +44,35 @@
     - proof-set-theory
     - set-theory-challenges
 
+- title: Graph Theory
+  docs:
+    - graph-theory
+    - graphs
+    - directed-graphs
+
 - title: Descriptive Statistics
   docs:
     - descriptive-statistics
     - statistics
     - central-tendancy
     - spread
+    - data-visualisation
     - descriptive-statistics-challenges
 
-- title: Inferrential Statistics
+- title: Probability
+  docs:
+    - probability
+    - probability-basics
+    - probability-distributions
+    - combinatorics
+    - bayes-rule
 
+- title: Inferential Statistics
+  docs:
+    - inferential-statistics
+    - samples-and-populations
+    - hypothesis-testing
+    - t-test
 
 
 

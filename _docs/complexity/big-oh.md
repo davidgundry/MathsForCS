@@ -1,7 +1,9 @@
 ---
-title: Algorithms
-permalink: /docs/algorithms/
+title: Big Oh Notation
+permalink: /docs/big-oh/
 ---
+
+In this part we are going to learn about Big Oh notation.
 
 ## Seven-minute lecture
 
@@ -12,6 +14,7 @@ You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
 ## Questions
 
 ### 1. Check your understanding
+
 
 ### 2. More questions
 Look at this algorithm. Is it definite?
@@ -26,13 +29,14 @@ Which one do you think will be faster for values of z > 1000?
 
 Match the function to the graph. You might want to use [this online calculator](https://www.desmos.com/calculator) to help
 
-1. y=x
-2. y=x2
+1. y = x
+2. y = x2
 3. y = x!
 4. y = log x
 5. y = 1
 
 
+
 ## Summary
 
-In this section we have learned about algorithms. In the next section we learn about [asymptotic complexity](../asymptotic-complexity/).
+In this section we have learned the fundamentals of asymptotic complexity. In the next section we learn about [polynomials](../polynomials/).

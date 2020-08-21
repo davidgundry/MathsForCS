@@ -10,13 +10,14 @@ This website holds all of the content for the Maths for CS course. The course is
 
 | Week          | Topic         | Dates  |
 | ------------- |-------------  | -----|
-| Week 1        | [Number Systems](/docs/number-systems) | $1600 |
-| Week 2        | [Modulo Arithmatic](/docs/modulo-arithmatic)  |   $12 |
-| Week 3        | Asymptotic Complexity      |    $1 |
-| Week 4        | Propositional Logic      |    $1 |
-| Week 5        | Set Theory      |    $1 |
-| Week 6        | Descriptive Statistics     |    $1 |
-| Week 7        | Inferrential Statistics |    $1 |
+| Week 1        | [Number Systems](/docs/number-systems) |
+| Week 2        | [Modulo Arithmatic](/docs/modulo-arithmatic)  |
+| Week 3        | [Asymptotic Complexity](/docs/complexity)      | 
+| Week 4        | [Propositional Logic](/docs/propositional-logic)      | 
+| Week 5        | [Set Theory](/docs/set-theory)      |
+| Week 6        | [Descriptive Statistics](/docs/descriptive-statistics)     |
+| Week 7        | [Probability](/docs/probability)     | 
+| Week 8        | [Inferential Statistics](/docs/inferential-statistics)| 
 
 ## Outline of the course
 

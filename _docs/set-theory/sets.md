@@ -106,7 +106,7 @@ Which of the following are empty sets? Check all that apply.
 2. <input type="checkbox" id="q52" data-answer="false" /><label for ="q52">The set of all Integers `ℤ`, less that 0.</label>  <span id="q52c" style="display:inline-block"></span>
 3. <input type="checkbox" id="q53" data-answer="true" /><label for ="q53">The set of all letters in the alphabet tham come before the letter `a`</label> <span id="q53c" style="display:inline-block"></span>
 
-<input type="submit" value="Check Answers" onClick="checkAnswers('q1','q2','q3','q4','q5')"/>
+<a class="btn btn-primary" type="submit" onClick="checkAnswers('q1','q2','q3','q4','q5')">Check Answers</a>
 <script src="/assets/check.js"></script>
 
 
