@@ -5,7 +5,7 @@ description: >
   A first-year course in maths and problem solving for computer science students.
 lang: en-GB
 
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
 git_address: https://github.com/aksakalli/jekyll-doc-theme
 git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
@@ -40,16 +40,16 @@ defaults:
     sectionid: blog
 
 - scope:
-    path: _docs
-    type: docs
+    path: _course
+    type: course
   values:
     layout: docs
-    sectionid: docs
+    sectionid: course
     seo:
       type: "WebPage"
 
 collections:
-  docs:
+  course:
     permalink: /:collection/:path/
     output: true
   posts:

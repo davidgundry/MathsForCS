@@ -42,7 +42,7 @@ function checkAnswer(element)
 {
     if (element.dataset.answer !== undefined)
     {
-        if (element.type="checkbox")
+        if (element.type === "checkbox")
             return (element.dataset.answer === "true") === element.checked;
         else
             return element.dataset.answer === element.value;  
