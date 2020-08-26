@@ -1,9 +1,11 @@
 ---
-title: Numerical Systems
-permalink: /course/intro-to-numerical-systems/
+title: Positional Notation
+permalink: /course/positional-notation/
 ---
 
 A numerical system is a way of writing numbers. Here we're interested in three particular numerical systems: decimal (the one we're used to, with 10 digits), binary (with 2 digits), and hexadecimal (with 16 digits).
+
+The important thing about these number systems is that they use positional notation.
 
 Watch the video and then answer the questions below.
 
@@ -37,9 +39,9 @@ To calculate the decimal value of a binary number, work out the multiplier for e
 
 ---
 
-## Working with bases in Python
+## Working with different number systems in Python
 
-In Python, we can write numbers in different bases using a prefix:
+In Python, we can write numbers in different binary, octal, and hexadecimal using a prefix:
 
 1. `0b` is binary, e.g. 0b11
 2. `0o` is octal, e.g. 0o77
@@ -53,7 +55,7 @@ To convert a number to its binary, octal, or hexadecimal representaiton, use the
 
 Have a play with the demo below:
 
-<iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSModularArithmaticModulusDemo?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSNumericalSystemsBases?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ---
 

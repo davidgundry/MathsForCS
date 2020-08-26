@@ -6,7 +6,7 @@ redirect_from: /course/index.html
 
 ## Getting started
 
-This website holds all of the content for the Maths for CS course. The course is broken down into several topics, one for each week of the course. Each topic is broken down into multiple sections. Each section has a short video lecture and questions and challenges for you to complete. Each week there will also be a live lab session with the demonstrator. You should complete each section before that week's lab session. During the lab we will build on what you have learned.
+This website holds all of the content for the Maths for CS course. The course is divided into several topics, one for each week of the course. Each topic is broken down into multiple sections. Each section has a short video lecture and questions and challenges for you to complete. Each week there will also be a live lab session with the demonstrator. You should complete each section before that week's lab session. During the lab we will build on what you have learned.
 
 | Week          | Topic         |
 | ------------- |-------------  |

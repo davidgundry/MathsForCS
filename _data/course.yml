@@ -8,9 +8,10 @@
 - title: Numerical Systems
   course:
   - numerical-systems
-  - intro-to-numerical-systems
+  - positional-notation
   - bases
   - binary-arithmatic
+  - bitwise-operators
   - numerical-systems-challenges
 
 - title: Modular Arithmatic

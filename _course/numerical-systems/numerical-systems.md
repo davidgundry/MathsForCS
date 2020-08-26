@@ -4,7 +4,7 @@ topic_title: Numerical Systems
 permalink: /course/numerical-systems/
 layout: topic-page
 teaser: A number system is a way of expressing numbers, usually using digits, e.g. '10'. Binary is one such numerical system that is extremely important in computer science.
-start_target: /course/intro-to-number-systems
+start_target: /course/binary-and-hex
 ---
 
 <div class="col-sm-4">

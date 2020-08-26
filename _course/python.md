@@ -5,7 +5,7 @@ permalink: /course/python/
 
 ## Repl.it
 
-In this module, we'll be making use of [Repl.it](http://https://repl.it), an online IDE (integrated development environment) for Python (among other langauges). You will see embedded runable code windows in the course. They look a bit like this:
+In this module, we'll be making use of [Repl.it](http://https://repl.it), an online IDE (integrated development environment) for Python. It's a way of writing code and running it right in your browser. You will see embedded runable code windows in the course. They look a bit like this:
 
 <iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCsReplitExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 

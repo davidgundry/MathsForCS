@@ -15,4 +15,4 @@ If you need any support relating to the course outside of the lab sesions, you c
 
 Because the pandemic means that we don't have space for safe, socially-distanced lectures, the way we think about and deliver this (and other) modules has changed. A lot more of the content will be available online for you to work through at your own pace. The lab sessions will operate as a kind of [flipped classroom](https://en.wikipedia.org/wiki/Flipped_classroom), where we explore the topics you've already encountered in greater depth.
 
-We still don't entirely know what we're doing, but we're trying our best to give you the best experience possible despite the circumstances.  I think a lot of the changes we have made are changes for the better. However, please do let me know if you're having any difficulties with the format of this course or accessing the course content.
+We're trying our best to give you the best experience possible despite the circumstances.  I think a lot of the changes we have made are changes for the better. However, please do let me know if you're having any difficulties with the format of this course or accessing the course content.
