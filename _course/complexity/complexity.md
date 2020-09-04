@@ -9,8 +9,8 @@ start_target: /course/big-oh
 
 <div class="col-sm-4">
     <h1 class="text-center"><i  aria-hidden="true">{}</i></h1>
-    <h3 class="text-center">Mathamatical Foundation</h3>
-    <p></p>
+    <h3 class="text-center">Algorithm Efficiency</h3>
+    <p>Asymptotic Complexity allows us to compare how efficient an different algorithms are, even if they run on different hardware.</p>
 </div>
 
 <div class="col-sm-4">

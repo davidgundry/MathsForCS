@@ -1,14 +1,14 @@
 # Site settings
-title: Maths for CS
+title: Mathematics and Problem Solving
 email: your-email@domain.com
 description: >
-  A first-year course in maths and problem solving for computer science students.
+  A first-year course in maths for computer science students.
 lang: en-GB
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
-git_address: https://github.com/aksakalli/jekyll-doc-theme
-git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
+url: https://mathsforcs.netlify.app # the base hostname & protocol for your site
+git_address: https://github.com/davidgundry/mathematics-and-problem-solving
+git_edit_address: https://github.com/davidgundry/mathematics-and-problem-solving/blob/gh-pages
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap

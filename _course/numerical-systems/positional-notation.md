@@ -5,15 +5,15 @@ permalink: /course/positional-notation/
 
 A numerical system is a way of writing numbers. Here we're interested in three particular numerical systems: decimal (the one we're used to, with 10 digits), binary (with 2 digits), and hexadecimal (with 16 digits).
 
-The important thing about these number systems is that they use positional notation.
+The important thing about these number systems is that they use positional notation, which is a way of writing numbers that makes writing large numbers easy.
 
 Watch the video and then answer the questions below.
 
-## Six-minute lecture
+## Eight-minute video
 
-<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/X_f8upZKcKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/0O_0rf9HKVc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
+You can also view this video [on YouTube](https://youtu.be/0O_0rf9HKVc)
 
 ---
 
@@ -41,10 +41,9 @@ To calculate the decimal value of a binary number, work out the multiplier for e
 
 ## Working with different number systems in Python
 
-In Python, we can write numbers in different binary, octal, and hexadecimal using a prefix:
+In Python, we can write numbers in binary and hexadecimal using a prefix:
 
 1. `0b` is binary, e.g. 0b11
-2. `0o` is octal, e.g. 0o77
 3. `0x` is hexadecimal, e.g. 0xFF
 
 To convert a binary string to decimal, you can use the `int` function, passing 2 as the base:
@@ -63,7 +62,7 @@ Have a play with the demo below:
 
 ### 1. Check your understanding
 
-Once you've got an answer for each question, click the button marked "Check Answers" below.
+Answer each question then click the button marked "Check Answers" below.
 
 Use Python to help you.
 
@@ -72,28 +71,15 @@ Use Python to help you.
 1. <label for ="q1">What is the biggest number you can write using 5 binary digits?</label> <input type="text" id="q1" data-answer="32" /> <span id="q1c" style="display:inline-block"></span>
 2. <label for ="q2">What is the biggest number you can write using n binary digits?</label> <input type="text" id="q2" data-answer="2^n" /> <span id="q2c" style="display:inline-block"></span>
 
-##### 2. ASCII
 
-Convert each of the folowing numbers into the corresponsing ASCII symbol. [This reference table](https://www.ascii-code.com/) may help you:
-
-3. <label for ="q3">6d 61 74 68 73</label> <input type="text" id="q3" data-answer="maths" /> <span id="q3c" style="display:inline-block"></span>
-4. <label for ="q4">01111001 01110011 01101010</label> <input type="text" id="q4" data-answer="ysj" /> <span id="q4c" style="display:inline-block"></span>
-5. <label for ="q5">112 121 116 104 111 110</label> <input type="text" id="q5" data-answer="python" /> <span id="q5c" style="display:inline-block"></span>
-
-##### 3. Octal
-
-6. <label for ="q6">Octal is a number system that uses base 8. How many symbols does octal have?</label> <input type="text" id="q6" data-answer="8" /> <span id="q6c" style="display:inline-block"></span>
-7. <label for ="q7">What is 864 in octal?</label> <input type="text" id="q7" data-answer="1540" /> <span id="q7c" style="display:inline-block"></span>
-8. <label for ="q8">How many octal digits would be required to represent 1 byte?</label> <input type="text" id="q8" data-answer="3" /> <span id="q8c" style="display:inline-block"></span>
-
-##### 4. Bits and peices
+##### 2. Bits and peices
 
 9. <label for ="q9">How many bits are required to store the decimal value 500?</label> <input type="text" id="q9" data-answer="9" /> <span id="q9c" style="display:inline-block"></span>
 10. <label for ="q10">In C an unsigned short (integer) is stored using 2 bytes. The lowest value it can store is 0. What is the largest value it can store?</label> <input type="text" id="q10" data-answer="65535" /> <span id="q10c" style="display:inline-block"></span>
 11. <label for ="q11">In C an unsigned long (integer) can store values from 0 to 18446744073709551615. How many bytes does it use?</label> <input type="text" id="q11" data-answer="8" /> <span id="q11c" style="display:inline-block"></span>
 12. <label for ="q12">A program generates a plain text file containing 142 8-bit ASCII characters. How large is the file in bytes?</label> <input type="text" id="q12" data-answer="142" /> <span id="q12c" style="display:inline-block"></span>
 
-##### 5. Colours on the Web
+##### 3. Colours on the Web
 
 13. <label for ="q13">Colours on the web are stored as the combintion of three values: red, green, and blue. They are written using a hexadecimal string, for example #FF0000 is bright red. What is the highest value possible for a channel, in decimal?</label>  <input type="text" id="q13" data-answer="255" /> <span id="q13c" style="display:inline-block"></span>
 
@@ -102,9 +88,36 @@ In computer graphics colours often include a fourth ‘alpha’ channel, represe
 14. <label for ="q14">How many bytes does it take to store such a colour?</label> <input type="text" id="q14" data-answer="4" /> <span id="q14c" style="display:inline-block"></span>
 15. <label for ="q15">A file stores the raw data for a picture with a width of 10 pixels and a height of 10 pixels. If the colour of each pixel was stored separately, and includes an alpha channel, how large would the file be, in bytes?</label> <input type="text" id="q15" data-answer="400" /> <span id="q15c" style="display:inline-block"></span>
 
-<a class="btn btn-primary" type="submit" onClick="checkAnswers('q1','q2','q3','q4','q5','q6','q7','q8','q9','q10','q11','q12','q13','q14','q15')">Check Answers</a>
+<a class="btn btn-primary" type="submit" onClick="checkAnswers('q1','q2','q9','q10','q11','q12','q13','q14','q15')">Check Answers</a>
 <script src="/assets/check.js"></script>
 
+
+### 2. Check your understanding 2
+
+Answer each question then click the button marked "Check Answers" below.
+
+Use Python to help you.
+
+##### 1. Octal
+
+Octal is a number system that uses base 8: it uses only the symbols `0 1 2 3 4 5 6 7`. It uses positional notation. In Python, you use the prefix `0o` to write a number in octal e.g. 0o77
+
+6. <label for ="q6">How many symbols does octal have?</label> <input type="text" id="q6" data-answer="8" /> <span id="q6c" style="display:inline-block"></span>
+7. <label for ="q7">What is 864 in octal?</label> <input type="text" id="q7" data-answer="1540" /> <span id="q7c" style="display:inline-block"></span>
+8. <label for ="q8">How many octal digits would be required to represent 1 byte?</label> <input type="text" id="q8" data-answer="3" /> <span id="q8c" style="display:inline-block"></span>
+
+
+##### 2. ASCII
+
+ASCII is a text encoding that uses 7 bits (or 8 bits with various extended ASCII standards) to store a character. It is not a number system. Instead, you convert one character (group of 7 or 8 bits) at a time.
+
+Convert each of the folowing numbers into the corresponsing ASCII symbol. [This reference table](https://www.ascii-code.com/) may help you:
+
+3. <label for ="q3">6d 61 74 68 73</label> <input type="text" id="q3" data-answer="maths" /> <span id="q3c" style="display:inline-block"></span>
+4. <label for ="q4">01111001 01110011 01101010</label> <input type="text" id="q4" data-answer="ysj" /> <span id="q4c" style="display:inline-block"></span>
+5. <label for ="q5">112 121 116 104 111 110</label> <input type="text" id="q5" data-answer="python" /> <span id="q5c" style="display:inline-block"></span>
+
+<a class="btn btn-primary" type="submit" onClick="checkAnswers('q3','q4','q5','q6','q7','q8')">Check Answers</a>
 
 ### 2. On paper
 
@@ -115,4 +128,4 @@ Find the decimal value of 0xA4E001, showing your working. Calculate the numerica
 
 ## Summary
 
-In this section we have learned about different number systems. We know how to interpret a number written in binary (base 2), hexadecimal(base 16), or any other base. In the next section we will find out how to [convert between these different bases](./bases/).
+In this section we have learned about different number systems. We know how to interpret a number written in binary (base 2), hexadecimal(base 16), or any other base. In the next section we will find out how to [convert between these different bases](../bases/).

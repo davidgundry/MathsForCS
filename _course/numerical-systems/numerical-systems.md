@@ -4,7 +4,7 @@ topic_title: Numerical Systems
 permalink: /course/numerical-systems/
 layout: topic-page
 teaser: A number system is a way of expressing numbers, usually using digits, e.g. '10'. Binary is one such numerical system that is extremely important in computer science.
-start_target: /course/binary-and-hex
+start_target: /course/positional-notation
 ---
 
 <div class="col-sm-4">
@@ -20,8 +20,8 @@ start_target: /course/binary-and-hex
 </div>
 
 <div class="col-sm-4">
-    <h1 class="text-center"><i class="fa fa-tachometer" aria-hidden="true"></i></h1>
-    <h3 class="text-center">Efficient Code</h3>
-    <p>Understanding how to use bit-wise operations (using concepts from binary) is often useful in writing efficient programs.</p>
+    <h1 class="text-center"><i class="fa fa-file-text-o" aria-hidden="true"></i></h1>
+    <h3 class="text-center">Encoding</h3>
+    <p>Understanding how numbers can be represented in different ways is essential for encoding data efficiently for different purposes, such as transfer over the web.</p>
 </div>
 

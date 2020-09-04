@@ -19,8 +19,8 @@ Several of the exercises give you a number of pre-written unit tests. These unit
 
 The assessment for this module will involve writing code. I will provide unit tests for this as well, so it's a good idea to get the hang of how they work as you make your way through the course.
 
-You can tell a project has tests because there will be several additional files, including `tests.py`, and a `.replit` file. You want to write your code in `main.py`.
+You can tell a project has tests because there will be several additional files, including `tests.py`, and a `.replit` file. You want to write your code in `main.py`. **If it shows the wrong file by default, click the "Files" icon on the vertical menu bar at the left side of the frame**
 
 When you run the project in Repl.it, it will run the tests. Make sure you name your functions correctly (as the question tells you to) so the tests can find them. Give it a try here:
 
-    EXAMPLE REPLIT WITH TESTS
+<iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSReplitTests?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
