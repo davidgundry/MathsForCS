@@ -3,22 +3,23 @@ title: Modular Arithmetic
 permalink: /course/modular-arithmetic/
 ---
 
-In this section we will learn more about modular arithmetic, including how it interacts with addition, subtraction, multiplication and division. These are mostly straightforward, except for division.
+In this section we will learn more about **modular arithmetic**, including how it interacts with **addition, subtraction, multiplication and division**. These are mostly straightforward, except for division. We'll leave that one for later.
 
 Watch the video and then answer the questions below.
 
-## Ten-minute lecture
+## Twelve-minute video
 
-<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/X_f8upZKcKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/aCkqf-HZfyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
+You can also view this video [on YouTube](https://youtu.be/aCkqf-HZfyU)
 
 ---
 
 ## Key Points
 
-* Moduar arithmetic introduces the "congruance" relation. It is written using a triple equals symbol `≡`.
-* Numbers are congruant modulo `n`, if after finding their modulus with `n`, you get the same answer. For example `1` and `7` are congruant modulo `6`
+* Modlar arithmatic applies to integers. For example, arithmatic modulo 4 just uses the numbers `{0, 1, 2, 3}`
+* Moduar arithmetic introduces the **congruance** relation. It is written using a triple equals symbol `≡`.
+* Numbers are **congruant modulo `n`**, if after finding their modulus with `n`, you get the same answer. For example `1` and `7` are congruant modulo 6, and `13` and `23` are congruant modulo 10.
 
 ### Properties of Relations
 
@@ -28,7 +29,7 @@ You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
 
 ### Additivity and Multiplicativity
 
-* Both equality `=` and the congruance relation `≡` are additive and multiplicative.
+* Both equality `=` and the congruance relation `≡` are **additive and multiplicative**.
 * **Additivity** means you can add the same value to both sides of an equation.
 * **Multiplicativity** means that you can multiply both sides of an equation by the same value.
 * With modular arithmatic, because you can add or multiply values that are not equal, so long as they are congruant.
@@ -65,28 +66,26 @@ Rewrite the following into the form: a mod b
 
 ##### 2. Relations
 
-Check all those properties that hold of  the relation `>` (greater than)
+Check all those properties that hold of the given relation.
 
-1. <input type="checkbox" id="q21" data-answer="false"/> <span id="q21c" style="display:inline-block"></span> <label for ="q21">reflexive</label> 
-2. <input type="checkbox" id="q22" data-answer="false"/> <span id="q22c" style="display:inline-block"></span> <label for ="q22">symmetric</label> 
-3. <input type="checkbox" id="q23" data-answer="true"/> <span id="q23c" style="display:inline-block"></span> <label for ="q23">transitive</label> 
+| Relation | Reflexive | Symmetric | Transitive |
+| -------- | --------- | --------- | ---------- |
+|`>` (greater than) | <input type="checkbox" id="q21" data-answer="false"/> <span id="q21c" style="display:inline-block"></span> | <input type="checkbox" id="q22" data-answer="false"/> <span id="q22c" style="display:inline-block"></span> | <input type="checkbox" id="q23" data-answer="true"/> <span id="q23c" style="display:inline-block"></span> |
+|`≥` (greater or equal to) | <input type="checkbox" id="q31" data-answer="true"/> <span id="q31c" style="display:inline-block"></span> | <input type="checkbox" id="q32" data-answer="false"/> <span id="q32c" style="display:inline-block"></span> | <input type="checkbox" id="q33" data-answer="true"/> <span id="q33c" style="display:inline-block"></span> |
+|`≡` (congruant modulo n) | <input type="checkbox" id="q41" data-answer="true"/> <span id="q41c" style="display:inline-block"></span> | <input type="checkbox" id="q42" data-answer="true"/> <span id="q42c" style="display:inline-block"></span> | <input type="checkbox" id="q43" data-answer="true"/> <span id="q43c" style="display:inline-block"></span> |
+|`=` (equals) | <input type="checkbox" id="q51" data-answer="true"/> <span id="q51c" style="display:inline-block"></span> | <input type="checkbox" id="q52" data-answer="true"/> <span id="q52c" style="display:inline-block"></span> | <input type="checkbox" id="q53" data-answer="true"/> <span id="q53c" style="display:inline-block"></span> |
+|"is standing next to" | <input type="checkbox" id="q61" data-answer="false"/> <span id="q61c" style="display:inline-block"></span> | <input type="checkbox" id="q62" data-answer="true"/> <span id="q62c" style="display:inline-block"></span> | <input type="checkbox" id="q63" data-answer="false"/> <span id="q63c" style="display:inline-block"></span> |
+|"is twice as tall as" | <input type="checkbox" id="q71" data-answer="false"/> <span id="q71c" style="display:inline-block"></span> | <input type="checkbox" id="q72" data-answer="false"/> <span id="q72c" style="display:inline-block"></span> | <input type="checkbox" id="q73" data-answer="false"/> <span id="q73c" style="display:inline-block"></span> |
 
-Check all those properties that hold of the relation `≥` (greater or equal to)
-
-1.  <input type="checkbox" id="q31" data-answer="true"/> <span id="q31c" style="display:inline-block"></span> <label for ="q31">reflexive</label>
-2. <input type="checkbox" id="q32" data-answer="false"/> <span id="q32c" style="display:inline-block"></span> <label for ="q32">symmetric</label> 
-3. <input type="checkbox" id="q33" data-answer="true"/> <span id="q33c" style="display:inline-block"></span> <label for ="q33">transitive</label> 
-
-Check all those properties that hold of the relation `≡` (congruant modulo n)
-
-1.  <input type="checkbox" id="q41" data-answer="true"/> <span id="q41c" style="display:inline-block"></span> <label for ="q41">reflexive</label>
-2.  <input type="checkbox" id="q42" data-answer="true"/> <span id="q42c" style="display:inline-block"></span> <label for ="q42">symmetric</label>
-3. <input type="checkbox" id="q43" data-answer="true"/> <span id="q43c" style="display:inline-block"></span> <label for ="q43">transitive</label> 
-
-<a class="btn btn-primary" type="submit" onClick="checkAnswers('q2','q3','q4')">Check Answers</a>
+<a class="btn btn-primary" type="submit" onClick="checkAnswers('q2','q3','q4','q5','q6','q7')">Check Answers</a>
 
 ---
 
 ## Summary
 
-In this section we have learned about various properties of arithmatic and modular arithmatic. In the next section we will learn about modular division, using the [modular inverse](../modular-inverse)
+In this section we have learned about various properties of arithmatic and modular arithmetic. 
+
+* You should understand and be able to classify relations as **reflexive**, **symmetric**, and **transitive**
+* You should be able to work with **addition, subtraction and multiplication** in modular arithmetic.
+
+In the next section we will learn about modular division, using the [modular inverse](../modular-inverse)

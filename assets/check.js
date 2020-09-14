@@ -4,25 +4,60 @@ function checkAnswers(...questions)
     {
         let element = document.getElementById(q)
         if (element)
-            update(element)
+        {
+            let answer = checkAnswer(element)
+            updateCheckElement(q, answer)
+        }
         if (!element)
         {
             let i = 1
-            let a = document.getElementById(q+i)
-            while (a)
+            element = document.getElementById(q+i)
+            if (element)
+                while (element)
+                {
+                    let answer = checkAnswer(element)
+                    updateCheckElement(q+i, answer)
+                    i++
+                    element = document.getElementById(q+i)
+                }
+            else
             {
-                update(a)
-                i++
-                a = document.getElementById(q+i)
+                elements = document.getElementsByName(q);
+                if (elements.length > 0)
+                {
+                    let answer = checkRadioAnswer(elements)
+                    updateCheckElement(q, answer)
+                }
+                else
+                {
+                    let i = 1
+                    elements = document.getElementsByName(q+i)
+                    while (elements.length > 0)
+                    {
+                        let answer = checkRadioAnswer(elements)
+                        updateCheckElement(q+i, answer)
+                        i++
+                        elements = document.getElementsByName(q+i)
+                    }
+                }
             }
         }
     }
 }
 
-function update(element)
+function checkRadioAnswer(elements)
 {
-    let answer = checkAnswer(element)
-    let check = document.getElementById(element.id+"c");
+    for (let i=0;i<elements.length;i++)
+    {
+        if ((elements[i].checked) && (elements[i].dataset.answer !== undefined))
+            return true;
+    }
+    return false;
+}
+
+function updateCheckElement(id, answer)
+{
+    let check = document.getElementById(id+"c");
     if (check)
     {
         if (answer)

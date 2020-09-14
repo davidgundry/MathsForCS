@@ -23,12 +23,14 @@
   - modular-inverse
   - modular-challenges
 
-- title: Asymptotic Complexity
+- title: Algorithms
   course:
-  - complexity
-  - big-oh
-  - polynomials
+  - algorithms
+  - intro-to-algorithms
+  - time-functions
+  - asymptotic-complexity
   - summation
+  - algorithms-challenges
 
 - title: Propositional Logic
   course:
@@ -48,11 +50,11 @@
     - proof-set-theory
     - set-theory-challenges
 
-- title: Graph Theory
-  course:
-    - graph-theory
-    - graphs
-    - directed-graphs
+- title: Proof
+  course: 
+    - proof
+    - intro-to-proof
+    - demorgans-laws
 
 - title: Descriptive Statistics
   course:

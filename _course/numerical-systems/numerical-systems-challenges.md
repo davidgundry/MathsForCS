@@ -5,13 +5,15 @@ permalink: /course/numerical-systems-challenges/
 
 We will be working on these challenges in the lab session for this topic.
 
-You do not have to complete these in advance. However you may choose to get started on them in advance if you wish. You still need to attend the lab even if you have completed the challenges! We will be working on these challenges in the lab session for this topic. If you do not complete them in the lab it is recommended that you finish them in your own time.
+You do not have to complete these in advance. However you may choose to get started on them in advance if you wish. You still need to attend the lab even if you have completed the challenges! If you do not complete them in the lab it is recommended that you finish them in your own time.
+
+Open the Replit embedded below. Click "Fork" to save it to your own Replit account. Then share your replit with me by clicking "Share" and inviting me (`davidgundry` on Replit).
 
 ## Creating a URL Shortener
 
 URL shorteners take a long URL like this one: [example.com/this-is-a-very-long-url?with=some&get=parameters&as=well](example.com/this-is-a-very-long-url?with=some&get=parameters&as=well) and return something much more manageable, like this: [https://bit.ly/31Kb7nP](https://bit.ly/31Kb7nP).
 
-One way of doing this is to store a dictionary of URLs and numerical ids. When a user makes a request to `<yourserver>/<number>`, it redirects them to the URL matching that number.
+One way of doing this is to store a dictionary of URLs and numerical ids. When a user makes a request to `https://<yourserver>/<number>`, it redirects them to the URL matching that number.
 
 The example code for this challenge provides bare-bones functionality for a URL shortener that assigns each URL a successive decimal number. So a url like: `www.example.com` would be `0`, then the next url such as `www.example.org` would be `1`. And so on.
 
@@ -27,12 +29,14 @@ Run the code in Replit. This will start a webserver. Then navigate to the URL sh
 
 ### Task
 
-Improve the code above to minimise the length of each ID by representing them in a number system other than decimal. You only need to worry about changing the contents of the `newID()` function.
+**Improve the code above to minimise the length of each ID by representing them in a number system other than decimal.** To start off with, you only need to worry about changing the contents of the `numberToID()` and `IDtoNumber()` functions.
 
 1. Start off by representing IDs as hexadecimal. How much does this shorten your IDs? How long would the 37.5 billionth URL be?
 
 2. Once you've done that, see if you can use another number system or encoding that shortens the ID even more. The goal is to come up with the shortest representation possible.
 
-3. Once you've done that, polish up the functionality of your app and make it pretty.
+3. (**Optional** - extra programming challenge), giving urls successive numbers makes it easy to guess what other peoples' shortened URLs will be. Rewrite your code to assign numerical ids in a random order.
+
+4. Once you've done that, polish up the functionality of your app and make it pretty.
 
 Remember, not all ASCII characters are safe to transmit over the web in a URL. Many characters need to be [percent-encoded](https://en.wikipedia.org/wiki/Percent-encoding), which takes up a lot more space.

@@ -46,55 +46,60 @@ We will need two classes: `Node` and `Edge`. The `Node` class represents a verte
 
 Look at the graph and answer the questions below
 
-1. Is this graph cyclic or acyclic?
-2. Is this graph connected or unconnected?
-3. What is the degree of node `n3`?
-4. What is the maximum degree `Δ(G)` of the graph?
-5. What is the minimum degree `δ(G)`of the graph?
+<label for ="q11t">Cyclic</label> <input type="radio" name="q11" id="q11t" value="t"/> 
+<label for ="q11f">Acyclic</label> <input type="radio" name="q11" id="q11f" data-answer value="f"/> <span id="q11c" style="display:inline-block"></span>
 
+<label for ="q12t">Connected</label> <input type="radio" name="q12" id="q12t" value="t"/>
+<label for ="q12f">Unconnected</label> <input type="radio" name="q12" id="q12f" data-answer value="f"/> <span id="q12c" style="display:inline-block"></span>
+
+2. <label for ="q21"> What is the degree of node `n3`?</label> <input type="text" id="q21" data-answer=""/> <span id="q21c" style="display:inline-block"></span>
+3. <label for ="q22"> What is the maximum degree `Δ(G)` of the graph?</label> <input type="text" id="q22" data-answer=""/><span id="q22c" style="display:inline-block"></span>
+4. <label for ="q23"> What is the minimum degree `δ(G)`of the graph?</label> <input type="text" id="q23" data-answer=""/> <span id="q23c" style="display:inline-block"></span>
+
+<a class="btn btn-primary" type="submit" onClick="checkAnswers('q1','q2')">Check Answers</a>
+<script src="/assets/check.js"></script>
 
 ##### 2. Graph 2
 
 Look at the graph and answer the questions below
 
-1. Is this graph cyclic or acyclic?
-2. Is this graph connected or unconnected?
-3. What is the degree of node `n3`?
-4. What is the maximum degree `Δ(G)` of the graph?
-5. What is the minimum degree `δ(G)`of the graph?
+<label for ="q51t">Cyclic</label> <input type="radio" name="q51" id="q51t" value="t"/>
+<label for ="q51f">Acyclic</label> <input type="radio" name="q51" id="q51f" data-answer value="f"/> <span id="q51c" style="display:inline-block"></span>
+
+<label for ="q52t">Connected</label> <input type="radio" name="q52" id="q52t" value="t"/>
+<label for ="q52f">Unconnected</label> <input type="radio" name="q52" id="q52f" data-answer value="f"/> <span id="q52c" style="display:inline-block"></span>
+
+2. <label for ="q61"> What is the degree of node `n3`?</label> <input type="text" id="q61" data-answer=""/>  <span id="q61c" style="display:inline-block"></span>
+3. <label for ="q62"> What is the maximum degree `Δ(G)` of the graph?</label> <input type="text" id="q62" data-answer=""/> <span id="q62c" style="display:inline-block"></span>
+4. <label for ="q63"> What is the minimum degree `δ(G)`of the graph?</label> <input type="text" id="q63" data-answer=""/> <span id="q63c" style="display:inline-block"></span>
+
+<a class="btn btn-primary" type="submit" onClick="checkAnswers('q5','q6')">Check Answers</a>
 
 ##### 3. Degree
 
 Let `G` be a graph, with vertexes of degree `2,3,2,0,1,2`. Is `G` a connected graph?
+
+<label for ="q3t">Yes</label> <input type="radio" name="q3" id="q3t" value="t"/>
+<label for ="q3f">No</label> <input type="radio" name="q3" id="q3f" data-answer value="f"/> <span id="q3c" style="display:inline-block"></span>
+
+<a class="btn btn-primary" type="submit" onClick="checkAnswers('q3')">Check Answers</a>
 
 ##### 4. Adjacency Matrix
 
 Look at the following adjacency matrix for a graph.
 
 |    | p | n2 | n3 | n4 |
+|----|---|----|----|----|
 | p  |   |    | 1  |    |
 | n2 |   |    | 1  |  1 |
 | n3 | 1 | 1  |    |    |
 | n4 |   | 1  |    |    |
 
-1. What is the degree of node n2?
-1. What is the degree of node n3?
-1. What is the degree of node n4?
+1. <label for ="q41">What is the degree of node n2?</label> <input type="text" id="q41" data-answer="2"/> <span id="q41c" style="display:inline-block"></span>
+2. <label for ="q42">What is the degree of node n3?</label> <input type="text" id="q42" data-answer="2"/> <span id="q42c" style="display:inline-block"></span>
+3. <label for ="q43">What is the degree of node n4?</label> <input type="text" id="q43" data-answer="1"/> <span id="q43c" style="display:inline-block"></span>
 
-### 2. Implementing a graph
-
-Using the provided code above, implement a graph in Python.
-
-Extend the implementation with the following:
-1. Add a `degree` function on the `Node` class
-
-### 3. Adjacency Matrix
-
-Write a function in Python that returns an adjacency matrix for a given graph.
-
-### 4. Maximum and Minimum Degree
-
-Write a function in Python that calculates the maximum and minimum degree of a graph
+<a class="btn btn-primary" type="submit" onClick="checkAnswers('q4')">Check Answers</a>
 
 ---
 

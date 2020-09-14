@@ -42,34 +42,41 @@ Calculate the following, e,g,
 
 |    | Expression | Answer |
 |----| ------ | -------|
-| 0. | <label for ="example">a, b, ∪ b, c</label> | <input type="text" id="example" value="a, b, c" disabled/> |
+| 0. | <label for ="example">{a, b} ∪ {b, c}</label> | <input type="text" id="example" value="a, b, c" disabled/> |
 
-#### Union
+##### 1. Union
+
+|    | Expression | Answer | |
+|----| ------ | ------- |--|
+| 1. | <label for ="q11">{1, 3, 4} ∪ {1, 2, 3, 5, 7, 9}</label> | <input type="text" id="q11" data-answer-set="1,2,3,4,5,7,9" /> | <span id="q11c" style="display:inline-block"></span> |
+| 2. | <label for ="q12">{rich tea, digestive, jammy dodger} ∪ Ø</label> | <input type="text" id="q12" data-answer-set="" /> | <span id="q12c" style="display:inline-block"></span> |
+| 3. | <label for ="q13">{a, b, c, d} ∪ {a, b, c, d}</label> | <input type="text" id="q13" data-answer-set="a,b,c,d" /> | <span id="q13c" style="display:inline-block"></span> |
+| 4. | <label for ="q14">{a, b, c, d} ∪ {1, 2, 3, 4}</label> | <input type="text" id="q14" data-answer-set="a,b,c,d,1,2,3,4" /> | <span id="q14c" style="display:inline-block"></span> |
+
+<script src="/assets/check.js"></script>
+<a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
+
+##### 2. Intersection
+
+|    | Expression | Answer | |
+|----| ------ | ------- |--|
+| 1. | <label for ="q21">{1, 3, 4} ∩ {1, 2, 3, 5, 7, 9}</label> | <input type="text" id="q21" data-answer-set="1,3"/> | <span id="q21c" style="display:inline-block"></span> |
+| 2. | <label for ="q22">{rich tea, digestive, jammy dodger} ∩ Ø</label> | <input type="text" id="q22" data-answer-set=""/> |  <span id="q22c" style="display:inline-block"></span> |
+| 3. | <label for ="q23">{a, b, c, d} ∩ {a, b, c, d}</label> | <input type="text" id="q23" data-answer-set="a,b,c,d"/> |  <span id="q23c" style="display:inline-block"></span> |
+| 4. | <label for ="q24">{a, b, c, d} ∩ {d, c, b, a}</label> | <input type="text" id="q24" data-answer-set="a,b,c,d"/> | <span id="q24c" style="display:inline-block"></span> |
+
+<a class="btn btn-primary" type="submit" onClick="checkAnswers('q2')">Check Answers</a>
+
+##### 3. Difference
 
 |    | Expression | Answer |
 |----| ------ | ------- |
-| 1. | <label for ="q1">1, 3, 4 ∪ 1, 2, 3, 5, 7, 9</label> | <input type="text" id="q1" /> |
-| 2. | <label for ="q1">{rich tea, digestive, jammy dodger} ∪ Ø</label> | <input type="text" id="q1" /> |
-| 3. | <label for ="q1">a, b, c, d ∪ a, b, c, d</label> | <input type="text" id="q1" /> |
-| 4. | <label for ="q1">a, b, c, d ∪ {1, 2, 3, 4, }</label> | <input type="text" id="q1" /> |
+| 1. | <label for ="q31">{1, 3, 4} \ {1, 2, 3, 5, 7, 9}</label> | { <input type="text" id="q31" data-answer-set="4"/> } |  <span id="q31c" style="display:inline-block"></span> |
+| 2. | <label for ="q32">{rich tea, digestive, jammy dodger}\Ø</label> | { <input type="text" id="q32" data-answer-set="rich tea, digestive, jammy dodger" /> } |  <span id="q32c" style="display:inline-block"></span> |
+| 3. | <label for ="q33">{a, b, c, d} \ {a, b, c, d}</label> | { <input type="text" id="q33" data-answer-set="" /> } |  <span id="q33c" style="display:inline-block"></span> |
+| 4. | <label for ="q34">{a, b, c, d} \ {d, c, b, a}</label> | { <input type="text" id="q34" data-answer-set="" /> } |  <span id="q34c" style="display:inline-block"></span> |
 
-#### Intersection
-
-|    | Expression | Answer |
-|----| ------ | ------- |
-| 1. | <label for ="q1">1, 3, 4 ∩ 1, 2, 3, 5, 7, 9</label> | <input type="text" id="q1" /> |
-| 2. | <label for ="q1">{rich tea, digestive, jammy dodger} ∩ Ø</label> | <input type="text" id="q1" /> |
-| 3. | <label for ="q1">a, b, c, d ∩ a, b, c, d</label> | <input type="text" id="q1" /> |
-| 4. | <label for ="q1">a, b, c, d ∩ {d, c, b, a}</label> | <input type="text" id="q1" /> |
-
-#### Difference
-
-|    | Expression | Answer |
-|----| ------ | ------- |
-| 1. | <label for ="q1">1, 3, 4 \ 1, 2, 3, 5, 7, 9</label> | <input type="text" id="q1" /> |
-| 2. | <label for ="q1">{rich tea, digestive, jammy dodger}\Ø</label> | <input type="text" id="q1" /> |
-| 3. | <label for ="q1">a, b, c, d \ a, b, c, d</label> | <input type="text" id="q1" /> |
-| 4. | <label for ="q1">a, b, c, d \{d, c, b, a}</label> | <input type="text" id="q1" /> |
+<a class="btn btn-primary" type="submit" onClick="checkAnswers('q3')">Check Answers</a>
 
 ## Summary
 

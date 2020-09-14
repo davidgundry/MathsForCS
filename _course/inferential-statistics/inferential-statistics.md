@@ -9,7 +9,7 @@ start_target: /course/inferential-statistics
 
 <div class="col-sm-4">
     <h1 class="text-center"><i class="fa fa-cogs" aria-hidden="true"></i></h1>
-    <h3 class="text-center">Science</h3>
+    <h3 class="text-center">Proving</h3>
     <p></p>
 </div>
 

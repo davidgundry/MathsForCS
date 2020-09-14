@@ -3,7 +3,7 @@ title: Binary Addition
 permalink: /course/binary-addition/
 ---
 
-Computers don't just store numbers in binary - they do stuff with them. We will learn how to do binary addition and subtraction. In order to do subtraction, we also need to learn how to write negative numbers in binary using Two's Compliment.
+Computers don't just store numbers in binary - they do stuff with them. We will learn how to do **binary addition and subtraction**. In order to do subtraction, we also need to learn **how to write negative numbers** in binary using **Two's Compliment**.
 
 The point of learning this stuff is so you really understand how working with binary works. After all, computers do it quite a lot. 
 
@@ -21,7 +21,7 @@ You can also view this video [on YouTube](https://youtu.be/W1Nh6ZFgWwU)
 
 * All binary artithmatic in computers is performed using addition.
 * To subtract, e.g. `4-3`, just do addition with negative numbers, e.g. `4 + (-3)`
-* Negative numbers in binary are written using the Two's Compliment method.
+* Negative numbers in binary are written using **Two's Compliment**. You must decide in advance how many bits you are going to use to store them.
 
 ### Binary Addition
 
@@ -37,7 +37,7 @@ Write the two numbers above each other. Working from right to left, add the colu
 To go from a positive number to a negative number, e.g. from `5` to `-5`, you perform two steps:
 
 1. Invert each bit, (a 0 becomes a 1, a 1 becomes a 0)
-2. Add 1x
+2. Add 1
 
 So we go from `0101`, invert it to `1010`, and add `1` to get `1011`. Using the twos compliment method, `1011` is `-5`.
 
@@ -100,4 +100,9 @@ Assume we're working with numbers stored using 4 bits. Negative numbers are stor
 
 ## Summary
 
-In this section we learned how to do addition and subtraction with binary numbers. In the next section we will learn [binary-multiplication](../binary-multiplication/).
+In this section we learned how to do addition and subtraction with binary numbers.
+
+* You should be able to find the Two's Compliment of a binary number.
+* You should be able to add and subtract numbers in binary.
+
+In the next section we will learn [binary multiplication and division](../binary-multiplication/).

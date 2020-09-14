@@ -39,23 +39,25 @@ Look at the graph and answer the questions below
 5. What is the maximum degree `Δ(G)` of the graph?
 6. What is the minimum degree `δ(G)`of the graph?
 
+<a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
+<script src="/assets/check.js"></script>
+
 ##### 2. Adjacency Matrix
 
 Look at the following adjacency matrix for a directed graph: 'to' nodes are along the top, 'from' nodes are down the side.
 
 |    | p | n2 | n3 | n4 |
+|----|---|----|----|----|
 | p  |   | 1  | 1  |    |
 | n2 |   |    |    |  1 |
 | n3 | 1 |    |    |    |
 | n4 |   | 1  |    |  1 |
 
-1. What is the degree of node n2?
-2. What is the degree of node n3?
+1. <label for ="q41">What is the degree of node n2?</label> <input type="text" id="q41" data-answer="2"/> <span id="q41c" style="display:inline-block"></span>
+2. <label for ="q42">What is the degree of node n3?</label> <input type="text" id="q42" data-answer="2"/> <span id="q42c" style="display:inline-block"></span>
 3. A loop is where a vertex connects to itself. There is a loop in this graph. On which node?
 
-### 2. Implementing a graph
-
-Extend your Python graph implementation to represent a directed graph.
+<a class="btn btn-primary" type="submit" onClick="checkAnswers('q4')">Check Answers</a>
 
 ---
 

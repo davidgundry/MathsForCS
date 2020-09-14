@@ -14,11 +14,11 @@ This website holds all of the content for the **(COM4002M-A) Mathematics and Pro
 | ------------- |-------------  | ---- | 
 | Week 1        | Introduction (No preparation required for this week) | 25/09/2020 |
 | Week 2        | [Numerical Systems](../numerical-systems) | 02/10/2020 |
-| Week 3        | [Modulo Arithmetic](../modulo-arithmetic-intro)  | 09/10/2020 |
+| Week 3        | [Modular Arithmetic](../modular-arithmetic-intro)  | 09/10/2020 |
 | Week 4        | [Asymptotic Complexity](/complexity)      | 16/10/2020 |
 | Week 5        | [Propositional Logic](../propositional-logic) | 23/10/2020 |
 | Week 6        | [Set Theory](../set-theory)      | 30/10/2020 |
-| Week 7        | [Graph Theory](../graph-theory)      | 06/11/2020 |
+| Week 7        | [Proof](../proof)      | 06/11/2020 |
 | Week 8        | [Descriptive Statistics](../descriptive-statistics) | 13/11/2020 |
 | Week 9        | (Reading week) | 20/11/2020 |
 | Week 10        | [Probability](../probability)     | 27/11/2020 |

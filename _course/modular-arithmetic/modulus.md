@@ -7,11 +7,11 @@ We will learn about the modulus operator. The modulus operator (**mod** or **%**
 
 Watch the video and then answer the questions below.
 
-## Six-minute lecture
+## Ten-minute video
 
-<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/X_f8upZKcKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/UJnzrbJR1yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
+You can also view this video [on YouTube](https://youtu.be/UJnzrbJR1yk)
 
 ---
 
@@ -58,13 +58,18 @@ Check the boxes for those values that are congruant modulo 43
 
 ### 2. Allocating players
 
-Imagine you are writing code to allocate players in an online team-based multiplayer game. The game is played in games of 5v5 players. Any unalocated players must wait in a lobby for more players to log on.
+Imagine you are writing code to allocate players in an online team-based multiplayer game like _DOTA 2_ or _League of Legends_. The game is played in games of 5v5 players. In our game, any unalocated players must wait in a lobby for more players to log on.
 
 1. Write a function in Python that takes the total number of players and returns the number of games.
 2. Write a function in Python that takes the total number of players and returns the number of players waiting in the lobby
+3. (**Optional** - extra programming challenge) Write a function that takes an array of players and assigns them each a number being the game to add them to, such that each game has exactly 10 players. Any unalocated players have a group number of `None` or `-1`.
 
 ---
 
 ## Summary
 
-In this section we learned about the modulus operator and how to use it in Python. Once you've completed the questions, you can move on to the next section on [modular arithmatic and cyphers](../cyphers).
+In this section we learned about the modulus operator and how to use it in Python. 
+
+* You should know what the modulus operator is and how to use it to find the modulus or remainder in Python.
+
+Once you've completed the questions, you can move on to the next section on [using modular arithmatic for cyphers](../cyphers).

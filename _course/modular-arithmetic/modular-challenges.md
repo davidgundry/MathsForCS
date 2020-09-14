@@ -5,7 +5,7 @@ permalink: /course/modular-challenges/
 
 We will be working on these challenges in the lab session for this topic.
 
-You do not have to complete these in advance. However you may choose to get started on them in advance if you wish. You still need to attend the lab even if you have completed the challenges! We will be working on these challenges in the lab session for this topic. If you do not complete them in the lab it is recommended that you finish them in your own time.
+You do not have to complete these in advance. However you may choose to get started on them in advance if you wish. You still need to attend the lab even if you have completed the challenges! If you do not complete them in the lab it is recommended that you finish them in your own time.
 
 ## Decoding the Affine Cypher
 
@@ -29,3 +29,6 @@ The following Replit project has functions for you to fill in and tests to check
 
 <iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSModularArithmeticDecodeAffine?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
+## Cracking Cyphers
+
+The goal is to write a program that will crack a cypher using a known-plaintext attack. 

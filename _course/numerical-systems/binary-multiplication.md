@@ -3,7 +3,7 @@ title: Binary Multiplication
 permalink: /course/binary-multiplication/
 ---
 
-Binary multiplication and division. Actually a lot easier than it sounds. It's like long multiplication and long division, but with far fewer numbers to worry about, as you only have to deal with 1s and 0s.
+Binary multiplication are actually a lot easier than they sound. It's like long multiplication and long division, but with far fewer numbers to worry about, as you only have to deal with 1s and 0s. Once you've learned the process, doing it is quick and painless.
 
 Watch the video and then answer the questions below.
 
@@ -24,21 +24,21 @@ You can also view this video [on YouTube](https://youtu.be/VsgEDYCPZfA)
 * We multiply each digit in the bottom number by every digit in the top number in turn, and write the answers in a row. Make sure you put the answers in the right column!
 * Once we've multiplied each pair of digits, we add up the rows to get our answer.
 
-       101
+<pre>       101
     x   10
     ------
        000
     + 1010
     ------
-      1010
+      1010</pre>
 
 ### Binary Division
 
 * Binary division involves comparing pairs of numbers and subtraction.
 * Set it up like a long division problem.
+* Watch the video to see the method.
 
-
-    1011010 / 10 = 0101101
+<pre>    1011010 / 10 = 0101101
 
          0101101
          -------
@@ -54,7 +54,7 @@ You can also view this video [on YouTube](https://youtu.be/VsgEDYCPZfA)
              0010
         -      10
               ---
-                0
+                0</pre>
 
 ---
 
@@ -68,20 +68,22 @@ Write your answers in binary. Do not use a prefix or any leading zeroes in your 
 
 ##### 1. Multiplication
 
-1. <label for ="q11">11 * 10</label> <input type="text" id="q11" data-answer=""/> <span id="q11c" style="display:inline-block"></span>
-2. <label for ="q12">1101 * 101</label> <input type="text" id="q12" data-answer=""/> <span id="q12c" style="display:inline-block"></span>
-3. <label for ="q13">10011 * 111</label> <input type="text" id="q12" data-answer=""/> <span id="q13c" style="display:inline-block"></span>
-4. <label for ="q14">1100 * 1011</label> <input type="text" id="q14" data-answer=""/> <span id="q14c" style="display:inline-block"></span>
+1. <label for ="q11">11 * 10</label> <input type="text" id="q11" data-answer="110"/> <span id="q11c" style="display:inline-block"></span>
+2. <label for ="q12">1101 * 101</label> <input type="text" id="q12" data-answer="1000001"/> <span id="q12c" style="display:inline-block"></span>
+3. <label for ="q13">10011 * 111</label> <input type="text" id="q13" data-answer="10000101"/> <span id="q13c" style="display:inline-block"></span>
+4. <label for ="q14">1100 * 1011</label> <input type="text" id="q14" data-answer="10000100"/> <span id="q14c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
 <script src="/assets/check.js"></script>
 
 ##### 2. Division
 
-1. <label for ="q21">1001 / 101</label> <input type="text" id="q21" data-answer=""/> <span id="q21c" style="display:inline-block"></span>
-2. <label for ="q22">1001 / 101</label> <input type="text" id="q22" data-answer=""/> <span id="q22c" style="display:inline-block"></span>
-3. <label for ="q23">1001 / 101</label> <input type="text" id="q23" data-answer=""/> <span id="q23c" style="display:inline-block"></span>
-4. <label for ="q24">1001 / 101</label> <input type="text" id="q24" data-answer=""/> <span id="q24c" style="display:inline-block"></span>
+If your answers have remainders, write them using an `r`, like this: `1101r10`.
+
+1. <label for ="q21">1010 / 101</label> <input type="text" id="q21" data-answer="10"/> <span id="q21c" style="display:inline-block"></span>
+2. <label for ="q22">1111 / 11</label> <input type="text" id="q22" data-answer="1010"/> <span id="q22c" style="display:inline-block"></span>
+3. <label for ="q23">11010 / 10</label> <input type="text" id="q23" data-answer="1101"/> <span id="q23c" style="display:inline-block"></span>
+4. <label for ="q24">1001 / 101</label> <input type="text" id="q24" data-answer="1r100"/> <span id="q24c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q2')">Check Answers</a>
 
@@ -91,5 +93,7 @@ Write your answers in binary. Do not use a prefix or any leading zeroes in your 
 ## Summary
 
 In this section we learned multiplication and division with binary numbers.
+
+* You should be able to multiply and divide binary numbers.
 
 You can now move on to the [challenges](../numerical-systems-challenges/) for this topic.

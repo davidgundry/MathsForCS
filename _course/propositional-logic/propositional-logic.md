@@ -16,7 +16,7 @@ start_target: /course/intro-to-propositional-logic
 <div class="col-sm-4">
     <h1 class="text-center"><i class="fa fa-plug" aria-hidden="true"></i></h1>
     <h3 class="text-center">Digital Circuits</h3>
-    <p>Digital circuits encode propositional logic as 1s and 0s.</p>
+    <p>Digital circuits perform propositional logic using logic gates, which are fundamental to how computers work.</p>
 </div>
 
 <div class="col-sm-4">

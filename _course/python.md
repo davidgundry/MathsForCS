@@ -11,6 +11,8 @@ In this module, we'll be making use of [Repl.it](http://https://repl.it), an onl
 
 You are also able to open the code in a full window by clicking the button in the embedded Repl.it frame. You can save your code by creating an account on Repl.it.
 
+Click "Fork" to save it to your own Replit account. You can share your replit with me by clicking "Share" and inviting me (`davidgundry` on Replit).
+
 You can find all the code for this course on [Repl.it](https://repl.it/repls/folder/MathsForCS)
 
 ## Running Unit Tests
