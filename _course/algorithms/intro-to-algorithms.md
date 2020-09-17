@@ -5,7 +5,7 @@ permalink: /course/intro-to-algorithms/
 
 An algorithm is a set of instructions to follow for solving a problem. There is no formal definition of "algorithm", but there are some desirable properties of algorithms.
 
-## Ten-minute lecture
+## Ten-minute video
 
 <iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/D4uFl_yP148" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

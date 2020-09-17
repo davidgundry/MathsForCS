@@ -79,8 +79,8 @@ Answer each question then click the button marked "Check Answers" below. Use Pyt
 
 ##### 1. Conversions
 
-1. <label for ="q1">What is the biggest number you can write using 5 binary digits?</label> <input type="text" id="q1" data-answer="32" /> <span id="q1c" style="display:inline-block"></span>
-2. <label for ="q2">What is the biggest number you can write using n binary digits?</label> <input type="text" id="q2" data-answer="2^n" /> <span id="q2c" style="display:inline-block"></span>
+1. <label for ="q1">What is the biggest number you can write using 5 binary digits?</label> <input type="text" id="q1" data-answer="31" /> <span id="q1c" style="display:inline-block"></span>
+2. <label for ="q2">How many different numbers you can write using n binary digits?</label> <input type="text" id="q2" data-answer="2^n" /> <span id="q2c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1','q2')">Check Answers</a>
 <script src="/assets/check.js"></script>
@@ -97,7 +97,7 @@ Answer each question then click the button marked "Check Answers" below. Use Pyt
 
 ##### 3. Colours on the Web
 
-Colours on the web are stored as the combintion of three values: red, green, and blue. They are written using a hexadecimal string, for example `#FF0000` is bright red. 
+Colours on the web are stored as the combintion of three values: red, green, and blue. Each value is called a _channel_. They are written using a hexadecimal string, for example `#FF0000` is bright red. 
 
 13. <label for ="q13">What is the highest value possible for a channel, in decimal?</label>  <input type="text" id="q13" data-answer="255" /> <span id="q13c" style="display:inline-block"></span>
 

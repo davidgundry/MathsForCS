@@ -1,14 +1,13 @@
 # Site settings
 title: Mathematics and Problem Solving
-email: your-email@domain.com
 description: >
   A first-year course in maths for computer science students.
 lang: en-GB
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://mathsforcs.netlify.app # the base hostname & protocol for your site
-git_address: https://github.com/davidgundry/mathematics-and-problem-solving
-git_edit_address: https://github.com/davidgundry/mathematics-and-problem-solving/blob/gh-pages
+git_address: https://github.com/davidgundry/mathsforcs
+git_edit_address: https://github.com/davidgundry/mathsforcs/blob/master
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap

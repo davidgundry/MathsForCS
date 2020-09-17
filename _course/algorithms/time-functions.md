@@ -7,11 +7,11 @@ One key property we want algorithms to have is to be **efficient**, i.e. to use 
 
 In this video I show how to find a time function for an algorithm.
 
-## Seven-minute lecture
+## Eleven-minute video
 
-<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/X_f8upZKcKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/T2dk9IywGbk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
+You can also view this video [on YouTube](https://youtu.be/T2dk9IywGbk)
 
 ---
 

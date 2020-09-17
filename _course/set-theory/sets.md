@@ -7,11 +7,7 @@ What is a set? It's a collection of _things_. A bag of marbles, a box of chocola
 
 Watch the video below for an introduction to this useful concept and then answer the questions below.
 
-## Seven-minute lecture
-
-<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/X_f8upZKcKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
+## Video not yet available
 
 ---
 

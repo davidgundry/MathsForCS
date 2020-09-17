@@ -9,7 +9,7 @@ The point of learning this stuff is so you really understand how working with bi
 
 Watch the video and then answer the questions below.
 
-## Fourteen-minute video
+## Eight-minute video
 
 <iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/W1Nh6ZFgWwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

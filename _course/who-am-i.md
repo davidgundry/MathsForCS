@@ -7,7 +7,7 @@ permalink: /course/who-am-i/
 
 My name is David Gundry. I'm a visiting lecturer here at York St John. I also teach the third-year Artificial Intelligence for Games module on the games degree programme.
 
-My research interests are applied games or "games with a purpose". I use maths, particularly statistics, for my research, as well as for solving all manner of problems that come up in the nitty-gritty of game development.
+I'm doing a PhD in computer science and games at the University of York. My research interests are applied games or "games with a purpose". I use maths, particularly statistics, for my research, as well as for solving all manner of problems that come up in the nitty-gritty of game development.
 
 If you need any support relating to the course outside of the lab sesions, you can contact me over Microsoft Teams using the group for this module (prefered), or by email at `d.gundry@yorksj.ac.uk`. 
 

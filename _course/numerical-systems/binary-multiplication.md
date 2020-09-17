@@ -7,7 +7,7 @@ Binary multiplication are actually a lot easier than they sound. It's like long 
 
 Watch the video and then answer the questions below.
 
-## Fourteen-minute video
+## Five-minute video
 
 <iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/VsgEDYCPZfA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

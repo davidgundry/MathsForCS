@@ -3,11 +3,7 @@ title: Set Operations
 permalink: /course/set-operations/
 ---
 
-## Seven-minute lecture
-
-<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/X_f8upZKcKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
+## Video not yet available
 
 ## Set Operations in Python
 

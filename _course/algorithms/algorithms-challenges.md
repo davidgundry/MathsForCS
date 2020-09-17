@@ -26,5 +26,5 @@ From the numbers you have measured, work out the time it would take to run this 
 
 ### Part 3
 
-Is there a way to make this algorithm more efficient? If so, rewrite it. Now analyse it again and calculate the new complexity class. Now work out how long it will take to execute for `z = 10<sup>10`
+Is there a way to make this algorithm more efficient? If so, rewrite it. Now analyse it again and calculate the new complexity. Now work out how long it will take to execute for `z = 10<sup>10`
 

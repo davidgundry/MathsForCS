@@ -3,17 +3,17 @@ title: Asymptotic Complexity
 permalink: /course/asymptotic-complexity/
 ---
 
-We want to be able to compare time functions for different algorithms without worrying about how long each primative operation takes. Asymptotic Complexity gives us a way to do this. Basically, we ask what our time function would look like if our input was really, really big, and ignore the small stuff.
+We want to be able to compare time functions for different algorithms without worrying about how long each primitive operation takes. Asymptotic Complexity gives us a way to do this. Basically, we ask what our time function would look like if our input was really, really big, and ignore the small stuff.
 
 Watch the video and then answer the questions below.
 
 ## Twenty-minute video
 
-**Note**: As I have flagged on the video, I get muddled and say that the algorithm that takes more time is more efficient. Obviously, the algorithm which takes _less_ time is more efficient.  
+**Note**: In the video get muddled and say that the algorithm that takes more time is more efficient. Obviously, the algorithm which takes _less_ time is more efficient.  
 
-<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/dyR5PhPYOdY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/FJhmf_Y6ClA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-You can also view this video [on YouTube](https://youtu.be/dyR5PhPYOdY)
+You can also view this video [on YouTube](https://youtu.be/FJhmf_Y6ClA)
 
 ---
 
