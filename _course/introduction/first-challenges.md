@@ -63,7 +63,9 @@ Imagine you've been given the job to model a hot air balloon for a game. It'll b
 
 So, you would do some research to find the formulae you need, handily summarised for you here.
 
-Assume `P = 1 (atmosphere)` and `V = 10,000,000 (litres)` are constant. At a temperature of `T = 272 (Kelvin)` assume `n = 446429 (moles)`. When we increase the temperature of our balloon, the value of `n` will decrease (i.e. our baloon will get lighter).
+Assume `P = 1 (atmosphere)` and `V = 10,000,000 (litres)` are constant. At a temperature of `T = 272 (Kelvin)` assume `n = 446429 (moles)`. When we increase the temperature of our balloon, the value of `n` will decrease (i.e. our balloon will get lighter).
+
+<iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSIntroductionImplementingEquations?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### Task 1
 
