@@ -37,7 +37,7 @@ Give an answer for each of the following, without using Python:
 4. <label for ="q14">25 mod 5</label> <input type="text" id="q14" data-answer="0"/> <span id="q14c" style="display:inline-block"></span>
 5. <label for ="q15">7 mod 11</label> <input type="text" id="q15" data-answer="7"/> <span id="q15c" style="display:inline-block"></span>
 6. <label for ="q16">11 mod 11</label> <input type="text" id="q16" data-answer="0"/> <span id="q16c" style="display:inline-block"></span>
-7. <label for ="q17">-1 mod 11</label> <input type="text" id="q17" data-answer="1"/> <span id="q17c" style="display:inline-block"></span>
+7. <label for ="q17">-1 mod 11</label> <input type="text" id="q17" data-answer="10"/> <span id="q17c" style="display:inline-block"></span>
 8. <label for ="q18">-11 mod 11</label> <input type="text" id="q18" data-answer="0"/> <span id="q18c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
