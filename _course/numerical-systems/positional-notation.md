@@ -52,6 +52,25 @@ To work out the log, base 2, of a number `n` in Python, use the `log(n, 2)` func
 
 ---
 
+## Number Systems in Java
+
+In Java, we can write numbers in binary and hexadecimal using a prefix:
+
+1. `0b` is binary, e.g. 0b11
+3. `0x` is hexadecimal, e.g. 0xFF
+
+To convert a binary string to decimal, you can use the `Integer.parseInt()` function, passing 2 as the base:
+
+    Integer.parseInt("01", 2) # outputs 1
+
+To convert a number to its binary or hexadecimal representaiton, use the built-in `Integer.toBinaryString()` and `Integer.toHexString()` functions.
+
+Have a play with the demo below:
+
+<iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSNumericalSystemsBasesJava?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+---
+
 ## Number Systems in Python
 
 In Python, we can write numbers in binary and hexadecimal using a prefix:
@@ -77,6 +96,7 @@ Have a play with the demo below:
 
 Answer each question then click the button marked "Check Answers" below. Use Python to help you.
 
+
 ##### 1. Conversions
 
 1. <label for ="q1">What is the biggest number you can write using 5 binary digits?</label> <input type="text" id="q1" data-answer="31" /> <span id="q1c" style="display:inline-block"></span>
@@ -84,6 +104,7 @@ Answer each question then click the button marked "Check Answers" below. Use Pyt
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1','q2')">Check Answers</a>
 <script src="/assets/check.js"></script>
+
 
 ##### 2. Bits and peices
 
@@ -110,7 +131,7 @@ In computer graphics colours often include a fourth ‘alpha’ channel, represe
 
 ##### 4. Octal
 
-Octal is a number system that uses base 8: it uses only the symbols `0 1 2 3 4 5 6 7`. It uses positional notation. In Python, you use the prefix `0o` to write a number in octal e.g. `0o77`. You can use the `oct()` function to convert a number to its representation in octal.
+Octal is a number system that uses base 8: it uses only the symbols `0 1 2 3 4 5 6 7`. It uses positional notation. In Python, you use the prefix `0o` to write a number in octal e.g. `0o77`. You can use the `oct()` function to convert a number to its representation in octal. In Java, you use the prefix `0` to write a numnber in octal, and the `Integer.toOctalString()` converts a number to an octal string.
 
 6. <label for ="q6">How many symbols does octal have?</label> <input type="text" id="q6" data-answer="8" /> <span id="q6c" style="display:inline-block"></span>
 7. <label for ="q7">What is 864 in octal?</label> <input type="text" id="q7" data-answer="1540" /> <span id="q7c" style="display:inline-block"></span>

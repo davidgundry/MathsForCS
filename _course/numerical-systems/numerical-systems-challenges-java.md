@@ -1,6 +1,6 @@
 ---
-title: Challenges (Python)
-permalink: /course/numerical-systems-challenges/
+title: Challenges (Java)
+permalink: /course/numerical-systems-challenges-java/
 ---
 
 We will be working on these challenges in the lab session for this topic.
@@ -9,17 +9,17 @@ You do not have to complete these in advance. However you may choose to get star
 
 Open the Replit embedded below. Click "Fork" to save it to your own Replit account. Then share your replit with me by clicking "Share" and inviting me (`davidgundry` on Replit).
 
-## Creating a URL Shortener
+## Functions for a URL Shortener
 
 URL shorteners take a long URL like this one: [example.com/this-is-a-very-long-url?with=some&get=parameters&as=well](example.com/this-is-a-very-long-url?with=some&get=parameters&as=well) and return something much more manageable, like this: [https://bit.ly/31Kb7nP](https://bit.ly/31Kb7nP).
 
-One way of doing this is to store a dictionary of URLs and numerical ids. When a user makes a request to `https://<yourserver>/<number>`, it redirects them to the URL matching that number.
+The example code provides a simple class that could be used by such a URL shortener. You add urls to an array by calling the `public String set(String url)` method. It saves each URL in an ArrayList and returns the index of the url in the list as the ID. So your first url would be `0`, then the next url would be `1`. And so on. Then, once a ID has been assigned, you can get the URL for that ID by calling the `public String get(String id)` method.
 
-The example code for this challenge provides bare-bones functionality for a URL shortener that assigns each URL a successive decimal number. So a url like: `www.example.com` would be `0`, then the next url such as `www.example.org` would be `1`. And so on.
+Note that the code calls the `numberToID(int number)` function to convert the array index into a string to return to the user. It calls the `IDToNumber(String id)` function to convert an ID to an array index. At the moment, both of these just convert the integer to a (decimal) string, and back to an integer.
 
-Run the code in Replit. This will start a webserver. Then navigate to the URL shown in the Replit demo window. Append `/set/<url-to-shorten>` to the URL to store an URL with a new ID. Append `/<id>` to the URL to get the previously-stored shortened url with that ID.
+Run the code in Replit. The demo code in the method `public static void main(String[] args)` runs and sets some URLs and retrieves them by ID.
 
-<iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSNumericalSystemsURLShortener?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSNumericalSystemsJavaChallenge?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### Questions
 
@@ -37,6 +37,5 @@ Run the code in Replit. This will start a webserver. Then navigate to the URL sh
 
 3. (**Optional** - extra programming challenge), giving urls successive numbers makes it easy to guess what other peoples' shortened URLs will be. Rewrite your code to assign numerical ids in a random order.
 
-4. Once you've done that, polish up the functionality of your app and make it pretty.
 
 Remember, not all ASCII characters are safe to transmit over the web in a URL. Many characters need to be [percent-encoded](https://en.wikipedia.org/wiki/Percent-encoding), which takes up a lot more space.
