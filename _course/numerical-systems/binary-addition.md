@@ -88,10 +88,10 @@ Convert these numbers into their two's compliment. Assume we're working with num
 
 Assume we're working with numbers stored using 4 bits. Negative numbers are stored using Two's Compliment
 
-1. <label for ="q21">0011 - 0010</label> <input type="text" id="q21" data-answer=""/> <span id="q21c" style="display:inline-block"></span>
-2. <label for ="q22">0110 – 0111</label> <input type="text" id="q22" data-answer=""/> <span id="q22c" style="display:inline-block"></span>
-3. <label for ="q23">1111 - 1010</label> <input type="text" id="q23" data-answer=""/> <span id="q23c" style="display:inline-block"></span>
-4. <label for ="q24">1110 – 101</label> <input type="text" id="q24" data-answer=""/> <span id="q24c" style="display:inline-block"></span>
+1. <label for ="q21">0011 - 0010</label> <input type="text" id="q21" data-answer="0001"/> <span id="q21c" style="display:inline-block"></span>
+2. <label for ="q22">0110 – 0111</label> <input type="text" id="q22" data-answer="1111"/> <span id="q22c" style="display:inline-block"></span>
+3. <label for ="q23">1111 - 1010</label> <input type="text" id="q23" data-answer="0101"/> <span id="q23c" style="display:inline-block"></span>
+4. <label for ="q24">1110 – 101</label> <input type="text" id="q24" data-answer="1001"/> <span id="q24c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q2')">Check Answers</a>
 
