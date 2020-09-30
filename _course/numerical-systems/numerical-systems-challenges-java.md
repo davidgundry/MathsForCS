@@ -23,19 +23,42 @@ Run the code in Replit. The demo code in the method `public static void main(Str
 
 ### Questions
 
-1. As of August 2018, the URL shortening service [Bitly](https://bitly.com/) has shortened over 37.5 billion URLs [(Wikipedia)](https://en.wikipedia.org/wiki/Bitly). Using the code above, how long would the 37.5 billionth ID be?
+1. As of August 2018, the URL shortening service [Bitly](https://bitly.com/) has shortened over 37.5 billion URLs [(Wikipedia)](https://en.wikipedia.org/wiki/Bitly). <label for ="q2">Using the code above, how long would the 37.5 billionth ID be?</label>  <input type="text" id="q2" data-answer="11"/> <span id="q2c" style="display:inline-block"></span>
 
 2. Bitly uses 7 character strings for its ids. How do you think they achieve this?
 
-### Task
+<a class="btn btn-primary" type="submit" onClick="checkAnswers('q2')">Check Answers</a>
+
+### Task 1
 
 **Improve the code above to minimise the length of each ID by representing them in a number system other than decimal.** To start off with, you only need to worry about changing the contents of the `numberToID()` and `IDToNumber()` functions.
 
-1. Start off by representing IDs as hexadecimal. How much does this shorten your IDs? How long would the 37.5 billionth URL be?
+Start off by representing IDs as hexadecimal. You might want to use the `Integer.toHexString()` and `Integer.parseInt()` functions. How much does this shorten your IDs? 
 
-2. Once you've done that, see if you can use another number system or encoding that shortens the ID even more. The goal is to come up with the shortest representation possible.
+<label for ="q1">How many characters long would the 37.5 billionth URL be?</label> <input type="text" id="q1" data-answer="9"/> <span id="q1c" style="display:inline-block"></span>
 
-3. (**Optional** - extra programming challenge), giving urls successive numbers makes it easy to guess what other peoples' shortened URLs will be. Rewrite your code to assign numerical ids in a random order.
+<a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
+<script src="/assets/check.js"></script>
 
+### Task 2
+
+See if you can use another number system or encoding that shortens the ID even more. The goal is to come up with the shortest representation possible that can be used in a URL. How 
 
 Remember, not all ASCII characters are safe to transmit over the web in a URL. Many characters need to be [percent-encoded](https://en.wikipedia.org/wiki/Percent-encoding), which takes up a lot more space.
+
+**Hint:** Try converting the number to a base higher than 16. To do this, you will have to write code to convert to and from this base as there are no built in Java functions to do it.
+
+Look back at the lecture content on [how to convert from decimal to other bases](../bases/), and [from other bases back to decimal](../positional-notation/). You'll need to write functions similar to this to convert to your own base. You'll need to decide how many symbols your base has, and the symbols you will use, e.g. `0123456789ABCDEFGHIJK...`
+
+You might find this function to calculate the log of a number `x` with a given base `b` helpful:
+
+    double log(int x, int b)
+    {
+        return Math.log(x) / Math.log(b);
+    }
+
+### Task 3 (Optional - extra programming challenge)
+
+Giving urls successive numbers makes it easy to guess what other peoples' shortened URLs will be. Rewrite your code to assign numerical ids in a random order.
+
+
