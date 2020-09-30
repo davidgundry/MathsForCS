@@ -51,6 +51,8 @@ You might want to invent other similar formal systems and play around with them.
 
 ## Implementing Equations
 
+**Update:** This practical is only available in Python, because this practical happened before we switched over to using Java. [There are model answers available for this task here.](https://repl.it/@davidgundry/MathsForCSIntroductionModel)
+
 One of the uses of maths is the ability to communicate things clearly. This is great if you are working with people from other disciplines, for example to program scientific models. For example, a chemist might know all sorts of stuff about gasses, but if they can express it in terms of an equation, your job is much easier.
 
 For example, the Ideal Gas Law is an equation about (ideal) gasses.
