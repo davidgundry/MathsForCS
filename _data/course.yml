@@ -2,7 +2,7 @@
   course:
   - home
   - who-am-i
-  - python
+  - coding
   - assessment
 
 - title: Introducing Mathematics
@@ -28,6 +28,7 @@
   - modular-arithmetic
   - modular-inverse
   - modular-challenges
+  - modular-challenges-java
 
 - title: Algorithms
   course:

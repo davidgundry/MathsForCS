@@ -8,7 +8,7 @@ redirect_from: /course/index.html
 
 This website holds all of the content for the **(COM4002M-A) Mathematics and Problem Solving module at York St John University**. The course is divided into several topics, one for each week of the course. Each topic is broken down into multiple sections. Each section has a short video lecture and questions and challenges for you to complete. Each week there will also be a live lab session with the lecturer. You should complete each section before that week's lab session. During the lab we will build on what you have learned.
 
-**There will not be a lecture for this course as all lecture content will be available on this website**. You are expected to use the lecture slot on your timetable, or an alternative time, to watch the online lectures for the week and complete the questions.
+**There will not be a lecture for this course as all lecture content will be available on this website**. You are expected to use the lecture slot on your timetable, or an alternative time, to watch the online lectures for the week and complete the questions. Instead, during the lecture slot, I will be running a regular "office hour". This is for anyone to drop in and ask any questions they may have about any aspect of the course.
 
 | Week          | Topic         | Lab Date |
 | ------------- |-------------  | ---- | 
@@ -41,10 +41,12 @@ This course is being run by [David Gundry](../who-am-i). You can contact me over
 
 This course is 100% assessed by coursework. The assessment will be released `at some point`, and you will have until **Monday January 11 2021** to return your completed assessment. The assessment will present you with a number of problems that you have to solve. Many of the problems will require you to use a programming language. Throughout the course we will be using Python, and it is recommend you use that.
 
-### Python
+### Coding
 
-You will apply your mathematical knowledge to problems requiring programming in the [Python programming language](https://www.python.org/). You will be taking the `Introduction to Programming` module alongside this one. That module will focus on teaching you how to use Python. In this module, you will have a chance to apply what you are learning.
+You will apply your mathematical knowledge to problems requiring programming in the Java programming language. You will be taking the `Introduction to Programming` module alongside this one. That module will focus on teaching you how to use Java. In this module, you will have a chance to apply what you are learning.
 
-For more about how to use Python in this course, see the [Python](../python) section.
+For more about how to use Java in this course, see the [Coding](../coding) section.
+
+Some of the content is also available for Python.
 
 <a class="btn btn-primary btn-lg" href="../number-systems" role="button">Let's get started!</a>
