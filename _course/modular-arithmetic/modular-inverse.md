@@ -105,4 +105,4 @@ In this section we have learned how to find the **additive and multipliative inv
 * You should know when the multiplicative inverse is defined in modular arithmetic.
 * You should be able to do division in modular arithmetic.
 
-Now you can move on to the [modular arithmetic challenges](../modular-challenges).
+Now you can move on to the [modular arithmetic challenges](../modular-challenges-java).
