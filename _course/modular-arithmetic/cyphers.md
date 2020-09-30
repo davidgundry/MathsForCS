@@ -53,6 +53,23 @@ The following table shows how to encypher any letter using keys of `a=3` and `b=
 | mod 26    | 5 | 8 | 11| 14| 17| 20| 23| 0 | 3 | 6 | 9 | 12| 15| 18| 21| 24| 1 | 4 | 7 | 10| 13| 16| 19| 22| 25| 2 |
 | cyphertext| F | I | L | O | R | U | X | A | D | G | J | M | P | S | V | Y | B | E | H | K | N | Q | T | W | Z | C |
 
+---
+
+## Character values in Java
+
+For the following questions, we need to know how to turn characters into their ASCII values.
+
+In Java:
+
+* Character literals are written using single quotes, so to assign the character `a` to the `char` variable called `letter`, you might do: `char letter = 'a'`
+* Casting a `char` to `int` gives the ASCII value of the character, e.g. `int ascii = (int) 'a'`
+* Casting an `int` to `char` gives the character for the ASCII value, e.g. `char value = (char) '97'`
+* `(int) 'A'` gives the offset of the start of the alphabet in ASCII `(= 65)`
+* `(int) 'a'` gives the offset of the start of the lower case letters in ASCII `(= 97)`
+
+You can see this demonstrated in the folowing example. Here we take an input from the user and give the ASCII values and then the zero-indexed position in the alphabet, starting from `a = 0`.
+
+<iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSModularArithmeticCharacterValuesJava?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 
 ---

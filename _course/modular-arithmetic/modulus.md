@@ -15,6 +15,14 @@ You can also view this video [on YouTube](https://youtu.be/UJnzrbJR1yk)
 
 ---
 
+## Modulus in Java
+
+In Java, you can find the modulus of two numbers, or the remainder of two numbers, by using the percent-sign (**%**). For example:
+
+<iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSModularArithmeticModulusJava?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+---
+
 ## Modulus in Python
 
 In Python, you can find the modulus of two numbers, or the remainder of two numbers, by using the percent-sign (**%**). For example:

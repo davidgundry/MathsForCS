@@ -29,7 +29,7 @@ Run the code in Replit. The demo code in the method `public static void main(Str
 
 ### Task
 
-**Improve the code above to minimise the length of each ID by representing them in a number system other than decimal.** To start off with, you only need to worry about changing the contents of the `numberToID()` and `IDtoNumber()` functions.
+**Improve the code above to minimise the length of each ID by representing them in a number system other than decimal.** To start off with, you only need to worry about changing the contents of the `numberToID()` and `IDToNumber()` functions.
 
 1. Start off by representing IDs as hexadecimal. How much does this shorten your IDs? How long would the 37.5 billionth URL be?
 

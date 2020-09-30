@@ -1,5 +1,5 @@
 ---
-title: Challenges
+title: Challenges (Python)
 permalink: /course/modular-challenges/
 ---
 
