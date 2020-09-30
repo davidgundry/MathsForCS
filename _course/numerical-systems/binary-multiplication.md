@@ -96,4 +96,4 @@ In this section we learned multiplication and division with binary numbers.
 
 * You should be able to multiply and divide binary numbers.
 
-You can now move on to the [challenges](../numerical-systems-challenges/) for this topic.
+You can now move on to the [challenges](../numerical-systems-challenges-java/) for this topic.
