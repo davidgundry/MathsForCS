@@ -91,9 +91,9 @@ Is there a modular inverse of the following?
 
 ### 2. Additive Inverse Function
 
-Write a function in Python `additive_inverse(a, n)` that returns the additive inverse of the number `a`, modulo `n`.
+Write a function in Java `int additiveInverse(int a, int n)` that returns the additive inverse of the number `a`, modulo `n`.
 
-<iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSModularArithmeticAdditiveInverse?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSModularArtihmeticAdditiveInverseJava?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ---
 
