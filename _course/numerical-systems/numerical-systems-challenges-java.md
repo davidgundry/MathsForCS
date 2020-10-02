@@ -42,13 +42,45 @@ Start off by representing IDs as hexadecimal. You might want to use the `Integer
 
 ### Task 2
 
-See if you can use another number system or encoding that shortens the ID even more. The goal is to come up with the shortest representation possible that can be used in a URL. How 
+See if you can use another number system or encoding that shortens the ID even more. The goal is to come up with the shortest representation possible that can be used in a URL.  Remember, not all ASCII characters are safe to transmit over the web in a URL. Many characters need to be [percent-encoded](https://en.wikipedia.org/wiki/Percent-encoding), which takes up a lot more space.
 
-Remember, not all ASCII characters are safe to transmit over the web in a URL. Many characters need to be [percent-encoded](https://en.wikipedia.org/wiki/Percent-encoding), which takes up a lot more space.
+#### Here's a hint
 
-**Hint:** Try converting the number to a base higher than 16. To do this, you will have to write code to convert to and from this base as there are no built in Java functions to do it.
+Try converting the number to a base higher than 16. To do this, you will have to write code to convert to and from this base as there are no built in Java functions to do it. Look back at the lecture content on [how to convert from decimal to other bases](../bases/), and [from other bases back to decimal](../positional-notation/). You'll need to write functions similar to this to convert to your own base. You'll need to decide how many symbols your base has, and the symbols you will use, e.g. `0123456789ABCDEFGHIJK...`
 
-Look back at the lecture content on [how to convert from decimal to other bases](../bases/), and [from other bases back to decimal](../positional-notation/). You'll need to write functions similar to this to convert to your own base. You'll need to decide how many symbols your base has, and the symbols you will use, e.g. `0123456789ABCDEFGHIJK...`
+#### Stuck? Try this.
+
+Start off by writing a function that takes a number and returns a binary string.
+
+The process is [described here](../bases/). You need to get a numerical value for each digit and then use `Integer.toString()` to convert that numerical value into a String. Then concatenate it all together. (You can concatenate strings like this: `String myString = "a" + "b"`). Don't forget to reverse the whole string at the end, to do this, you can use a `StringBuilder`:
+
+    StringBuilder output = new StringBuilder(); 
+    output.append(backwardsString); 
+    output = output.reverse(); 
+    return output.toString();
+
+#### Now write a function to go the other way
+
+Start off my writing a function to convert binary back to decimal. Remember you [multiply each digit by the value of its column](../positional-notation/).
+
+You'll have to keep a running total, and loop through the binary string adding the correct value for each column.
+
+#### Managed that?
+
+Save a copy of your code. Now, rather than converting to binary (base 2) convert to something bigger. You will soon face the problem: how do you convert a number, e.g. 10 into a single character? You need some way of mapping numbers from `0` up to the size of your base `n` to characters.
+
+You could use an array for this:
+
+    String[] alphabet = {"0","1"}
+    alphabet[0] ## equals "0"
+    alphabet[1] ## equals "1"
+
+How do you go from a character back to a number? One simple way would be to loop through the array until you find the character you are looking for, then return the index.
+
+
+#### A bit more efficient (Optional - extra programming challenge)
+
+Instead of appending each digit to a `String`, you could use an array of `char`. How long should your array be?
 
 You might find this function to calculate the log of a number `x` with a given base `b` helpful:
 
@@ -56,6 +88,7 @@ You might find this function to calculate the log of a number `x` with a given b
     {
         return Math.log(x) / Math.log(b);
     }
+
 
 ### Task 3 (Optional - extra programming challenge)
 
