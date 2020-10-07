@@ -15,7 +15,7 @@ This website holds all of the content for the **(COM4002M-A) Mathematics and Pro
 | Week 1        | [Introduction](../course-introduction) | 25/09/2020 |
 | Week 2        | [Numerical Systems](../numerical-systems) | 02/10/2020 |
 | Week 3        | [Modular Arithmetic](../modular-arithmetic-intro)  | 09/10/2020 |
-| Week 4        | [Algorithms](/algorithms)      | 16/10/2020 |
+| Week 4        | [Algorithms](../algorithms)      | 16/10/2020 |
 | Week 5        | [Propositional Logic](../propositional-logic) | 23/10/2020 |
 | Week 6        | [Set Theory](../set-theory)      | 30/10/2020 |
 | Week 7        | Proof      | 06/11/2020 |
