@@ -9,7 +9,7 @@ Watch the video and then answer the questions below.
 
 ## Twelve-minute video
 
-<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/aCkqf-HZfyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/aCkqf-HZfyU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can also view this video [on YouTube](https://youtu.be/aCkqf-HZfyU)
 

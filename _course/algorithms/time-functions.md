@@ -9,7 +9,7 @@ In this video I show how to find a time function for an algorithm.
 
 ## Eleven-minute video
 
-<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/T2dk9IywGbk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/T2dk9IywGbk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can also view this video [on YouTube](https://youtu.be/T2dk9IywGbk)
 

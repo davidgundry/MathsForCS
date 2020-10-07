@@ -11,7 +11,7 @@ Watch the video and then answer the questions below.
 
 **Note**: In the video get muddled and say that the algorithm that takes more time is more efficient. Obviously, the algorithm which takes _less_ time is more efficient.  
 
-<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/FJhmf_Y6ClA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/FJhmf_Y6ClA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can also view this video [on YouTube](https://youtu.be/FJhmf_Y6ClA)
 
