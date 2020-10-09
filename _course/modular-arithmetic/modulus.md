@@ -68,16 +68,16 @@ Check the boxes for those values that are congruant modulo 43
 
 Imagine you are writing code to allocate players in an online team-based multiplayer game like _DOTA 2_ or _League of Legends_. The game is played in games of 5v5 players. In our game, any unalocated players must wait in a lobby for more players to log on.
 
-1. Write a function in Python that takes the total number of players and returns the number of games.
-2. Write a function in Python that takes the total number of players and returns the number of players waiting in the lobby
+1. Write a function in Java that takes the total number of players and returns the number of games.
+2. Write a function in Java that takes the total number of players and returns the number of players waiting in the lobby
 3. (**Optional** - extra programming challenge) Write a function that takes an array of players and assigns them each a number being the game to add them to, such that each game has exactly 10 players. Any unalocated players have a group number of `None` or `-1`.
 
 ---
 
 ## Summary
 
-In this section we learned about the modulus operator and how to use it in Python. 
+In this section we learned about the modulus operator and how to use it in Java. 
 
-* You should know what the modulus operator is and how to use it to find the modulus or remainder in Python.
+* You should know what the modulus operator is and how to use it to find the modulus or remainder in Java.
 
 Once you've completed the questions, you can move on to the next section on [using modular arithmatic for cyphers](../cyphers).
