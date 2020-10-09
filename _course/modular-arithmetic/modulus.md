@@ -37,7 +37,7 @@ In Python, you can find the modulus of two numbers, or the remainder of two numb
 
 ##### Modulus
 
-Give an answer for each of the following, without using Python:
+Give an answer for each of the following, without using Java:
 
 1. <label for ="q11">17 mod 5</label> <input type="text" id="q11" data-answer="2"/> <span id="q11c" style="display:inline-block"></span>
 2. <label for ="q12">20 mod 3</label> <input type="text" id="q12" data-answer="2"/> <span id="q12c" style="display:inline-block"></span>

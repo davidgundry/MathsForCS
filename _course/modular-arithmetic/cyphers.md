@@ -109,9 +109,9 @@ A rotational (Caesar) cypher with a shift of `k` has a function:
 
     E(x) = (x + k) mod 26
 
-Write a function in Python that takes a string and a value for `k` and returns an encrypted string. For each letter, if it in `[a-zA-Z]`, shift it by `k`, otherwise leave it untouched.
+Write a function in Java that takes a string and a value for `k` and returns an encrypted string. For each letter, if it in `[a-zA-Z]`, shift it by `k`, otherwise leave it untouched.
 
-Look at the Python example above for an example of how to convert characters in a string to numerical values.
+Look at the Java example above for an example of how to convert characters in a string to numerical values.
 
 ### 3. Affine Cypher
 
@@ -119,9 +119,9 @@ An Affine cypher with keys `a` and `b` has the function:
 
     E(x) = (ax + b) mod m
 
-Write a function in Python that takes a string, and values for `a` and `b` and returns an encrypted string using the affine cypher. Leave any letter not in `[a-zA-Z]` untouched.
+Write a function in Java that takes a string, and values for `a` and `b` and returns an encrypted string using the affine cypher. Leave any letter not in `[a-zA-Z]` untouched.
 
-Look at the Python example above for an example of how to convert characters in a string to numerical values.
+Look at the Java example above for an example of how to convert characters in a string to numerical values.
 
 ---
 
