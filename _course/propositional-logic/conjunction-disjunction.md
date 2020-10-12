@@ -5,7 +5,11 @@ permalink: /course/conjunction-disjunction/
 
 We have already seen negation in propositional logic (`¬`). Negation flips a truth value from true to false, or from false to true. In this section we will look at two more logical operators: **conjunction** (`∧`) and **disjunction** (`∨`)
 
-## Video not yet available
+## Six-minute video
+
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/O5Bn3WNITy4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also view this video [on YouTube](https://youtu.be/O5Bn3WNITy4)
 
 ---
 

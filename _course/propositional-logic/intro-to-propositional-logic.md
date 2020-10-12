@@ -5,8 +5,12 @@ permalink: /course/intro-to-propositional-logic/
 
 Propositional logic is a branch of logic that deals with **propositions**. A proposition is a statement like "John is tall", something that can either be **true or false**. Propositional logic lets us represent statements like this as letters, e.g. `p` and work with them and relate them to other statements using logical operators and relations.
 
+## Six-minute video
 
-## Video not yet available
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/e93Lgf0Y9jo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also view this video [on YouTube](https://youtu.be/e93Lgf0Y9jo)
+
 
 ---
 
