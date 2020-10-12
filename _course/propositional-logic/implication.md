@@ -6,7 +6,7 @@ permalink: /course/implication/
 We have now seen three logical operators in propositoinal logic: conjunction (`∧`), disjunction (`∨`), and negation (`¬`). In this section we will look at two more: **implication** (`⇒`), and **equivalence** (`⇔`).
 
 
-## Four-minute video
+## Eight-minute video
 
 <iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/cOKLrceYHUI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
