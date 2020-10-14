@@ -3,7 +3,7 @@ title: Bitwise Operators
 permalink: /course/bitwise-operators/
 ---
 
-Bitwise operators let you apply logical operations to binary numbers, by applying them per binary bit. They are not often used very often, but every now and then they come in very handy. For example, sometimes you might want to store multiple variables as a single binary number (e.g. instead of 8 different booleans) in order to minimising your memory footprint. 
+Bitwise operators let you apply logical operations to binary numbers, by applying them per binary bit. They are not often used very often, but every now and then they come in very handy. For example, sometimes you might want to store multiple variables as a single binary number (e.g. instead of 8 different booleans) in order to minimise your memory footprint. 
 
 Watch the video and then answer the questions below.
 
@@ -20,9 +20,9 @@ Bitwise operators are like logical operators that are applied _per bit_. While l
 For example, imagine we had the 4-bit binary numbers `0011` and `1010`. Bitwise AND would apply logical conjunction on each bit, and return either 1 or 0 for that bit. Similarly for bitwise OR and XOR.
 
 |   |   |   |   |   | 
-|-- | - | - | - | - |
 | **a** | 0 | 0 | 1 | 1 |
 | **b** | 1 | 0 | 1 | 0 |
+|-- | - | - | - | - |
 | **AND** | 0 | 0 | 1 | 0 |
 | **OR**  | 1 | 0 | 1 | 1 |
 | **XOR** | 1 | 0 | 0 | 1 |
@@ -30,10 +30,27 @@ For example, imagine we had the 4-bit binary numbers `0011` and `1010`. Bitwise 
 Bit shifts just shift all the bits left and right. There are multiple ways in which shifts can work: sometimes they shift in 0. Sometimes right shifts shift in the sign bit (i.e. -1 for negative). You can also get circular shifts (where the numbers wrap around) - it depends on your platform.
 
 |   |   |   |   |   | 
-|-- | - | - | - | - |
 | **a** | 0 | 0 | 1 | 1 |
+|-- | - | - | - | - |
 | **LEFT SHIFT** | 0 | 1 | 1 | 0 |
 | **RIGHT SHIFT** | 0 | 0 | 0 | 1 |
+
+---
+
+## Bitwise Operators in Java
+
+In Java, you can do bitwise operations using the following operators:
+
+* `&` bitwise AND
+* `|` bitwise OR
+* `^` bitwise XOR
+* `~` bitwise NOT
+* `<< n` left shift by n
+* `>> n` right shift by n
+
+In the example below, we set two numerical values using the binary prefix `0b`. Then we print out the binary for each of the bitwise operations applied to these values.
+
+<iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSPropositionalLogicBitwiseJava?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ---
 
