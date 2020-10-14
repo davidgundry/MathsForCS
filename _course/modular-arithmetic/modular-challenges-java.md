@@ -9,6 +9,8 @@ You do not have to complete these in advance. However you may choose to get star
 
 ## Decoding the Affine Cypher
 
+**Update:** There is a model answer available for this practical [here](https://repl.it/@davidgundry/MathsForCSModularArithmeticDecodeAffineJavaModelAnswer).
+
 The goal is to write a function `decodeAffine(String c, int a, int b)` that takes a string encrypted using an affine cypher (i.e. the cypher text), and values for` a` and `b` and returns the decrypted string (the plain text). For example, it might take the string `jollg kgblh`, and values `a = 7, b = 12` and return the string `hello world`. Leave any character not in `a-zA-Z` (i.e. non-alphabetic characters) unmodified. You may use the `.toLowerCase()` method on your string and work with only lower case strings.
 
 The decryption function for an affine cypher is <code>D(X) = a<sup>-1</sup>(X - b) mod 26</code>. Here, because we are working under modulus, <code>a<sup>-1</sup></code> is the _modular_ (multplicative) inverse of a. 

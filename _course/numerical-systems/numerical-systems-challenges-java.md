@@ -11,6 +11,8 @@ Open the Replit embedded below. Click "Fork" to save it to your own Replit accou
 
 ## Functions for a URL Shortener
 
+**Update:** Model answers are available for [task 1](https://repl.it/@davidgundry/MathsForCSNumericalSystemsJavaChallengeModelAnswerHex) and [task 2](https://repl.it/@davidgundry/MathsForCSNumericalSystemsJavaChallengeModelAnswer2)
+
 URL shorteners take a long URL like this one: [example.com/this-is-a-very-long-url?with=some&get=parameters&as=well](example.com/this-is-a-very-long-url?with=some&get=parameters&as=well) and return something much more manageable, like this: [https://bit.ly/31Kb7nP](https://bit.ly/31Kb7nP).
 
 The example code provides a simple class that could be used by such a URL shortener. You add urls to an array by calling the `public String set(String url)` method. It saves each URL in an ArrayList and returns the index of the url in the list as the ID. So your first url would be `0`, then the next url would be `1`. And so on. Then, once a ID has been assigned, you can get the URL for that ID by calling the `public String get(String id)` method.

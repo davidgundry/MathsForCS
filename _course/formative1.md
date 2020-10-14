@@ -22,9 +22,6 @@ Unlike the other questions yoy have answered on this site for the lectures, the 
 
 Assuming the Babylonain _cubit_ is 518.6 mm long and the Euphrates River is 2,800 km long, if we expressed the length of the Euphrates in cubits (rounded to the nearest cubit), how many bablyonian digits (including spaces in place of a `0` digit) would you need to write it down?
 
-    1.92826841496 * 1000 * 2800
-    log_60 5399152 = 3.78
-
 ### A _Base_ic Puzzle?
 
 Let `v` be a number written in binary. It has the following digits. Digits written with a `?` are either 0 or 1.
@@ -36,9 +33,6 @@ Use the following equations to help you recover the original number.
 <p>\[ v = x * b^2 + y * b + z\]</p>
 <p>\[x = y * 2 = z * 4\]</p>
 
-    000 1100 0110 0011  (base 16)
-    00100 00010 00001   (base 32)
-
 ### Fractional values in binary
 
 To store fractional values in a positional notation system, we use negative powers. For example, in base `n`:
@@ -48,7 +42,7 @@ To store fractional values in a positional notation system, we use negative powe
     <tr><td>\(n*n\) </td><td> \(n\) </td><td> \(1\)  </td><td> . </td><td> \(1/n\) </td><td> \(1/(n*n)\)</td></tr>
 </table>
 
-<p>Solve \(101.10_2 + 52.41_8 + AFF.3F_16\)</p>
+<p>Solve \(101.10_2 + 52.41_8 + AFF.3F_{16}\)</p>
 
 With `n` bits to the right of the decimal place, what is the smallest number you can store?
 
