@@ -9,7 +9,7 @@ You do not have to complete these in advance. However you may choose to get star
 
 ## Implementing Sets
 
-Python already has a built-in implementation for Sets, but many programming langauges do not.
+Python already has a built-in implementation for Sets, but many programming languages do not.
 
 The goal is to implement a `Set` class. That provides the following interface:
 

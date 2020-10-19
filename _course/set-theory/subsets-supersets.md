@@ -7,7 +7,22 @@ Now that we've learned what a set is and how to define one, we want to start usi
 
 Watch the video and then answer the questions below.
 
-## Video not yet available
+## Seven-minute video
+
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/YM4dBGJ5Ovk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also view this video [on YouTube](https://youtu.be/YM4dBGJ5Ovk)
+
+---
+
+## Subsets and Supersets in Java
+
+Using the `Set` interface from `java.util`, we have methods for some set relations, but not everything is provied for us.
+
+`containsAll()` Returns whether this set is a superset of a given set.
+
+`size()` Returns the cardinality of the set.
+
 
 ---
 

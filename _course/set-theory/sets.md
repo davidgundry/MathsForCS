@@ -7,7 +7,11 @@ What is a set? It's a collection of _things_. A bag of marbles, a box of chocola
 
 Watch the video below for an introduction to this useful concept and then answer the questions below.
 
-## Video not yet available
+## Six-minute video
+
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/Qrnt_Vxhvx0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also view this video [on YouTube](https://youtu.be/Qrnt_Vxhvx0)
 
 ---
 
@@ -33,6 +37,27 @@ Watch the video below for an introduction to this useful concept and then answer
 * The **integers** `ℤ ≜ { … -3, -2, -1, 0, 1, 2, 3 }`
 * The **real numbers** `ℝ` = the integers and all fractions
 * ℕ, ℤ, and ℝ are all infinite in size, but infinity is not an element of them.
+
+---
+
+## Sets in Java
+
+Java provides a [`Set`](https://docs.oracle.com/javase/7/docs/api/java/util/Set.html) interface in the `java.util` package. As it is an interface, we also need a class that implements the Set interface, such as [`HashSet`](https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html).  We need to import both of these by adding imports to the top of our Java file:
+
+    import java.util.Set; 
+    import java.util.HashSet;
+
+Or we could import both at once by importing the whole `java.util` package.
+
+    import java.util.*; 
+
+We construct a `HashSet`. We can either store it as a `HashSet` or `Set` (if you're wondering why, ask me about Polymorphism). We can use the `add()` method to add an element to the set, and `contains()` to check if an element is in the set.
+
+    Set<String> hashSet = new HashSet<String>(); 
+    hashSet.add("My element"); 
+    hashSet.contains("My element"); // returns true
+
+We need to specifty the type of data that the set will store in angled brackets. E.g. `Set<String>` is a Set of String types. This is because Sets are _generics_. Generic types are far too complicated to explain here (and are beyond what you need in this module), but do ask me if you're interested.
 
 ---
 
