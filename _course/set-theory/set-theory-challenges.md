@@ -9,16 +9,25 @@ You do not have to complete these in advance. However you may choose to get star
 
 ## Implementing Sets
 
-Python already has a built-in implementation for Sets, but many programming languages do not.
+Java only has a very limited set interface. It is not sufficient if we want to perform standard set theory operations such as intersection and union.
 
-The goal is to implement a `Set` class. That provides the following interface:
+<iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSSetTheoryChallenge?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-* `cardinality(self)` - Returns the number of elements in the Set
-* `powerSet(self)` - Returns the power set of this set.
-* `union(self, b)` - Returns a new set that is the union if this set and the provided set `b`
-* `intersection(self, b)` - Returns a new set that is the intersection of this set and the provided set `b`
-* `difference(self, b)` - Return a set representing the set-theoretic difference between this set and a provided set `b`.
-* 
+### Task 1
 
-A Replit project is provided below. This contains tests for each of the above function.
+Implement a `Set` class that provides the following interface:
+
+* `int cardinality()` - Returns the number of elements in the Set
+* `boolean subset(Set b)` - Returns true if this set is a subset of set `b`.
+* `boolean superset(Set b)` - Returns true if this set is a superset of set `b`.
+* `Set union(Set b)` - Returns a new set that is the union if this set and the provided set `b`
+* `Set intersection(Set b)` - Returns a new set that is the intersection of this set and the provided set `b`
+* `Set difference(Set b)` - Return a set representing the set-theoretic difference between this set and a provided set `b`.
+
+
+### Task 2
+
+The power set of a set is the set of all its subsets. For example, the power set of the set `{1, 2, 3}` is `{ Ø, {1}, {2}, {3}, {1,2}, {2,3}, {1,2,3} }`
+
+Add a method `Set powerSet()` to your class which returns the power set of this set.
 

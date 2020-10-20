@@ -59,6 +59,8 @@ We construct a `HashSet`. We can either store it as a `HashSet` or `Set` (if you
 
 We need to specifty the type of data that the set will store in angled brackets. E.g. `Set<String>` is a Set of String types. This is because Sets are _generics_. Generic types are far too complicated to explain here (and are beyond what you need in this module), but do ask me if you're interested.
 
+<iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSSetTheoryJavaSets?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 ---
 
 ## Sets in Python
@@ -129,13 +131,6 @@ Which of the following are empty sets? Check all that apply.
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1','q2','q3','q4','q5')">Check Answers</a>
 <script src="/assets/check.js"></script>
-
-
-### 2. Properties of Sets 
-
-Write a function `is_singleton` which takes a set and returns `true` if and only if it is a singleton. (You may want to use the `len()` function). Write a function `is_empty_set` which returns true if a set is the empty set.
-
-<iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSSetTheorySetsQuestions?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ---
 

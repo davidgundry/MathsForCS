@@ -15,6 +15,12 @@ You can also view this video [on YouTube](https://youtu.be/MJpfM6QbQbo)
 
 ---
 
+## Set Operations in Java
+
+The `java.util.Set` interface does not provide the union (∪), intersection (∩), or difference (\\) operations. These would need to be implemented yourself.
+
+---
+
 ## Set Operations in Python
 
 Helpfully, Python contains all the basic set operations built in.
@@ -90,4 +96,4 @@ Calculate the following, e,g,
 
 ## Summary
 
-In this section we have learned about the operations you can perform on sets.
+In this section we have learned about the operations you can perform on sets. In the next we are going to learn about [DeMorgan's Laws](../demorgans-laws).
