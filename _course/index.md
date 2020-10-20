@@ -18,9 +18,9 @@ This website holds all of the content for the **(COM4002M-A) Mathematics and Pro
 | Week 4        | [Algorithms](../algorithms)      | 16/10/2020 |
 | Week 5        | [Propositional Logic](../propositional-logic) | 23/10/2020 |
 | Week 6        | [Set Theory](../set-theory)      | 30/10/2020 |
-| Week 7        | Proof      | 06/11/2020 |
-| Week 8        | Descriptive Statistics | 13/11/2020 |
-| Week 9        | (Reading week) | 20/11/2020 |
+| Week 7        | [Graph Theory](../graph-theory)      | 06/11/2020 |
+| Week 8        | Proof | 13/11/2020 |
+| Week 9        | Descriptive Statistics | 20/11/2020 |
 | Week 10        | Probability     | 27/11/2020 |
 | Week 11        | Inferential Statistics | 04/12/2020 |
 | Week 12        | TBD | 11/12/2020 |

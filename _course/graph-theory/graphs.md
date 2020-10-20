@@ -7,11 +7,7 @@ What is a **graph**? A graph is a set of **vertices** (or nodes) joined by **edg
 
 In this video I introduce the concept of graphs in the context of game levels. Watch the video and then answer the questions below.
 
-## Ten-minute lecture
-
-<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/X_f8upZKcKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
+### Video not yet available
 
 ---
 
@@ -27,16 +23,13 @@ You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
 
 ---
 
-## Graphs in Python
+## Graphs in Java
 
-There is no inbuilt implementation of a graph in Python. There is too much variation in how you might want to use a graph for that to be useful. So you will need to make your own. I will show one way of implementing a graph below. 
-
-We will need two classes: `Node` and `Edge`. The `Node` class represents a vertex in the graph. Each `Node` has an array (or Set if you prefer) of `Edges`. Each `Edge` stores two `Node`s.
-
-...
-
+There is no inbuilt implementation of a graph in Java. There is too much variation in how you might want to use a graph for that to be useful. So you need to make your own to suit your specific purposes.
 
 ---
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.16.2/cytoscape.min.js" integrity="sha512-90CUvhfbtRMgSr2cvzgYyGchUg2CtOHMavYdm03huN42UAjWtKhHBsQ+H7K4KGJ4MeS0P9FiZZwC7lxnIl6isg==" crossorigin="anonymous"></script>
 
 ## Questions
 
@@ -44,17 +37,83 @@ We will need two classes: `Node` and `Edge`. The `Node` class represents a verte
 
 ##### 1. Graph 1
 
-Look at the graph and answer the questions below
+Look at the graph and answer the questions below. You can manipulate the graph by dragging the nodes.
 
-<label for ="q11t">Cyclic</label> <input type="radio" name="q11" id="q11t" value="t"/> 
-<label for ="q11f">Acyclic</label> <input type="radio" name="q11" id="q11f" data-answer value="f"/> <span id="q11c" style="display:inline-block"></span>
+<div id="graph1" style="display: block; width:100%; height:400px"></div>
 
-<label for ="q12t">Connected</label> <input type="radio" name="q12" id="q12t" value="t"/>
-<label for ="q12f">Unconnected</label> <input type="radio" name="q12" id="q12f" data-answer value="f"/> <span id="q12c" style="display:inline-block"></span>
+<script>
+var cy = cytoscape({
+    container: document.getElementById('graph1'), // container to render in
 
-2. <label for ="q21"> What is the degree of node `n3`?</label> <input type="text" id="q21" data-answer=""/> <span id="q21c" style="display:inline-block"></span>
-3. <label for ="q22"> What is the maximum degree `Δ(G)` of the graph?</label> <input type="text" id="q22" data-answer=""/><span id="q22c" style="display:inline-block"></span>
-4. <label for ="q23"> What is the minimum degree `δ(G)`of the graph?</label> <input type="text" id="q23" data-answer=""/> <span id="q23c" style="display:inline-block"></span>
+    elements: [ // list of graph elements to start with
+        { // node a
+        data: { id: 'n1' }
+        },
+        { // node b
+        data: { id: 'n2' }
+        },
+        { // node b
+        data: { id: 'n3' }
+        },
+        { // node b
+        data: { id: 'n4' }
+        },
+        { // edge ab
+        data: { id: '12', source: 'n1', target: 'n2' }
+        },
+        { // edge 
+        data: { id: '23', source: 'n2', target: 'n3' }
+        },
+        { // edge 
+        data: { id: '34', source: 'n3', target: 'n4' }
+        },
+        { // edge 
+        data: { id: '24', source: 'n2', target: 'n4' }
+        }
+    ],
+
+    style: [ // the stylesheet for the graph
+        {
+        selector: 'node',
+        style: {
+            'background-color': '#666',
+            'label': 'data(id)'
+        }
+        },
+
+        {
+        selector: 'edge',
+        style: {
+            'width': 3,
+            'line-color': '#ccc',
+            'target-arrow-color': '#ccc',
+            'target-arrow-shape': 'none',
+            'curve-style': 'bezier'
+        }
+        }
+    ],
+
+    layout: {
+        name: 'cose',
+        animate: false,
+        fit: true, // whether to fit the viewport to the graph
+        padding: 0, // the padding on fit
+    }
+});
+cy.userPanningEnabled( false );
+cy.minZoom(1);
+cy.maxZoom(1);
+</script>
+
+<label for ="q11t">Cyclic</label> <input type="radio" name="q11" id="q11t" data-answer value="t"/> 
+<label for ="q11f">Acyclic</label> <input type="radio" name="q11" id="q11f" value="f"/> <span id="q11c" style="display:inline-block"></span>
+
+<label for ="q12t">Connected</label> <input type="radio" name="q12" id="q12t" data-answer value="t"/>
+<label for ="q12f">Unconnected</label> <input type="radio" name="q12" id="q12f" value="f"/> <span id="q12c" style="display:inline-block"></span>
+
+2. <label for ="q21"> What is the degree of node `n3`?</label> <input type="text" id="q21" data-answer="2"/> <span id="q21c" style="display:inline-block"></span>
+3. <label for ="q22"> What is the maximum degree `Δ(G)` of the graph?</label> <input type="text" id="q22" data-answer="3"/><span id="q22c" style="display:inline-block"></span>
+4. <label for ="q23"> What is the minimum degree `δ(G)`of the graph?</label> <input type="text" id="q23" data-answer="1"/> <span id="q23c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1','q2')">Check Answers</a>
 <script src="/assets/check.js"></script>
@@ -63,15 +122,72 @@ Look at the graph and answer the questions below
 
 Look at the graph and answer the questions below
 
-<label for ="q51t">Cyclic</label> <input type="radio" name="q51" id="q51t" value="t"/>
-<label for ="q51f">Acyclic</label> <input type="radio" name="q51" id="q51f" data-answer value="f"/> <span id="q51c" style="display:inline-block"></span>
+<div id="graph2" style="display: block; width:100%; height:400px"></div>
+
+<script>
+var cy2 = cytoscape({
+    container: document.getElementById('graph2'), // container to render in
+
+    elements: [ // list of graph elements to start with
+        { data: { id: 'n1' } },
+        { data: { id: 'n2' } },
+        { data: { id: 'n3' } },
+        { data: { id: 'n4' } },
+        { data: { id: 'n5' } },
+        { data: { id: 'n6' } },
+        { data: { id: 'n7' } },
+        { data: { id: 'e1', source: 'n1', target: 'n2' } },
+        { data: { id: 'e2', source: 'n2', target: 'n3' } },
+        { data: { id: 'e3', source: 'n3', target: 'n4' } },
+        { data: { id: 'e4', source: 'n4', target: 'n5' } },
+        { data: { id: 'e5', source: 'n6', target: 'n7' } },
+        { data: { id: 'e7', source: 'n1', target: 'n3' } },
+        { data: { id: 'e8', source: 'n2', target: 'n4' } },
+        { data: { id: 'e9', source: 'n1', target: 'n5' } },
+    ],
+
+    style: [ // the stylesheet for the graph
+        {
+        selector: 'node',
+        style: {
+            'background-color': '#666',
+            'label': 'data(id)'
+        }
+        },
+
+        {
+        selector: 'edge',
+        style: {
+            'width': 3,
+            'line-color': '#ccc',
+            'target-arrow-color': '#ccc',
+            'target-arrow-shape': 'none',
+            'curve-style': 'bezier'
+        }
+        }
+    ],
+
+    layout: {
+        animate: false,
+        name: 'cose',
+        fit: true, // whether to fit the viewport to the graph
+        padding: 0, // the padding on fit
+    }
+});
+cy2.userPanningEnabled( false );
+cy2.minZoom(1);
+cy2.maxZoom(1);
+</script>
+
+<label for ="q51t">Cyclic</label> <input type="radio" name="q51" id="q51t" data-answer value="t"/>
+<label for ="q51f">Acyclic</label> <input type="radio" name="q51" id="q51f" value="f"/> <span id="q51c" style="display:inline-block"></span>
 
 <label for ="q52t">Connected</label> <input type="radio" name="q52" id="q52t" value="t"/>
 <label for ="q52f">Unconnected</label> <input type="radio" name="q52" id="q52f" data-answer value="f"/> <span id="q52c" style="display:inline-block"></span>
 
-2. <label for ="q61"> What is the degree of node `n3`?</label> <input type="text" id="q61" data-answer=""/>  <span id="q61c" style="display:inline-block"></span>
-3. <label for ="q62"> What is the maximum degree `Δ(G)` of the graph?</label> <input type="text" id="q62" data-answer=""/> <span id="q62c" style="display:inline-block"></span>
-4. <label for ="q63"> What is the minimum degree `δ(G)`of the graph?</label> <input type="text" id="q63" data-answer=""/> <span id="q63c" style="display:inline-block"></span>
+2. <label for ="q61"> What is the degree of node `n3`?</label> <input type="text" id="q61" data-answer="3"/>  <span id="q61c" style="display:inline-block"></span>
+3. <label for ="q62"> What is the maximum degree `Δ(G)` of the graph?</label> <input type="text" id="q62" data-answer="3"/> <span id="q62c" style="display:inline-block"></span>
+4. <label for ="q63"> What is the minimum degree `δ(G)`of the graph?</label> <input type="text" id="q63" data-answer="1"/> <span id="q63c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q5','q6')">Check Answers</a>
 

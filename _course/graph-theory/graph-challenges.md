@@ -1,6 +1,6 @@
 ---
 title: Challenges
-permalink: /course/graphs-challenges/
+permalink: /course/graph-challenges/
 ---
 
 We will be working on these challenges in the lab session for this topic.
@@ -9,15 +9,20 @@ You do not have to complete these in advance. However you may choose to get star
 
 ## Implementing a graph
 
-Using the provided code above, implement a graph in Python.
+Because of the variation possible in implemented a graph, it's unlikely you will find graphs built in to any programming language. That means you will need to write them yourself if you need them. And because graphs are so useful, you almost certainly will.
 
-Extend the implementation with the following:
-1. Add a `degree` function on the `Node` class
+### Task 1
 
-### 3. Adjacency Matrix
+Using the provided code above, implement a graph in Java.
 
-Write a function in Python that returns an adjacency matrix for a given graph.
+### Task 2
 
-### 4. Maximum and Minimum Degree
+Add a `degree` function on the `Node` class
 
-Write a function in Python that calculates the maximum and minimum degree of a graph
+### Task 3
+
+Write a function in Java that returns an adjacency matrix for a given graph.
+
+### Task 4
+
+Write a function in Java that calculates the maximum and minimum degree of a graph

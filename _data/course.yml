@@ -56,3 +56,10 @@
     - demorgans-laws
     - set-theory-challenges
 
+- title: Graph Theory
+  course:
+    - graph-theory
+    - graphs
+    - directed-graphs
+    - graph-challenges
+
