@@ -29,13 +29,15 @@ Write functions to read and write each of these flags from a given number. One o
 
 ### Part 2
 
-I now want to store the following information about each block. Create a new Replit project and write a set of Java functions to read and write all of the values below, only using a single `char` (= 1 byte) to store a block's data.
+I now want to store the following information about each block. Fork the Replit project below and write a set of Java functions to read and write all of the values below, only using a single `char` (= 1 byte) to store a block's data.
 
 * I want to differentiate 16 different "types" of block as possible: e.g. sand, stone, wood, earth, lava, etc. 4 of these are "flowing types" (e.g. water).
 * I want damage to persist over time, so I want to store 4 different damage states, from not damaged to very damaged. Flowing-type blocks cannot be damaged.
 * For flowing-type, I want to store whether that block is a "source" (this is a boolean property).
 * If a flowing-type block is a source I want to store whether it is a natural feature or placed by a player.
 * I want to store how many resorces a block yeilds when harvested: either `none`, `low` or `high`.
+
+<iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSPropositionalLogicChallengePart2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### Part 3
 
