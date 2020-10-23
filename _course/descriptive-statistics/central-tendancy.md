@@ -5,11 +5,7 @@ permalink: /course/central-tendancy/
 
 In this section we're going to gain an overview of statistics, what it is and ways in which it is used.
 
-## Seven-minute lecture
-
-<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/X_f8upZKcKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
+### Video not yet available
 
 ## Questions
 

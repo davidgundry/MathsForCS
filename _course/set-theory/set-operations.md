@@ -96,4 +96,4 @@ Calculate the following, e,g,
 
 ## Summary
 
-In this section we have learned about the operations you can perform on sets. In the next we are going to learn about [DeMorgan's Laws](../demorgans-laws).
+In this section we have learned about the operations you can perform on sets. Now you can move on to the [set theory challenges](../set-theory-challenges).

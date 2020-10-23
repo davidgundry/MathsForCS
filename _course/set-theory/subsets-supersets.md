@@ -23,7 +23,6 @@ Using the `Set` interface from `java.util`, we have methods for some set relatio
 
 `size()` Returns the cardinality of the set.
 
-
 ---
 
 ## Subsets and Supersets in Python

@@ -76,11 +76,8 @@ Use the sets `A` and `B` with the Universe set `U`.
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q3', 'q4')">Check Answers</a>
 <script src="/assets/check.js"></script>
 
-
 ---
 
 ## Summary
 
 In this section we were introduced to De Morgans laws.
-
-Now you can move on to the [set theory challenges](../set-theory-challenges).
