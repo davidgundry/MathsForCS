@@ -21,6 +21,8 @@ Imagine that I'm making a [voxel](https://en.wikipedia.org/wiki/Voxel)-3D game, 
 
 ### Part 1
 
+**Update**: The model answer is available [here](https://repl.it/@davidgundry/MathsForCSPropositionalLogicChallengeJava-ModelAnswer)
+
 Lets say I want to store 8 binary values per block.
 
 Write functions to read and write each of these flags from a given number. One of these a `readFlag(char a, int n)` function takes a `char` (numerical value between 0-255) `a` and an integer `n` between 0 and 7 and returns the value of the `n`th flag on `a`. The other function is `setFlag(char a, int n, boolean v)`, which sets the value of flag `n` on `a` to v, which is either `true` or `false`, and then returns the updated value of `a`.
