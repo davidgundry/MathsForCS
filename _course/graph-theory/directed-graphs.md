@@ -3,11 +3,15 @@ title: Directed Graphs
 permalink: /course/directed-graphs/
 ---
 
-Sometimes connections in a graph are one-way: imagine roads in a one-way system. Such a graph is called a **directed graph**. We will learn about directed graphs and what we can do with them.
+Sometimes connections in a graph are one-way: imagine roads in a one-way system. Such a graph is called a directed graph. We will learn about directed graphs and different ways of formalising graphs.
 
 Watch the video and then answer the questions below.
 
-### Video not yet available
+## Eight-minute video
+
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/Wh7KbxV2FrE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also view this video [on YouTube](https://youtu.be/Wh7KbxV2FrE)
 
 ---
 
@@ -123,3 +127,8 @@ Look at the following adjacency matrix for a directed graph: 'to' nodes are alon
 ## Summary
 
 In this section we have learned about directed graphs.
+
+* You should know what it means for a graph to be directed.
+* You should be able to recognise and create directed and undirected graphs
+
+In the next section we are going to see an application of graphs to the study of [language](../structure-of-language).

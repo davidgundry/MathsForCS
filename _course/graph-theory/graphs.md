@@ -3,23 +3,29 @@ title: Graphs
 permalink: /course/graphs/
 ---
 
-What is a **graph**? A graph is a set of **vertices** (or nodes) joined by **edges**. Graphs are used as a simple way of thinking about more complex real-world systems such as road networks. By simpliying down to mathematical concepts we can find general solutions to all sorts of graph-theoretic problems!
+What is a **graph**? A graph is a set of **vertices** (or nodes) joined by **edges**. Graphs are used as a simple way of thinking about more complex real-world systems such as road networks. By simplifying down to mathematical concepts we can find general solutions to all sorts of problems!
 
-In this video I introduce the concept of graphs in the context of game levels. Watch the video and then answer the questions below.
+Watch the video and then answer the questions below.
 
-### Video not yet available
+## Ten-minute video
+
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/Saq-hs5PYbk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also view this video [on YouTube](https://youtu.be/Saq-hs5PYbk)
+
 
 ---
 
 ## Key Points
 
-1. A **graph** (G) is a set of **vertices** (V) and a set of **edges** (E)
+1. A **graph** (G) includes a set of **vertices** (V) and a set of **edges** (E)
 2. We can represent all sorts of things as graphs: game levels, road networks, social networks, computer networks...
 4. A graph is **connected** if there is a path from every point to every other point
 5. A graph is **cyclic** if there are some paths that get you back where you started
 6. The **degree** of a **node** is the number of edges coming from that node.
 7. The **maximum degree** (`Δ(G)`) of a graph `G` is the highest degree of any node in the graph
 8. The **minimum degree** (`δ(G)`) of a graph `G` is the smallest degree of any node in the graph
+9. A **loop** is an edge that joins a node to itself
 
 ---
 
@@ -30,6 +36,72 @@ There is no inbuilt implementation of a graph in Java. There is too much variati
 ---
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.16.2/cytoscape.min.js" integrity="sha512-90CUvhfbtRMgSr2cvzgYyGchUg2CtOHMavYdm03huN42UAjWtKhHBsQ+H7K4KGJ4MeS0P9FiZZwC7lxnIl6isg==" crossorigin="anonymous"></script>
+
+### Adjacency Matrixes
+
+An Adjacency matrix is a way of representing the number of connections between different nodes. For example, the adjacncy matrix for the folowing graph is given below:
+
+<div id="ex1" style="display: block; width:100%; height:400px"></div>
+
+<script>
+var cy = cytoscape({
+    container: document.getElementById('ex1'), // container to render in
+
+    elements: [ // list of graph elements to start with
+        { data: { id: 'n1' } },
+        { data: { id: 'n2' } },
+        { data: { id: 'n3' } },
+        { data: { id: 'n4' } },
+        { data: { id: 'e1', source: 'n1', target: 'n2' } },
+        { data: { id: 'e2', source: 'n1', target: 'n3' } },
+        { data: { id: 'e3', source: 'n2', target: 'n3' } },
+    ],
+
+    style: [ // the stylesheet for the graph
+        {
+        selector: 'node',
+        style: {
+            'background-color': '#666',
+            'label': 'data(id)'
+        }
+        },
+
+        {
+        selector: 'edge',
+        style: {
+            'width': 3,
+            'line-color': '#ccc',
+            'target-arrow-color': '#ccc',
+            'target-arrow-shape': 'triangle',
+            'curve-style': 'bezier'
+        }
+        }
+    ],
+
+    layout: {
+        animate: false,
+        name: 'breadthfirst',
+        fit: true, // whether to fit the viewport to the graph
+        padding: 0, // the padding on fit
+    }
+});
+cy.userPanningEnabled( false );
+cy.minZoom(1);
+cy.maxZoom(1);
+</script>
+
+|    | n1 | n2 | n3 | n4 |
+|----|---|----|----|----|
+| n1 |   | 1  | 1  |    |
+| n2 | 1 |    | 1  |   |
+| n3 | 1 | 1  |    |    |
+| n4 |   |  |    |    |
+
+
+
+---
+
+
 
 ## Questions
 
