@@ -23,7 +23,75 @@ You can also view this video [on YouTube](https://youtu.be/Wh7KbxV2FrE)
 
 ---
 
+## In-degree and Out-degree
+
+While in a directed graph the **degree** of a node is still how many edges connect to it, there are also two more related concepts:
+
+* **In-degree** - the number of edges that go _to_ this node
+* **Out-degree** - the number of edges that go _from_ this node
+
+Adjacency matrices for directed graphs  see the example below (in-edges along top, out-edges down the side):
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.16.2/cytoscape.min.js" integrity="sha512-90CUvhfbtRMgSr2cvzgYyGchUg2CtOHMavYdm03huN42UAjWtKhHBsQ+H7K4KGJ4MeS0P9FiZZwC7lxnIl6isg==" crossorigin="anonymous"></script>
+
+<div id="ex1" style="display: block; width:100%; height:400px"></div>
+
+<script>
+var cy = cytoscape({
+    container: document.getElementById('ex1'), // container to render in
+
+    elements: [ // list of graph elements to start with
+        { data: { id: 'n1' } },
+        { data: { id: 'n2' } },
+        { data: { id: 'n3' } },
+        { data: { id: 'n4' } },
+        { data: { id: 'e1', source: 'n1', target: 'n2' } },
+        { data: { id: 'e2', source: 'n1', target: 'n3' } },
+        { data: { id: 'e3', source: 'n2', target: 'n3' } },
+        { data: { id: 'e4', source: 'n4', target: 'n4' } },
+    ],
+
+    style: [ // the stylesheet for the graph
+        {
+        selector: 'node',
+        style: {
+            'background-color': '#666',
+            'label': 'data(id)'
+        }
+        },
+
+        {
+        selector: 'edge',
+        style: {
+            'width': 3,
+            'line-color': '#ccc',
+            'target-arrow-color': '#ccc',
+            'target-arrow-shape': 'triangle',
+            'curve-style': 'bezier'
+        }
+        }
+    ],
+
+    layout: {
+        animate: false,
+        name: 'circle',
+        fit: true, // whether to fit the viewport to the graph
+        padding: 0, // the padding on fit
+    }
+});
+cy.userPanningEnabled( false );
+cy.minZoom(1);
+cy.maxZoom(1);
+</script>
+
+|    | n1 | n2 | n3 | n4 |
+|----|---|----|----|----|
+| n1 |   | 1  | 1  |    |
+| n2 |   |    | 1  |    |
+| n3 |   |    |    |    |
+| n4 |   |    |    | 1  |
+
+---
 
 ## Questions
 
@@ -109,9 +177,9 @@ cy.maxZoom(1);
 
 Look at the following adjacency matrix for a directed graph: 'to' nodes are along the top, 'from' nodes are down the side.
 
-|    | p | n2 | n3 | n4 |
+|    | n1 | n2 | n3 | n4 |
 |----|---|----|----|----|
-| p  |   | 1  | 1  |    |
+| n1 |   | 1  | 1  |    |
 | n2 |   |    |    |  1 |
 | n3 | 1 |    |    |    |
 | n4 |   | 1  |    |  1 |

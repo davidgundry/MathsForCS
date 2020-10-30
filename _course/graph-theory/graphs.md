@@ -39,7 +39,7 @@ There is no inbuilt implementation of a graph in Java. There is too much variati
 
 ### Adjacency Matrixes
 
-An Adjacency matrix is a way of representing the number of connections between different nodes. For example, the adjacncy matrix for the folowing graph is given below:
+An Adjacency matrix is a way of representing the number of connections between different nodes. For example, the adjacency matrix for the folowing graph is given below:
 
 <div id="ex1" style="display: block; width:100%; height:400px"></div>
 
@@ -72,7 +72,7 @@ var cy = cytoscape({
             'width': 3,
             'line-color': '#ccc',
             'target-arrow-color': '#ccc',
-            'target-arrow-shape': 'triangle',
+            'target-arrow-shape': 'none',
             'curve-style': 'bezier'
         }
         }
@@ -80,7 +80,7 @@ var cy = cytoscape({
 
     layout: {
         animate: false,
-        name: 'breadthfirst',
+        name: 'circle',
         fit: true, // whether to fit the viewport to the graph
         padding: 0, // the padding on fit
     }
@@ -96,7 +96,6 @@ cy.maxZoom(1);
 | n2 | 1 |    | 1  |   |
 | n3 | 1 | 1  |    |    |
 | n4 |   |  |    |    |
-
 
 
 ---
@@ -276,9 +275,9 @@ Let `G` be a graph, with vertexes of degree `2,3,2,0,1,2`. Is `G` a connected gr
 
 Look at the following adjacency matrix for a graph.
 
-|    | p | n2 | n3 | n4 |
+|    | n1 | n2 | n3 | n4 |
 |----|---|----|----|----|
-| p  |   |    | 1  |    |
+| n1 |   |    | 1  |    |
 | n2 |   |    | 1  |  1 |
 | n3 | 1 | 1  |    |    |
 | n4 |   | 1  |    |    |
