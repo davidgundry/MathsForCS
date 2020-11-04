@@ -66,3 +66,11 @@
     - game-object-trees
     - graph-challenges
 
+- title: Proof
+  course: 
+    - proof
+    - intro-to-proof
+    - proof-by-cases
+    - proof-by-contradiction
+    - proof-by-induction
+    - proof-challenges
