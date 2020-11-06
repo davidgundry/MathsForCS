@@ -59,6 +59,8 @@ Because of the variation possible in implementing a graph, it's unlikely you wil
 
 I've implemented a graph in Java for you to work with. It has three classes: `Graph`, `Node` and `Edge`.
 
+<iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSGraphTheoryChallenge?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 ### Task 1
 
 Construct a graph using `new Graph()`.
