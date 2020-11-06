@@ -43,12 +43,7 @@ By assuming `sqrt(2)` is rational we conclude by contradiction that `sqrt(2)` is
 
 ## Questions
 
-### 1. Check your knowledge
-
-<script src="/assets/check.js"></script>
-<a class="btn btn-primary" type="submit" onClick="checkAnswers('q4')">Check Answers</a>
-
-### 2. On paper
+### On paper
 
 ##### Prove some stuff
 
