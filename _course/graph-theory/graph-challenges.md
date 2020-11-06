@@ -7,6 +7,8 @@ We will be working on these challenges in the lab session for this topic.
 
 You do not have to complete these in advance. However you may choose to get started on them in advance if you wish. You still need to attend the lab even if you have completed the challenges! If you do not complete them in the lab it is recommended that you finish them in your own time.
 
+If you want to revise your understanding of graphs, use the [graph question generator](../graph-gen).
+
 ## Vacuum cleaner agent
 
 Adapted from Russel and Norvig, _Artificial Intelligence, a Modern Approach_.
