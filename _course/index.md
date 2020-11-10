@@ -19,7 +19,7 @@ This website holds all of the content for the **(COM4002M-A) Mathematics and Pro
 | Week 5        | [Propositional Logic](../propositional-logic) | 23/10/2020 |
 | Week 6        | [Set Theory](../set-theory)      | 30/10/2020 |
 | Week 7        | [Graph Theory](../graph-theory)      | 06/11/2020 |
-| Week 8        | Proof | 13/11/2020 |
+| Week 8        | [Proof](../proof) | 13/11/2020 |
 | Week 9        | _Reading Week / Revision Lecture_ | 20/11/2020 |
 | Week 10        | Descriptive Statistics     | 27/11/2020 |
 | Week 11        | Probability | 04/12/2020 |

@@ -4,7 +4,7 @@ topic_title: Probability
 permalink: /course/probability/
 layout: topic-page
 teaser: This is some info about probability
-start_target: /course/probability
+start_target: /course/probability-basics
 ---
 
 <div class="col-sm-4">

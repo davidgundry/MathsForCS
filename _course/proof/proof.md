@@ -4,7 +4,7 @@ topic_title: Proof
 permalink: /course/proof/
 layout: topic-page
 teaser: We know things in mathematics by proving them by applying accepted rules of inference to our premises to reach a conclusion.
-start_target: /course/sets
+start_target: /course/intro-to-proof
 ---
 
 <div class="col-sm-4">

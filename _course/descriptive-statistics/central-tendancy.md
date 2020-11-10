@@ -3,9 +3,37 @@ title: Measures of Central Tendancy
 permalink: /course/central-tendancy/
 ---
 
-In this section we're going to gain an overview of statistics, what it is and ways in which it is used.
+In this section, we're going to learn about measures of central tendancy, very common measures used to describe datasets.
 
 ### Video not yet available
+
+---
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+## Key Points
+
+A measure of central tendancy tells you where the middle of your data is. There are all sorts of things you could consider the "middle" of your dataset, so there is more than one measure of central tendancy.
+
+These work for numeric data.
+
+* **Mean** - sum all and divide by the number \( \frac{\sum_{i=0}^{n} X_i}{n})
+* **Median** - order the values and find the one in the middle. If there are an even number of values, find the mean of the two middle values.
+* **Mode** - the most common value in the dataset
+
+### Why are they used?
+
+* Give an impression of what is a normal value in the data
+* Compare two data sets to see if one is larger or smaller on average than the other
+* Check whether a value is above or below the centre.
+
+### Limitations
+ 
+* By itself, measures of central tendency don't say anything about the _distribution_ of the data
+* Just because one dataset is on average larger than another is not enough to conclude that there is a meaningful difference.
+
+---
 
 ## Questions
 
@@ -35,4 +63,9 @@ Sometimes you do not have access to all of the numbers at once. For example, if 
 
 ## Summary
 
-In this section we have learned about measures of central tendancy. In the next section we learn about [measures of spread](../spread/).
+In this section we have learned about measures of central tendancy.
+
+* You should be able to calculate mean, median, and mode.
+* You should understand why measures of central tendancy are used.
+
+In the next section we learn about [measures of spread](../spread/).

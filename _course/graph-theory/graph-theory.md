@@ -4,7 +4,7 @@ topic_title: Graph Theory
 permalink: /course/graph-theory/
 layout: topic-page
 teaser: Graph theory gives us an abstract way of talking about structures as nodes connected by edges, like cities connected by roads. This simple idea is surprisingly useful.
-start_target: /course/sets
+start_target: /course/graphs
 ---
 
 <div class="col-sm-4">

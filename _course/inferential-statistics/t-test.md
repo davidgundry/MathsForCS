@@ -13,6 +13,8 @@ Watch the video and then answer the questions below.
 
 You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
 
+---
+
 ## Key Points
 
 * The t-test calculates the T statistic
@@ -28,6 +30,8 @@ You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
 Write a function that takes two arrays of numbers and calculates the t-statistic.
 
 Write a function that takes a t-statistic and the degrees of freedom and returns its p-value.
+
+---
 
 ## Summary
 

@@ -7,6 +7,24 @@ In this section we're going to gain an overview of statistics, what it is and wa
 
 ### Video not yet available
 
+---
+
+## Key Points
+
+**Numeric/Scalar data** is data which has ordering and the ratio between values is meaningful. For example a student who gets 10 marks not only got more marks than another who got 5, but we can say they got twice as many.
+
+**Ordinal data** is data which has ordering, but the ratio between values is not meaningful, such as most answers on a scale from 1-5. Answering 2 means you agree more than 1, but not necessarily twice as much.
+
+**Nominal data** is data with values like: "cat", "dog", "no pet". It has no natural ordering.
+
+**Descriptive Statistics** describes properties of our data. For example, the count of occurances of a particular value would be a descriptive statistic. 
+
+**Inferrential Statistics** are used to infer things about the world from our data
+
+**Hypothesis Testing** is where we have an idea about the way the world might be, and perform a statistical analysis to test what the likelihood is that this hypothesis is false.
+
+---
+
 ## Questions
 
 ### 1. Check your understanding
@@ -24,6 +42,12 @@ For each of the types of data, say whether they are nominal, ordinal, or numeric
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
 
+---
+
 ## Summary
 
-In this section we have been introduced to statistics. In the next section we learn about [measures of central tendancy](../central-tendancy/).
+In this section we have been introduced to statistics.
+
+* You should know the meanings of the terms introduced above.
+
+In the next section we learn about [measures of central tendancy](../central-tendancy/).

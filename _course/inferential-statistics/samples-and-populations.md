@@ -13,6 +13,8 @@ Watch the video and then answer the questions below.
 
 You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
 
+---
+
 ## Key Points
 
 * We use a **sample** to infer knowledge about a **population**.
@@ -20,6 +22,8 @@ You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
 * A **population** is the group of people or things that we're interested in. This might be every human being, or every output that an algorithm will ever give.
 * A **sample** is the group we actually measure: the people who do our experiment, or the algorithm outputs that we collect.
 * **Validity** is how convincing your inference argument is. Did you measure what you think you measured (e.g. physiological reaction times in humans)? Or did you _actually_ measure something else (physiological reaction times in over-worked undergraduate students)?
+
+---
 
 ## Questions
 
@@ -48,6 +52,8 @@ What does it mean for a sample to be biased?
 1. It is not randomly drawn from the population
 2. It has characteristics in common that are not shared by the wider population
 3. The results are not interesting
+
+---
 
 ## Summary
 
