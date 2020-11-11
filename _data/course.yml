@@ -75,3 +75,8 @@
     - proof-by-contradiction
     - proof-by-induction
     - proof-challenges
+
+- title: Maths to Code
+  course:
+    - maths-to-code
+    - qgen
