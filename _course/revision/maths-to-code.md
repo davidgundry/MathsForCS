@@ -7,6 +7,6 @@ The lecture course was originally planned for there to be a reading week. So thi
 
 This lecture will be delivered live, so there are not any videos to watch.
 
-The slides for this lecture will be available soon.
+The slides for this lecture are be [available here](/assets/maths-to-code.pdf)
 
 During this week's practical, we will be working on the challenges found [here](../qgen)

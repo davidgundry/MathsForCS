@@ -7,11 +7,7 @@ We are going to learn about a common inferential statistic called the Student's 
 
 Watch the video and then answer the questions below.
 
-## Twelve-minute lecture
-
-<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/X_f8upZKcKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
+## Video not yet available
 
 ---
 
@@ -20,6 +16,8 @@ You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
 * The t-test calculates the T statistic
 * The T statistic can be converted to a p-value
 * The t-test assumes our data is normally distributed
+
+---
 
 ## Questions
 

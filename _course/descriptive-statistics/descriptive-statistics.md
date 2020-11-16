@@ -4,7 +4,7 @@ topic_title: Descriptive Statistics
 permalink: /course/descriptive-statistics/
 layout: topic-page
 teaser: Descriptive statistics are used to help us understand what the data we have actually is.
-start_target: /course/descriptive-statistics
+start_target: /course/statistics
 ---
 
 <div class="col-sm-4">

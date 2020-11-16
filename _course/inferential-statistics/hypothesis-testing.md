@@ -7,11 +7,9 @@ Inferential statistics are used for testing **hypotheses** - statements about ho
 
 Watch the video and then answer the questions below.
 
-## Fifteen-minute lecture
+## Video not yet available
 
-<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/X_f8upZKcKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
+---
 
 ## Key Points
 
@@ -25,6 +23,8 @@ You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
 * The likelihood of making a Type II error is called beta `β`. It is related to the **power** of the experiment `power = 1 - β`
 * Our **effect size** is how big the effect we have detected is.
 
+---
+
 ## Questions
 
 ### 1. Check your understanding
@@ -33,42 +33,61 @@ You can also view this video [on YouTube](https://youtu.be/X_f8upZKcKc)
 
 Assuming a conventional value for `α = 0.05`, say which of the following p-values are statistically significant:
 
-1. <input type="checkbox" id="q11" data-answer="true" /><label for ="q11">0.12</label> <span id="q11c" style="display:inline-block"></span>
-2. <input type="checkbox" id="q12" data-answer="true" /><label for ="q12">0.04</label> <span id="q12c" style="display:inline-block"></span>
-3. <input type="checkbox" id="q13" data-answer="true" /><label for ="q13">0.96</label> <span id="q13c" style="display:inline-block"></span>
-4. <input type="checkbox" id="q14" data-answer="true" /><label for ="q14">0.012</label> <span id="q14c" style="display:inline-block"></span>
+1. <input type="checkbox" id="q11" data-answer="false" /><label for="q11">0.12</label> <span id="q11c" style="display:inline-block"></span>
+2. <input type="checkbox" id="q12" data-answer="true" /><label for="q12">0.04</label> <span id="q12c" style="display:inline-block"></span>
+3. <input type="checkbox" id="q13" data-answer="false"/><label for="q13">0.96</label> <span id="q13c" style="display:inline-block"></span>
+4. <input type="checkbox" id="q14" data-answer="true" /><label for="q14">0.012</label> <span id="q14c" style="display:inline-block"></span>
+
+<a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
+<script src="/assets/check.js"></script>
 
 ##### 2. Power
 
 1. You run an experiment to test if there is an effect of violence in video games using a statistical power of `0.4`. You get a null result (i.e. you do not reject the null hypothesis). Is this interesting?
 
-<label for ="q11t">Yes</label> <input type="radio" name="q21" id="q21t" value="t"/> 
-<label for ="q11f">No</label> <input type="radio" name="q21" id="q21f" data-answer value="f"/> <span id="q21c" style="display:inline-block"></span>
+<label for ="q21t">Yes</label> <input type="radio" name="q21" id="q21t" value="t"/> 
+<label for ="q21f">No</label> <input type="radio" name="q21" id="q21f" data-answer value="f"/> <span id="q21c" style="display:inline-block"></span>
 
 2. You run the experiment again with a statistical power of `0.9` and get a null result. Is this interesting?
 
-<label for ="q22t">Yes</label> <input type="radio" name="q22" id="q22t" value="t"/> 
-<label for ="q22f">No</label> <input type="radio" name="q22" id="q22f" data-answer value="f"/> <span id="q22c" style="display:inline-block"></span>
+<label for ="q22t">Yes</label> <input type="radio" name="q22" id="q22t" data-answer  value="t"/> 
+<label for ="q22f">No</label> <input type="radio" name="q22" id="q22f" value="f"/> <span id="q22c" style="display:inline-block"></span>
+
+<a class="btn btn-primary" type="submit" onClick="checkAnswers('q2')">Check Answers</a>
 
 ##### 3. Multiple Testing
 
 The bonferoni correction is a way of adjusting the level of `α` if you are doing multiple testing. The `α` for each experiment is set to `α/m`, where `α` is your overall alpha, and `m` is the number of experiments you are running.
 
-1. <label for ="q31">Imagine you ran 3 experiments using an overall `α = 0.05`, what should be your per-experiment `α`? </label> <input type="text" id="q31" data-answer=""/> <span id="q31c" style="display:inline-block"></span>
+1. <label for ="q31">Imagine you ran 3 experiments using an overall `α = 0.05`, what should be your per-experiment `α`? </label> <input type="text" id="q31" data-answer="0.16"/> <span id="q31c" style="display:inline-block"></span>
 
-2. <label for ="q32">You run 8 experiments maintaining an overall `α = 0.05`. You get a p-value for one experiment of `0.006`. Should you claim significance? </label> <input type="text" id="q32" data-answer=""/> <span id="q32c" style="display:inline-block"></span>
+2. You run 8 significance tests maintaining an overall `α = 0.05`. You get a p-value for one test of `0.006`. Should you claim significance?
+<br /><label for ="q42t">Yes</label> <input type="radio" name="q42" id="q42t" data-answer  value="t"/>  <label for ="q42f">No</label> <input type="radio" name="q42" id="q42f" value="f"/> <span id="q42c" style="display:inline-block"></span>
 
-3. <label for ="q33">You run two experiments on video game addiction using a questionnaire to measure addiction. One checks if time played has an effect. The other checks if game type has an effect. You use the same data for both. You get results of `p=0.41` and `p=0.62`. Should you claim a significant result?</label> <input type="text" id="q33" data-answer=""/> <span id="q33c" style="display:inline-block"></span>
+3. You run two experiments on video game addiction using a questionnaire to measure addiction. One checks if time played has an effect. The other checks if game type has an effect. You use the same data for both. You get results of `p=0.041` and `p=0.062`. Should you claim a significant result?
+<br /><label for ="q43t">Yes</label> <input type="radio" name="q43" id="q43t" value="t"/>  <label for ="q43f">No</label> <input type="radio" name="q43" id="q43f" data-answer value="f"/> <span id="q43c" style="display:inline-block"></span>
 
-4.  <label for ="q34">You use the same data to run two experiments with unrelated hypotheses. Do you need to adjust `α` due to multiple testing? </label> <input type="text" id="q34" data-answer=""/> <span id="q34c" style="display:inline-block"></span>
+4. You use the same data to run two experiments with unrelated hypotheses. Do you need to adjust `α` due to multiple testing? 
+<br /><label for ="q41t">Yes</label> <input type="radio" name="q41" id="41t" value="t"/> <label for ="q41f">No</label> <input type="radio" name="q41" id="q41f" data-answer value="f"/> <span id="q41c" style="display:inline-block"></span>
+
+<a class="btn btn-primary" type="submit" onClick="checkAnswers('q3', 'q4')">Check Answers</a>
 
 ### 2. Calculating Cohen's _d_
 
-The formula for Cohen's _d_ (for equal sized groups) is as follows: `d = (M<sub>1</sub> - M<sub>2</sub>) / SD<sub>pooled</sub>`
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-Where SD<sub>pooled</sub> is `sqrt((SD<sub>1</sub><sup>2</sup> + SD<sub>2</sub><sup>2</sup>)/2)`
+The formula for Cohen's _d_ (for equal sized groups) is as follows
 
-Write a function in Python that takes two number arrays of equal length and returns _d_.
+<p class="math">\(d = \frac{M_2 - M_1}{SD_{pooled}} \)</p>
+
+Where 
+
+<p class="math">\( SD_{pooled} = \sqrt{ \frac{ SD_1^{ 2} + SD_2^{ 2} }{2}} \)</p>
+
+Write a function in Java that takes two number arrays of equal length and returns _d_.
+
+---
 
 ## Summary
 

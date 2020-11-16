@@ -20,10 +20,10 @@ This website holds all of the content for the **(COM4002M-A) Mathematics and Pro
 | Week 6        | [Set Theory](../set-theory)      | 30/10/2020 |
 | Week 7        | [Graph Theory](../graph-theory)      | 06/11/2020 |
 | Week 8        | [Proof](../proof) | 13/11/2020 |
-| Week 9        | _Reading Week / Revision Lecture_ | 20/11/2020 |
-| Week 10        | Descriptive Statistics     | 27/11/2020 |
-| Week 11        | Probability | 04/12/2020 |
-| Week 12        | Inferential Statistics | 11/12/2020 |
+| Week 9        | [Maths to Code (_Reading Week Bonus Lecture_)](../maths-to-code) | 20/11/2020 |
+| Week 10        | [Descriptive Statistics](../descriptive-statistics)     | 27/11/2020 |
+| Week 11        | [Probability](../probability) | 04/12/2020 |
+| Week 12        | [Inferential Statistics](../inferential-statistics) | 11/12/2020 |
 
 ## Outline of the course
 
