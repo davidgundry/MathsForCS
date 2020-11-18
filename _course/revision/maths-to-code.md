@@ -16,10 +16,9 @@ During this week's practical, we will be working on the challenges found [here](
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-
 ## Standard Deviation Example
 
-Here is my example code converting the standard deviation of a sample formula to code.
+Here is my example code converting the standard deviation of a sample formula to code. This makes use of lambdas in Java which I would not expect you to be able to use in your first year!
 
 <p class="math">\( SD = \sqrt{\frac{\sum_{i=1}^{n}(x_i - \overline{x})^2}{n - 1}} \)</p>
 
