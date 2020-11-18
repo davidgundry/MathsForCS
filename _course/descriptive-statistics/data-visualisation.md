@@ -3,13 +3,13 @@ title: Data Visualisation
 permalink: /course/data-visualisation/
 ---
 
-In this section we're going to learn about data visualisation.
+Charts make your data look fancy and also help you understand what your data is showing. In this video I introduce the most useful kinds of charts for your data.
 
 ## Eleven-minute video
 
-<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/LF0D32SRReI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/F_lktophuQw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-You can also view this video [on YouTube](https://youtu.be/LF0D32SRReI)
+You can also view this video [on YouTube](https://youtu.be/F_lktophuQw)
 
 ---
 
