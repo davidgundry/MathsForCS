@@ -5,7 +5,11 @@ permalink: /course/correlation/
 
 In this section we're going to learn about **correlation**, which is not - as you may know - **causation**.
 
-### Video not yet available
+## Twelve-minute video
+
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/LF0D32SRReI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also view this video [on YouTube](https://youtu.be/LF0D32SRReI)
 
 ---
 
