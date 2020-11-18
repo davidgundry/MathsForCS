@@ -3,7 +3,7 @@ title: Introduction
 topic_title: Inferential Statistics
 permalink: /course/inferential-statistics/
 layout: topic-page
-teaser: This is some info about inferential statistics
+teaser: Inferential statistics let us take data from a sample and infer something about a population
 start_target: /course/samples-and-populations
 ---
 

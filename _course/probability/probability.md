@@ -3,7 +3,7 @@ title: Introduction
 topic_title: Probability
 permalink: /course/probability/
 layout: topic-page
-teaser: This is some info about probability
+teaser: Probability lets us model the liklihood that particular events will happen
 start_target: /course/probability-basics
 ---
 

@@ -1,11 +1,15 @@
 ---
-title: Measures of Central Tendancy
-permalink: /course/central-tendancy/
+title: Measures of Central Tendency
+permalink: /course/central-tendency/
 ---
 
-In this section, we're going to learn about measures of central tendancy, very common measures used to describe datasets.
+In this section, we're going to learn about measures of central tendancy, very common descriptive statistics used to describe datasets.
 
-### Video not yet available
+## Thirteen-minute video
+
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/wdRkqLkd7L0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also view this video [on YouTube](https://youtu.be/wdRkqLkd7L0)
 
 ---
 

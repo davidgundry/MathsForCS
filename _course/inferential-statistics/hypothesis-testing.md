@@ -13,14 +13,25 @@ Watch the video and then answer the questions below.
 
 ## Key Points
 
+### Hypotheses
+
 * Our **alternate hypothesis** is the hypothesis we're testing, e.g. "Driverless cars have fewer crashes than conventional cars"
 * Our **null hypothesis** says there is no effect, e.g. "Driverless cars have about the same number of crashes as conventional cars."
+
+### P-Values
+
 * A **p-value** tells us the liklihood our results were the result of chance.
 * We compare it against our **alpha** (`α`) value, which is usually `α = 0.05`.
 * If `p < α`, then our results are **statistically significant**.
+
+### Errors
+
 * A **Type I** error is falsely rejecting the null hypothesis.
 * A **Type II** error is falsely accepting the null hypothesis.
 * The likelihood of making a Type II error is called beta `β`. It is related to the **power** of the experiment `power = 1 - β`
+
+### Effect Size
+
 * Our **effect size** is how big the effect we have detected is.
 
 ---
@@ -72,7 +83,7 @@ The bonferoni correction is a way of adjusting the level of `α` if you are doin
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q3', 'q4')">Check Answers</a>
 
-### 2. Calculating Cohen's _d_
+### 2. Maths to Code Practice
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -86,6 +97,10 @@ Where
 <p class="math">\( SD_{pooled} = \sqrt{ \frac{ SD_1^{ 2} + SD_2^{ 2} }{2}} \)</p>
 
 Write a function in Java that takes two number arrays of equal length and returns _d_.
+
+You might want to look at my code for calculating standard deviation from the [maths to code lecture](../maths-to-code).
+
+<iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSInferentialStatisticsCohensD?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ---
 

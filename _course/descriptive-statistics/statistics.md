@@ -3,9 +3,14 @@ title: Statistics
 permalink: /course/statistics/
 ---
 
-In this section we're going to gain an overview of statistics, what it is and ways in which it is used.
+In this section we're going to gain an overview of statistics, what it is, and ways in which it is used.
 
-### Video not yet available
+## Ten-minute video
+
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/iP61hCchq-E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also view this video [on YouTube](https://youtu.be/iP61hCchq-E)
+
 
 ---
 
@@ -50,4 +55,4 @@ In this section we have been introduced to statistics.
 
 * You should know the meanings of the terms introduced above.
 
-In the next section we learn about [measures of central tendancy](../central-tendancy/).
+In the next section we learn about [measures of central tendancy](../central-tendency/).

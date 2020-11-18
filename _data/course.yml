@@ -76,7 +76,7 @@
     - proof-by-induction
     - proof-challenges
 
-- title: "Bonus: Maths to Code"
+- title: "Maths to Code"
   course:
     - maths-to-code
     - qgen
@@ -85,7 +85,7 @@
   course:
     - descriptive-statistics
     - statistics
-    - central-tendancy
+    - central-tendency
     - spread
     - data-visualisation
     - correlation
@@ -95,8 +95,8 @@
   course:
     - probability
     - probability-basics
-    - probability-distributions
     - combinatorics
+    - probability-distributions
     - bayes-rule
     - probability-challenges
 

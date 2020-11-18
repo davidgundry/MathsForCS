@@ -5,7 +5,11 @@ permalink: /course/spread/
 
 In this section we're going to learn about measures of spread, measures that tell us how spread out or bunched up our data is.
 
-## Video not yet available
+## Thirteen-minute video
+
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/a6u8GKgLIU4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also view this video [on YouTube](https://youtu.be/a6u8GKgLIU4)
 
 ---
 

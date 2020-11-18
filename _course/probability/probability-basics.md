@@ -11,13 +11,141 @@ Watch the video and then answer the questions below.
 
 ---
 
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="/assets/venn.min.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 ## Key Points
 
-* **Probability** lets us model the liklihood that particular events will happen
-* If all outcomes have equal chance of happening, the probability of an event (e.g. rolling ⚀ or ⚅) is the number of favourable outcomes, divided by the total number of outcomes (e.g. `2/6`)
-* To find the chance that **two mutually exclusive events happen**, you add up their probabilities (e.g. `1/6 + 1/6`)
-* To find the chance that **two events co-occour**, you multiply their probabilities `P(B ∩ A) = P(A) * P(B)`
-* To find the chance that **either (or both) of two events occour**, you add up their probabilities, and take away the chance they co-occour `P(A ∪ B) = P(A) + P(B) - P(B ∩ A)`
+**Probability** lets us model the liklihood that particular events will happen
+
+### Events
+
+A **sample space** is the set of possible outcomes of an **experiment**. When rolling a dice, the sample space contains six outcomes:
+
+    ⚀ ⚁ ⚂ ⚃ ⚄ ⚅
+
+An **event** is a set of **outcomes**. For example the event of rolling an even number on a dice contains three outcomes:
+
+    ⚁ ⚃ ⚅ 
+
+If all outcomes have equal chance of happening, the probability of an event is the number of favourable outcomes, divided by the total number of outcomes (e.g. `2/6`)
+
+For example, if we're drawing red and blue balls from a bag, drawing a ball is an outcome. We might group these outcomes into a event `R` for drawing a red ball and an event `B` for drawing a blue ball. There are `10` outcomes in total: `6` red outcomes and `4` blue outcomes:
+
+<div id="venn" width="100%" height="300px"></div>
+
+Above, \\( P(R) = \frac{4}{10} \\) and \\( P(B) = \frac{6}{10} \\).
+
+The chance that event `A` _doesn't_ happen is the same as the chance that _anything else happens_ instead. This is the same as:
+
+<p class="math">\[ P(A') = 1 - P(A) \]</p> 
+
+which in the example above means \\( P(R') = \frac{6}{10} \\) and \\( P(B') = \frac{4}{10} \\)
+
+### Adding Probabilities
+
+Events can overlap. The _intersection_ of the two events corresponds to the outcomes where the events both happen.
+
+To find the chance that event `A` happens _or_ event `B` happens, you add up their probabilities and take away the chance they both happen.
+
+<p class="math">\[ P(A \cup B) = P(A) + P(B) - P(B \cap A ) \]</p>
+
+<div id="vennadd" width="100%" height="300px"></div>
+
+In the example shown here, the probability of either A or B happening is given by \\( P(A \\cup B) = \\frac{(10+2)}{18} + \\frac{(6+2)}{18} - \\frac{2}{18} = 1 \\)
+
+### Multiplying Probabilities
+
+To find the chance of event `A` _given event `B`_ you find the chance that A and B co-occour and divide by the probability of B. Read the following "the probability of A given B":
+
+<p class="math">\[ P(A | B) = \frac{ P(B \cap A) }{ P(B) } \]</p>
+
+<div id="vennmult" width="100%" height="300px"></div>
+
+In the venn diagram above, the probability \\( P(A \| B) = \\frac{2}{8} / \\frac{4}{8} = \\frac{2}{4} \\)
+
+To find the chance that **two events co-occour** you multiply their the probability of event A occouring given B by the probability of B.
+
+<p class="math">\[ P(A \cap B) = P(A | B) \times P(B) \]</p>
+
+In venn diagram, the probability of both A and B happening is given by \\( P(A \\cap B) = \\frac{2}{4} \times \\frac{4}{8}= \\frac{2}{8} \\)
+
+<script>
+var setStart = [ {sets: ['A'], label: "4", size: 4}, 
+             {sets: ['B'], label: "6", size: 6}];
+
+var sets = [ {sets: ['A'], label: "10", size: 12}, 
+             {sets: ['B'], label: "6",size: 8},
+             {sets: ['A','B'], label: "2", size: 2}];
+
+var setsMult = [ {sets: ['A'], label: "4", size: 6}, 
+             {sets: ['B'], label: "2",size: 4},
+             {sets: ['A','B'], label: "2", size: 2}];
+
+setTooltip = function(div)
+{
+    var tooltip = d3.select("body").append("div")
+        .attr("class", "venntooltip")
+        .style("position", "absolute");
+
+    div.selectAll("path")
+        .style("stroke-opacity", 0)
+        .style("stroke", "#fff")
+        .style("stroke-width", 3)
+
+    div.selectAll("g")
+        .on("mouseover", function(d, i) {
+            // sort all the areas relative to the current item
+            venn.sortAreas(div, d);
+
+            // Display a tooltip with the current size
+            tooltip.transition().duration(400).style("opacity", .9);
+            tooltip.text(d.size + " outcomes");
+
+            // highlight the current path
+            var selection = d3.select(this).transition("tooltip").duration(400);
+            selection.select("path")
+                .style("fill-opacity", d.sets.length == 1 ? .4 : .1)
+                .style("stroke-opacity", 1);
+        })
+
+        .on("mousemove", function() {
+            tooltip.style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY - 28) + "px");
+        })
+
+        .on("mouseout", function(d, i) {
+            tooltip.transition().duration(400).style("opacity", 0);
+            var selection = d3.select(this).transition("tooltip").duration(400);
+            selection.select("path")
+                .style("fill-opacity", d.sets.length == 1 ? .25 : .0)
+                .style("stroke-opacity", 0);
+        });
+}
+
+var chart3 = venn.VennDiagram()
+                 .height(300);
+
+var div = d3.select("#venn")
+div.datum(setStart).call(chart3);
+setTooltip(div);
+
+var chart = venn.VennDiagram()
+                 .height(300);
+
+var div = d3.select("#vennadd")
+div.datum(sets).call(chart);
+setTooltip(div);
+
+var chart2 = venn.VennDiagram()
+                 .height(300);
+
+var div = d3.select("#vennmult")
+div.datum(setsMult).call(chart2);
+setTooltip(div);
+</script>
 
 ---
 
@@ -91,3 +219,8 @@ Write a Java function `int dice(int count, int sides)` which simulates any numbe
 ## Summary
 
 In this section we have learned about how to work with probabilities.
+
+* You should be able to determine the probabilities of simple events.
+* You should be able to find the probabilities \\( P(A') \\), \\( P(A \\cup B ) \\), \\( P(A \\cap B ) \\), \\( P(A \| B ) \\)
+
+In the next section we are going to look at [combinatorics](../combinatorics)
