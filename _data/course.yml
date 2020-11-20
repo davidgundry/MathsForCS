@@ -4,6 +4,7 @@
   - who-am-i
   - coding
   - assessment
+  - assessment1
 
 - title: Introducing Mathematics
   course:
@@ -79,6 +80,7 @@
 - title: "Maths to Code"
   course:
     - maths-to-code
+    - revision-challenges
     - qgen
 
 - title: Descriptive Statistics

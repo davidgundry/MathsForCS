@@ -39,7 +39,9 @@ This course is being run by [David Gundry](../who-am-i). You can contact me over
 
 ### Assessment
 
-This course is 100% assessed by coursework. The assessment will be released `at some point`, and you will have until **Monday January 11 2021** to return your completed assessment. The assessment will present you with a number of problems that you have to solve. Many of the problems will require you to use a programming language. Throughout the course we will be using Python, and it is recommend you use that.
+This course is 100% assessed by coursework. The assessment will present you with a number of problems that you have to solve. Many of the problems will require you to use a programming language. Throughout the course we will be using Java, and it is recommend you use that.
+
+For more details see the [Assessment](../assessment) page.
 
 ### Coding
 
