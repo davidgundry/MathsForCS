@@ -20,9 +20,9 @@ Assuming the Babylonain _cubit_ is 518.6 mm long and the Euphrates River is 2,80
 
 Let `v` be a number written in binary. It has the following digits. Digits written with a `?` are either 0 or 1.
 
-<p>\[v = ?????0??1?????1_2\]</p>
+<p>\[v = 1????0??1?????1_2\]</p>
 
-Use the following equations to help you recover the original number.
+Use the following equations to help you recover the two values that `v` could originally have taken.
 
 <p>\[ v = x * b^2 + y * b + z\]</p>
 <p>\[x = y * 2 = z * 4\]</p>
