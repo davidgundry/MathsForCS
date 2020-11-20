@@ -22,6 +22,10 @@ Let `v` be a number written in binary. It has the following digits. Digits writt
 
 <p>\[v = 1????0??1?????1_2\]</p>
 
+It can also be written with three digits in another power-of-two base: Digits written with a `?` could be any number.
+
+<p>\[v = ???_{2^?}\]</p>
+
 Use the following equations to help you recover the two values that `v` could originally have taken.
 
 <p>\[ v = x * b^2 + y * b + z\]</p>
