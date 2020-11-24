@@ -105,7 +105,7 @@ Some example file permissions and equivalent numbers are given below.
 
     r---w---x = 421
     -w---xr-- = 214
-    rw-rw-rw- = 555
+    rw-rw-rw- = 666
     --------- = 0
     --------x = 1
     -----x--- = 10
