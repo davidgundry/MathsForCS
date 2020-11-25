@@ -98,7 +98,6 @@
     - probability
     - probability-basics
     - combinatorics
-    - probability-distributions
     - probability-trees
     - law-of-total-probability
     - bayes-rule
@@ -107,6 +106,7 @@
 - title: Inferential Statistics
   course:
     - inferential-statistics
+    - probability-distributions
     - samples-and-populations
     - hypothesis-testing
     - t-test

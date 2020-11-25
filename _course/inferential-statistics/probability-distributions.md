@@ -118,4 +118,4 @@ Remember, because it's continuous, if you wanted to find the probability of a ra
 
 In this section we have learned about probability distibutions.
 
-In the next section we get on to [probability trees](../probability-trees).
+In the next section we get on to [samples and populations](../samples-and-populations).

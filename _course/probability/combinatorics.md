@@ -136,4 +136,4 @@ In this section we have learned about combinatorics.
 * You should understand what a **permutation** is.
 * You should be able to use their formulas to calculate these.
 
-In the next section we will look at [probability distributions](../probability-distributions)
+In the next section we will look at [probability trees](../probability-trees).

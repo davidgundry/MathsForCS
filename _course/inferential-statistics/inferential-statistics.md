@@ -4,7 +4,7 @@ topic_title: Inferential Statistics
 permalink: /course/inferential-statistics/
 layout: topic-page
 teaser: Inferential statistics let us take data from a sample and infer something about a population
-start_target: /course/samples-and-populations
+start_target: /course/probability-distributions
 ---
 
 <div class="col-sm-4">
