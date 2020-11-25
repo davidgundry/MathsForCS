@@ -73,6 +73,66 @@ We often want to make use of the Law of Total Probability
 
 ---
 
+
+## Questions
+
+### 1. Question Generator
+
+<script src="/assets/proofparty.js"></script>
+
+<div id="target"></div>
+<div id="answer" style="display: none; background-color: yellow;" class="math"></div>
+<a id="answerbutton" class="btn btn-primary" type="submit" onClick="showAnswer('answer')">Show Answer</a>
+<br />
+<a class="btn btn-primary" type="submit" onClick="generateBayes('target')">Simple</a>
+<br />
+<a class="btn btn-primary" type="submit" onClick="generateBayes2('target')">Complex</a>
+
+<script>
+generateBayes = function(target)
+{
+    let p = proofparty.bayes();
+    let str = p.question;
+    const node = document.getElementById(target);
+    MathJax.typesetClear([node]);
+    node.innerHTML = str;
+    MathJax.typesetPromise([node]).then(() => {
+     // the new content is has been typeset
+    });
+
+    document.getElementById("answer").style.display="none";
+    document.getElementById("answer").innerHTML = p.answer;
+}
+generateBayes2 = function(target)
+{
+    let p = proofparty.bayes2();
+    let str = p.question;
+    const node = document.getElementById(target);
+    MathJax.typesetClear([node]);
+    node.innerHTML = str;
+    MathJax.typesetPromise([node]).then(() => {
+     // the new content is has been typeset
+    });
+
+    const ansNode = document.getElementById("answer");
+    MathJax.typesetClear([ansNode]);
+    ansNode.innerHTML = p.answer;
+    MathJax.typesetPromise([ansNode]).then(() => {
+     // the new content is has been typeset
+    });
+
+    document.getElementById("answer").style.display="none";
+}
+generateBayes("target");
+showAnswer = function(target)
+{
+    const node = document.getElementById(target);
+    node.style.display='block';
+}
+</script>
+
+---
+
 ## Summary
 
 In this section we have learned about Bayes Rule.

@@ -229,6 +229,55 @@ Write a Java function `int dice(int count, int sides)` which simulates any numbe
 
 <iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSProbabilityDice?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
+### 3. Question Generator
+
+The following is currently a bit broken as the labels don't change when you generate a new question. You can still hover over to see the number of outcomes in each subset. (I think) blue = A, orange = B, green = C.
+
+<div id="vennQ"></div>
+<div id="vennGen"></div>
+<div id="vennA"></div>
+
+<a class="btn btn-primary" type="submit" onClick="create()">Generate</a>
+<br />
+<a id="answerbutton" class="btn btn-primary" type="submit" onClick="showAnswer('vennA')">Show Answer</a>
+<br />
+<script src="/assets/proofparty.js"></script>
+
+<script>
+showAnswer = function(target)
+{
+    const node = document.getElementById(target);
+    node.style.display='block';
+}
+
+create = function()
+{
+    let vennQ = proofparty["venn"]();
+    const node = document.getElementById("vennQ");
+    MathJax.typesetClear([node]);
+    node.innerHTML = vennQ.question;
+    MathJax.typesetPromise([node]).then(() => {
+     // the new content is has been typeset
+    });
+
+    const answerNode = document.getElementById("vennA");
+    answerNode.style.display='none';
+    answerNode.innerHTML = vennQ.answer;
+
+    var setsNew = [ {sets: ['A'], label: "" + (vennQ.a-vennQ.intersectionAB), size: vennQ.a}, 
+                {sets: ['B'], label: "" + (vennQ.b-vennQ.intersectionAB), size: vennQ.b},
+                {sets: ['C'], label: "" + vennQ.c, size: vennQ.c},
+                {sets: ['A','B'], label: "" + vennQ.intersectionAB, size: vennQ.intersectionAB}];
+    var chartNew = venn.VennDiagram()
+    .height(300);
+
+    var div = d3.select("#vennGen");
+    div.datum(setsNew).call(chartNew);
+    setTooltip(div);
+}
+create();
+</script>
+
 ---
 
 ## Summary

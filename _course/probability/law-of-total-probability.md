@@ -36,6 +36,44 @@ If \\( B_1 \\), \\( B_2 \\), \\( B_3 \\), \\( \\cdots \\) is a partition of the 
 
 <p class="math">\[ P(A) = \sum_{i}P(A \cap B_i) = \sum_{i} P(A | B_i) \times P (B_i) \]</p>
 
+---
+
+## Questions
+
+### 1. Question Generator
+
+<script src="/assets/proofparty.js"></script>
+
+<div id="target"></div>
+<div id="answer" style="display: none; background-color: yellow;" class="math"></div>
+<a class="btn btn-primary" type="submit" onClick="generateTotalLaw('target')">Generate</a>
+<br />
+<a id="answerbutton" class="btn btn-primary" type="submit" onClick="showAnswer('answer')">Show Answer</a>
+<br />
+
+
+<script>
+generateTotalLaw = function(target)
+{
+    let p = proofparty.totalLaw();
+    let str = p.question;
+    const node = document.getElementById(target);
+    MathJax.typesetClear([node]);
+    node.innerHTML = str;
+    MathJax.typesetPromise([node]).then(() => {
+     // the new content is has been typeset
+    });
+
+    document.getElementById("answer").style.display="none";
+    document.getElementById("answer").innerHTML = p.answer;
+}
+generateTotalLaw("target");
+showAnswer = function(target)
+{
+    const node = document.getElementById(target);
+    node.style.display='block';
+}
+</script>
 
 ---
 

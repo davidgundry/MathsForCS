@@ -125,6 +125,41 @@ You can make use of the recursive factorial function given above.
 
 <iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSProbabilityPermutation?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
+### 3. Question Generator
+
+<script src="/assets/proofparty.js"></script>
+
+<div id="target" class="math"></div>
+<div id="answer" style="display: none; background-color: yellow;" class="math"></div>
+<a class="btn btn-primary" type="submit" onClick="generateCombinatoric('target')">Generate</a>
+<br />
+<a id="answerbutton" class="btn btn-primary" type="submit" onClick="showAnswer('answer')">Show Answer</a>
+<br />
+
+
+<script>
+generateCombinatoric = function(target)
+{
+    let p = proofparty.combinatoric();
+    let str = p.question;
+    const node = document.getElementById(target);
+    MathJax.typesetClear([node]);
+    node.innerHTML = str;
+    MathJax.typesetPromise([node]).then(() => {
+     // the new content is has been typeset
+    });
+
+    document.getElementById("answer").style.display="none";
+    document.getElementById("answer").innerHTML = p.answer;
+}
+generateCombinatoric("target");
+showAnswer = function(target)
+{
+    const node = document.getElementById(target);
+    node.style.display='block';
+}
+</script>
+
 ---
 
 ## Summary
