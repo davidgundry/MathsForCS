@@ -33,5 +33,5 @@ It might be helpful to think about another way that the factorial function can b
 
 Implement the function `int combination(int n, int k)`. It should return the result of the binomial coefficient, or combination:
 
-<p class="math">\[ ^nC_k = \frac{n!}{k!(n-k)!}  = {n}\choose{k}\]</p>
+<p class="math">\[ ^nC_k = \frac{n!}{k!(n-k)!} \]</p>
 
