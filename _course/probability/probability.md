@@ -21,7 +21,7 @@ start_target: /course/probability-basics
 
 <div class="col-sm-4">
     <h1 class="text-center"><i class="fa fa-line-chart" aria-hidden="true"></i></h1>
-    <h3 class="text-center">Inferential Statistics</h3>
-    <p>Probability is key to why you can make arguments using inferential statistics.</p>
+    <h3 class="text-center">Machine Learning</h3>
+    <p>Machine learning is a set of extremely powerful AI techniques that involve a lot of probability</p>
 </div>
 

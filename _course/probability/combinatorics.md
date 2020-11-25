@@ -7,7 +7,12 @@ It is useful to be able to find the number of combinations and permutations of s
 
 Watch the video and then answer the questions below.
 
-## Video not yet available
+## Fifteen-minute video
+
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/ccFCR11poBk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also view this video [on YouTube](https://youtu.be/ccFCR11poBk)
+
 
 ---
 

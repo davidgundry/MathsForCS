@@ -5,9 +5,9 @@ permalink: /course/probability-basics/
 
 In this section we're going to learn how to work with probabilities.
 
-Watch the video and then answer the questions below.
+**Probability** lets us model the liklihood that particular events will happen
 
-## Video not yet available
+There are three videos for this section. Watch them below 
 
 ---
 
@@ -16,11 +16,13 @@ Watch the video and then answer the questions below.
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-## Key Points
 
-**Probability** lets us model the liklihood that particular events will happen
+## Events
 
-### Events
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/jEs9JkpZSI4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also view this video [on YouTube](https://youtu.be/jEs9JkpZSI4)
+
 
 A **sample space** is the set of possible outcomes of an **experiment**. When rolling a dice, the sample space contains six outcomes:
 
@@ -44,7 +46,13 @@ The chance that event `A` _doesn't_ happen is the same as the chance that _anyth
 
 which in the example above means \\( P(R') = \frac{6}{10} \\) and \\( P(B') = \frac{4}{10} \\)
 
-### Adding Probabilities
+---
+
+## Adding Probabilities
+
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/3a3lHU7NyiM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also view this video [on YouTube](https://youtu.be/3a3lHU7NyiM)
 
 Events can overlap. The _intersection_ of the two events corresponds to the outcomes where the events both happen.
 
@@ -56,7 +64,14 @@ To find the chance that event `A` happens _or_ event `B` happens, you add up the
 
 In the example shown here, the probability of either A or B happening is given by \\( P(A \\cup B) = \\frac{(10+2)}{18} + \\frac{(6+2)}{18} - \\frac{2}{18} = 1 \\)
 
-### Multiplying Probabilities
+---
+
+## Multiplying Probabilities
+
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/jv5bkaROQvk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also view this video [on YouTube](https://youtu.be/jv5bkaROQvk)
+
 
 To find the chance of event `A` _given event `B`_ you find the chance that A and B co-occour and divide by the probability of B. Read the following "the probability of A given B":
 

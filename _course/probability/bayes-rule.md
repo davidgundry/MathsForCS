@@ -5,11 +5,21 @@ permalink: /course/bayes-rule/
 
 In this section we're going to learn about Bayes Rule, which was named after Reverend Thomas Bayes, apparently.
 
-Watch the video and then answer the questions below.
+There are two videos for this section. The first introduces Bayes' Rule, the second is a worked example.
 
-## Video not yet available
+#### Twenty five-minute video
 
----
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/DsOJ4xlnZmk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also view this video [on YouTube](https://youtu.be/DsOJ4xlnZmk)
+
+#### Ten-minute example
+
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/uUOSPFl7t0c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also view this video [on YouTube](https://youtu.be/uUOSPFl7t0c)
+
+--- 
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -43,6 +53,8 @@ Therefore \\( P(Revise\|Pass) = 0.8 \\)
 
 ### Thinking like a Bayesian
 
+We can use Bayes' rule to iteratively update our beliefs about the world. This is one of the techniques used in machine learning.
+
 We have a hypothesis H and new evidence E.
 
 * Our **prior probability** (\\( P(H) \\)) is how likely we think H is _before_ our new evidence.
@@ -55,17 +67,15 @@ We also need to know:
 
 Using Bayes rule we can find our posterior: \\(P(H\|E)= \frac{ P(E\|H) \times P(H)}{P(E)}  \\)
 
+We often want to make use of the Law of Total Probability
 
----
-
-## Questions
-
-### 1. Check your understanding
-
-
+<p class="math">\[ P(H_1|E)= \frac{ P(E|H_1) \times P(H_1)}{\sum_{i} P(E | H_i) \times P(H_i)} \]</p>
 
 ---
 
 ## Summary
 
 In this section we have learned about Bayes Rule.
+
+
+You can now move on to the [probability challenges](../probability-challenges).

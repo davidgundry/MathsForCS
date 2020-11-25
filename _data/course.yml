@@ -99,6 +99,8 @@
     - probability-basics
     - combinatorics
     - probability-distributions
+    - probability-trees
+    - law-of-total-probability
     - bayes-rule
     - probability-challenges
 
