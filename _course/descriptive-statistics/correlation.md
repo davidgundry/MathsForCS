@@ -94,15 +94,6 @@ To find the values for a and b in this equation, we can used the least squares m
 
 <p class="math">\[ a = \overline{y} - b\overline{x} \]</p>
 
-
----
-
-## Questions
-
-### 1. Check your understanding
-
-Does this show a correlation between the two variables?
-
 ---
 
 ## Summary
