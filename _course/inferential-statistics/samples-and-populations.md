@@ -7,7 +7,11 @@ We are going to learn about what it means to sample from a population. While a *
 
 Watch the video and then answer the questions below.
 
-## Video not yet available
+## Nine-minute video
+
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/Kl8hfypEMo0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also view this video [on YouTube](https://youtu.be/Kl8hfypEMo0)
 
 ---
 
