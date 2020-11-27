@@ -11,11 +11,14 @@ You do not have to complete these in advance. However you may choose to get star
 
 We are going to do an experiment to gather some data. In the experiment you will play a game for 5 minutes. After this time you will complete a questionnaire.
 
-I will send you a link to the experiment during in the practical.
+I will send you a link to the experiment during in the practical. If you want to complete this practical with demo data, generate some uusing the button below.
+
+<a class="btn btn-primary" type="submit" onClick="csvVars(31,20)">Generate Data CSV</a>
 
 After everyone has completed the experiment, we will process the data and generate various graphs and descriptive statistics.
 
 We will be using a spreadsheet program such as LibreOffice Calc or Microsoft Excel. We will also be using [Plotly Chart Studio](https://plotly.com/chart-studio/). There are various dedicated statistics packages such as R, SPSS, and NumPy. Due to their complexity, we're not going to use them for this practical.
+
 
 ### Task 1
 
@@ -93,8 +96,77 @@ Write a function in Java to calculate **Pearson's r**. This should take two arra
 
 Now use your function to calculate `r` for the IEQ components of the data we have collected.
 
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <p class="math">\[ r = \frac{\sum{(x_i - \overline{x})(y_i - \overline{y})}}{\sqrt{\sum(x_i - \overline{x})^2\sum(y_i - \overline{y})^2}} \]</p>
 
 <iframe height="400px" width="100%" src="https://repl.it/@davidgundry/MathsForCSDescriptiveStatsPearsonsR?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+
+
+
+
+<script>
+    function normal() {
+    var x = 0,
+        y = 0,
+        rds, c;
+    do {
+        x = Math.random() * 2 - 1;
+        y = Math.random() * 2 - 1;
+        rds = x * x + y * y;
+    } while (rds == 0 || rds > 1);
+    c = Math.sqrt(-2 * Math.log(rds) / rds); // Box-Muller transform
+    return x * c; // throw away extra sample y * c
+}
+
+function variable(mean, sd, min, max)
+{
+    let v = Math.round((normal()*sd)+mean);
+    v = Math.max(min, Math.min(v, max));
+    return v;
+}
+
+function csvVars(vs, n)
+{
+    let names = new Array(vs+1);
+    let vars = new Array(vs+1);
+    names[0] = "Condition";
+    vars[0] = new Array(n);
+    for (let i=0;i<n;i++)
+        vars[0][i] = Math.random() > 0.5 ? "treatment" : "control";
+
+    for (let i=1;i<=vs;i++)
+    {
+        names[i] = "v"+i;
+        vars[i] = new Array(n);
+        let mean = Math.abs((normal()*2));
+        let sd = Math.abs((normal()+1));
+        for (let j=0;j<n;j++)
+            vars[i][j] = variable(vars[0][j] === "treatment" ? mean + 1.8 : mean, vars[0][j] === "treatment"  ?sd * 1.2 : sd, 1, 5);
+    }
+
+
+    let csv = names.join(",") + "\n";
+    for (let i=0;i<n;i++)
+    {
+        for (let j=0;j<vars.length;j++)
+            csv += vars[j][i] + ",";
+        csv += "\n";
+    }
+    exportAsCSV(csv, "data");
+}
+
+function exportAsCSV(content, fileName) {
+            let csv = content
+            let csvData = new Blob([csv], { type: 'text/csv' });  
+            let csvUrl = URL.createObjectURL(csvData);
+            let hiddenElement = document.createElement('a');
+            hiddenElement.href = csvUrl;
+            hiddenElement.target = '_blank';
+            hiddenElement.download = fileName + '.csv';
+            hiddenElement.click();
+        }
+
+</script>
