@@ -101,7 +101,7 @@ Remember, because it's continuous, if you wanted to find the probability of a ra
 | 4. | A binomial distribution | <input type="radio" name="q14" id="q14t" data-answer  value="t"/> | <input type="radio" name="q14" id="q14f" value="f"/> | <span id="q14c" style="display:inline-block"></span> |
 | 5. | A normal distribution | <input type="radio" name="q15" id="q15t" value="t"/> | <input type="radio" name="q15" id="q15f" data-answer value="f"/> | <span id="q15c" style="display:inline-block"></span> |
 
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
 
 1. <label for ="q21">What is the liklihood of getting `1` on a `6` sided dice (as a fraction)?</label> <input type="text" id="q21" data-answer="1/6"/> <span id="q21c" style="display:inline-block"></span>

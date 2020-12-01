@@ -76,7 +76,7 @@ Given the following data, answer the questions below:  `3, 5, 5, 6, 7, 8, 8, 9`
 4. <label for ="q6">What is the inter-quartile range?</label> <input type="text" id="q6" data-answer="3"/> <span id="q6c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1', 'q2', 'q3', 'q4', 'q5', 'q6')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 ### 2. Implementing in Code
 

@@ -78,7 +78,7 @@ We often want to make use of the Law of Total Probability
 
 ### 1. Question Generator
 
-<script src="/assets/proofparty.js"></script>
+<script src="/assets/js/proofparty.js"></script>
 
 <div id="target"></div>
 <div id="answer" style="display: none; background-color: yellow;" class="math"></div>

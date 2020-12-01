@@ -8,7 +8,7 @@ permalink: /course/qgen/
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-<script src="/assets/proofparty.js"></script>
+<script src="/assets/js/proofparty.js"></script>
 
 This week we will be revising the maths knowledge we have gained throughout the course.
 

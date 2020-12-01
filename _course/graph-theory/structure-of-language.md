@@ -83,7 +83,7 @@ Which of the following properties apply to all of the trees above?
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q3')">Check Answers</a>
 
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 <script>
 var cy = cytoscape({

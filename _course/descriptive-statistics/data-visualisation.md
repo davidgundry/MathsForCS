@@ -256,7 +256,7 @@ Plotly.newPlot('2ddensity', data, layout);
 
 ### Box plots
 * Visualises distribution of data
-* Shows mean, upper quartile, lower quartile, and highest and lowest values
+* Shows median, upper quartile, lower quartile, and highest and lowest values
 * Commonly used for illustrating hypothesis tests
 
 <div id="boxplot"></div>

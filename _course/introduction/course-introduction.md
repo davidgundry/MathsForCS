@@ -9,6 +9,6 @@ Most of the time maths is taught as a bunch of disconnected rules for solving pa
 
 I'll be giving a mostly [Formalist](https://en.wikipedia.org/wiki/Philosophy_of_mathematics#Formalism) account, but there are other ways of thinking about maths. And if you're not big on philosophy, you don't need to worry about this bit.
 
-The slides for the introduction to the course [are available here](/assets/introduction.pdf)
+The slides for the introduction to the course [are available here](/assets/slides/introduction.pdf)
 
 During the first week's practical, we will be working on the challenges found [here](../first-challenges)

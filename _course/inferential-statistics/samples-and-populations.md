@@ -41,7 +41,7 @@ If you suspected this wheel was biased and ran a study to prove it, what would y
 4. <input type="checkbox" id="q14" data-answer="true" /><label for="q14">Every result from this roulette wheel</label> <span id="q14c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 What would your sample be?
 

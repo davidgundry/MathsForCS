@@ -15,7 +15,7 @@ Adapted from Russel and Norvig, _Artificial Intelligence, a Modern Approach_.
 
 Put yourself in the mind of a autonomous vaccum cleaner. Your world that consists only of two squares of carpet, a left square and a right square. Both squares of carpet have dirt on them. Life sucks.
 
-![Vaccum cleaner world](/assets/vaccum.png)
+![Vaccum cleaner world](/assets/img/vaccum.png)
 
 But wait! You're an autonomous vaccum cleaner! You control your own destiny! You can perform the following actions: **Left**, **Right** (move left or right between the cells), **Suck** (remove the dirt from a cell), and **NoOp** (no operation / do nothing). If you move left in the left cell, you remain in the left cell. If you move right in the right cell, you remain in the right cell.
 

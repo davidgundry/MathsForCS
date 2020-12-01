@@ -78,7 +78,7 @@ Calculate the truth values for the following logical propositions:
 | 5. | <label for ="q15">¬ (true ∧ p) ∧ ¬( true)</label> | <input type="radio" name="q15" id="q15t" value="t"/> | <input type="radio" name="q15" id="q15f" data-answer value="f"/> |<span id="q15c" style="display:inline-block"></span> |
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 ##### 2. Disjunction
 

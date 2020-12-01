@@ -11,7 +11,7 @@ You do not have to complete these in advance. However you may choose to get star
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script src="/assets/proofparty.js"></script>
+<script src="/assets/js/proofparty.js"></script>
 
 Use this theorem generator to generate theorems for you to prove. I _think_ it will only generate ones that are provably correct. However, if one doesn't seem right, or you can't solve it after trying, make a note of it and move on.
 

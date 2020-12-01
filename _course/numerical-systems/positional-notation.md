@@ -103,7 +103,7 @@ Answer each question then click the button marked "Check Answers" below. Use Pyt
 2. <label for ="q2">How many different numbers you can write using n binary digits?</label> <input type="text" id="q2" data-answer="2^n" /> <span id="q2c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1','q2')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 
 ##### 2. Bits and peices

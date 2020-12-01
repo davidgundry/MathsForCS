@@ -50,7 +50,7 @@ Assuming a conventional value for `α = 0.05`, say which of the following p-valu
 4. <input type="checkbox" id="q14" data-answer="true" /><label for="q14">0.012</label> <span id="q14c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 ##### 2. Power
 

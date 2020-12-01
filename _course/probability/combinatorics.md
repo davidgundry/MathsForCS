@@ -80,7 +80,7 @@ This lends itself to a recursive definition in Java (one that calls itself):
 
 ### 1. Check your understanding
 
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 ##### 1. Factorials
 
@@ -127,7 +127,7 @@ You can make use of the recursive factorial function given above.
 
 ### 3. Question Generator
 
-<script src="/assets/proofparty.js"></script>
+<script src="/assets/js/proofparty.js"></script>
 
 <div id="target" class="math"></div>
 <div id="answer" style="display: none; background-color: yellow;" class="math"></div>

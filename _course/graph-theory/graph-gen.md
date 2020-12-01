@@ -5,7 +5,7 @@ permalink: /course/graph-gen/
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.16.2/cytoscape.min.js" integrity="sha512-90CUvhfbtRMgSr2cvzgYyGchUg2CtOHMavYdm03huN42UAjWtKhHBsQ+H7K4KGJ4MeS0P9FiZZwC7lxnIl6isg==" crossorigin="anonymous"></script>
 
-<script src="/assets/proofparty.js"></script>
+<script src="/assets/js/proofparty.js"></script>
 
 This tool generates graphs, with questions that check your answers! I've only implemented the stuff that was easy for me to check. So don't forget to also ask yourself the questions:
 
@@ -32,7 +32,7 @@ You can click and drag the nodes around to get a better view. This might be nece
 4. <label for ="q23"> What is the minimum degree `δ(G)`of the graph?</label> <input type="text" id="q23"/> <span id="q23c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1','q2')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 <script>
 generateGraphQuestions = function(target)

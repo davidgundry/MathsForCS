@@ -68,7 +68,7 @@ Use pen and paper to convert the following numbers, then check your answers here
 5. <label for ="q15">11100011</label> <input type="text" id="q15" data-answer="227" /> <span id="q15c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 ##### 2. Hex to decimal
 1. <label for ="q21">0x45</label> <input type="text" id="q21" data-answer="69"  /> <span id="q21c" style="display:inline-block"></span>

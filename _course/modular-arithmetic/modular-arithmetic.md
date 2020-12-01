@@ -62,7 +62,7 @@ Rewrite the following into the form: a mod b
 6. <label for ="q16">(2 mod 8) * (6 mod 8)</label> <input type="text" id="q16" data-answer="12 mod 8"/> <span id="q16c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 ##### 2. Relations
 

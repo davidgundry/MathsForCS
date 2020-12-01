@@ -89,7 +89,7 @@ Solve the following, where bitwise operators are applied to a pair of bytes. Giv
 3. <label for ="q14">`NOT 00101010`</label> <input type="text" id="q14" data-answer="11010101"/> <span id="q14c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 Convert the following values from decimal into binary (you will want to pad the front with `0`s), and then perform the bitwise operator shown. Give your answers as 8-bit binary values without using a prefix.
 
@@ -121,7 +121,7 @@ Without converting to binary, work out the answers to these. Give your answers i
 3. <label for ="q45">`(32 << 1) >> 2`</label> <input type="text" id="q45" data-answer="16"/> <span id="q45c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q4')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 
 ---

@@ -74,7 +74,7 @@ Use the sets `A` and `B` with the Universe set `U`.
 | F | F | <input type="text" id="q47" data-answer="T"/> <span id="q47c" style="display:inline-block"></span> |  <input type="text" id="q48" data-answer="T"/> <span id="q48c" style="display:inline-block"></span> |
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q3', 'q4')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 ---
 

@@ -11,11 +11,19 @@ Watch the video and then answer the questions below.
 
 ---
 
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 ## Key Points
 
 * The t-test calculates the T statistic
 * The T statistic can be converted to a p-value
 * The t-test assumes our data is normally distributed
+
+<p class="math">\[ t = \frac{\overline{x}_1 - \overline{x}_2}{\sqrt{s^2 (\frac{1}{n_1} + \frac{1}{n_2})}} \]</p>
+
+Where \\( \\overline{x}_1} \\) and  \\( \\overline{x}_2} \\) are the means of the two groups,  \\( n_1 \\) and \\( n_2 \\) are the number of observations in the two groups, and \\( s_2 \\) is the pooled standard error.
+
 
 ---
 

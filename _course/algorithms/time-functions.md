@@ -56,7 +56,7 @@ Work out `T(A)`, `T(B)`, and `T(C)` for values of `n = 1, 2, 3, 4`. Then use you
 
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q5')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 ### 2. Work out time functions
 

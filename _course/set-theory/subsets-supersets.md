@@ -122,7 +122,7 @@ Work out the truth value of the following statements given set
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q5')">Check Answers</a>
 
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 ### 2. On pencil and paper
 

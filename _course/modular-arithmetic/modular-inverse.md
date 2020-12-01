@@ -53,7 +53,7 @@ What is the additive inverse of:
 3. <label for ="q33">2n</label> <input type="text" id="q33" data-answer="-2n"/> <span id="q33c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q3')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 ##### 2. Modular Additive Inverse
 

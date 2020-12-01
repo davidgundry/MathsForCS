@@ -40,7 +40,7 @@ Start off by representing IDs as hexadecimal. You might want to use the `Integer
 <label for ="q1">How many characters long would the 37.5 billionth URL be?</label> <input type="text" id="q1" data-answer="9"/> <span id="q1c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 ### Task 2
 

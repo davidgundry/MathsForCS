@@ -101,7 +101,7 @@ Decode the following by hand and enter your answer:
 2. <label for ="q2">lll.vddvat.rdb</label> <input type="text" id="q2" data-answer="www.google.com"/> <span id="q2c" style="display:inline-block"></span> (hint: try guessing the plaintext)
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1', 'q2')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 ### 2. Ceaser cypher
 

@@ -67,7 +67,7 @@ Calculate the following, e,g,
 | 3. | <label for ="q13">{a, b, c, d} ∪ {a, b, c, d}</label> | \{ <input type="text" id="q13" data-answer-set="a,b,c,d" /> \} | <span id="q13c" style="display:inline-block"></span> |
 | 4. | <label for ="q14">{a, b, c, d} ∪ {1, 2, 3, 4}</label> | \{ <input type="text" id="q14" data-answer-set="a,b,c,d,1,2,3,4" /> \} | <span id="q14c" style="display:inline-block"></span> |
 
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
 
 ##### 2. Intersection

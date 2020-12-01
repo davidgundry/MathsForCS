@@ -12,7 +12,7 @@ There are three videos for this section. Watch them below
 ---
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="/assets/venn.min.js"></script>
+<script src="/assets/js/venn.min.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
@@ -196,7 +196,7 @@ You have a deck of 52 cards (4 suits, no jokers). What is the probability of dra
 3. <label for ="q14">A joker (🃏)</label> <input type="text" id="q14" data-answer="0"/> <span id="q14c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 You have a 12 sided dice. What is the probability of rolling the following. Express your answers as a fraction in lowest terms.
 
@@ -205,7 +205,7 @@ You have a 12 sided dice. What is the probability of rolling the following. Expr
 3. <label for ="q23">A prime number</label> <input type="text" id="q23" data-answer="1/2"/> <span id="q23c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q2')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 You flip a coin. What is the probability of the following. Express your answers as a fraction in lowest terms.
 
@@ -213,7 +213,7 @@ You flip a coin. What is the probability of the following. Express your answers 
 2. <label for ="q32">Getting two heads</label> <input type="text" id="q32" data-answer="1/4"/> <span id="q32c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q3')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 You roll two 20-sided dice. What is the probability of the following. Express your answers as a fraction in lowest terms.
 
@@ -221,7 +221,7 @@ You roll two 20-sided dice. What is the probability of the following. Express yo
 2. <label for ="q42">Rolling a 20 on the dice with the lowest result</label> <input type="text" id="q42" data-answer="1/400"/> <span id="q42c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q4')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 ### 2. Dice roller
 
@@ -241,7 +241,7 @@ The following is currently a bit broken as the labels don't change when you gene
 <br />
 <a id="answerbutton" class="btn btn-primary" type="submit" onClick="showAnswer('vennA')">Show Answer</a>
 <br />
-<script src="/assets/proofparty.js"></script>
+<script src="/assets/js/proofparty.js"></script>
 
 <script>
 showAnswer = function(target)

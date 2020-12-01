@@ -54,7 +54,7 @@ Assign each to its eqivalent time complexity
 | 7. | O(6n<sup>3</sup> log n + 2<sup>n</sup>)   | <input type="radio" name="q57"/> | <input type="radio" name="q57"/> | <input type="radio" name="q57"/> | <input type="radio" name="q57"/> | <input type="radio" name="q57"/> | <input type="radio" name="q57"/> | <input type="radio" data-answer name="q57"/> | <span id="q57c" style="display:inline-block"></span> |
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q5')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 ##### 2. Graphs
 
@@ -163,7 +163,7 @@ Match the function to the graph. You might want to use [this online calculator](
 </script>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1','q2','q3','q4','q6',)">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 
 

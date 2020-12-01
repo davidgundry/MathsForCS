@@ -70,7 +70,7 @@ In which of the following cases would direct proof be appropriate?
 3. <input type="checkbox" id="q32" data-answer="true"/> <label for ="q32">If `x = 0`, <code>x<sup>2</sup> = -x<sup>2</sup></code></label> <span id="q32c" style="display:inline-block"></span>
 4. <input type="checkbox" id="q33" data-answer="false"/> <label for ="q33">the square root 2 is an irrational number</label> <span id="q33c" style="display:inline-block"></span>
 
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q3')">Check Answers</a>
 
 ### 2. On paper

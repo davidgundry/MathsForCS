@@ -48,7 +48,7 @@ Which of the following problems could be represented using a weighted graph>? <s
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q2')">Check Answers</a>
 
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 ---
 

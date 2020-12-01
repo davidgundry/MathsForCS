@@ -42,7 +42,7 @@ If \\( B_1 \\), \\( B_2 \\), \\( B_3 \\), \\( \\cdots \\) is a partition of the 
 
 ### 1. Question Generator
 
-<script src="/assets/proofparty.js"></script>
+<script src="/assets/js/proofparty.js"></script>
 
 <div id="target"></div>
 <div id="answer" style="display: none; background-color: yellow;" class="math"></div>

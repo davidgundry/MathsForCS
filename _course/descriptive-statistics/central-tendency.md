@@ -57,7 +57,7 @@ To calculate the median, you need to have sorted data. You can use the `Arrays.s
 3. <label for ="q4">Calculate the **median** of the following data by hand: `2, 4, 1, 2, 3, 4`</label> <input type="text" id="q4" data-answer="2.5"/> <span id="q4c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1', 'q2', 'q3', 'q4')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 ### 2. Implementing in Code
 

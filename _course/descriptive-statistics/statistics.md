@@ -46,7 +46,7 @@ For each of the types of data, say whether they are nominal, ordinal, or numeric
 | 6. | Dog breed ordered by average height | <input type="radio" name="q16" id="q16t"  value="t"/> | <input type="radio" name="q16" data-answer  id="q16f" value="f"/> | <input type="radio" name="q16" id="q16n" value="n"/> | <span id="q16c" style="display:inline-block"></span> |
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 ---
 
 ## Summary

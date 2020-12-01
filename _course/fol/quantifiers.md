@@ -34,7 +34,7 @@ Given the sets `A`, `B`, and `C` below, are the following expressions true:
     <tr><td>4.</td><td> \( \exists x \in B.x \in A \)</td><td>  <input type="radio" name="q14" id="q14t" data-answer  value="t"/> </td><td> <input type="radio" name="q14" id="q14f" value="f"/> </td><td> <span id="q14c" style="display:inline-block"></span> </td></tr>
 </table>
 
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
 
 ##### 2. Universal 

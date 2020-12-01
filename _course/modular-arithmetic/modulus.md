@@ -49,7 +49,7 @@ Give an answer for each of the following, without using Java:
 8. <label for ="q18">-11 mod 11</label> <input type="text" id="q18" data-answer="0"/> <span id="q18c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q1')">Check Answers</a>
-<script src="/assets/check.js"></script>
+<script src="/assets/js/check.js"></script>
 
 
 ##### Congruance
