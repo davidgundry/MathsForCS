@@ -202,12 +202,12 @@ You have a 12 sided dice. What is the probability of rolling the following. Expr
 
 1. <label for ="q21">An even number</label> <input type="text" id="q21" data-answer="1/2"/> <span id="q21c" style="display:inline-block"></span>
 2. <label for ="q22">8 or more</label> <input type="text" id="q22" data-answer="5/12"/> <span id="q22c" style="display:inline-block"></span>
-3. <label for ="q23">A prime number</label> <input type="text" id="q23" data-answer="1/2"/> <span id="q23c" style="display:inline-block"></span>
+3. <label for ="q23">A prime number</label> <input type="text" id="q23" data-answer="5/12"/> <span id="q23c" style="display:inline-block"></span>
 
 <a class="btn btn-primary" type="submit" onClick="checkAnswers('q2')">Check Answers</a>
 <script src="/assets/js/check.js"></script>
 
-You flip a coin. What is the probability of the following. Express your answers as a fraction in lowest terms.
+You flip a coin twice. What is the probability of the following. Express your answers as a fraction in lowest terms.
 
 1. <label for ="q31">Getting at least one heads</label> <input type="text" id="q31" data-answer="3/4"/> <span id="q31c" style="display:inline-block"></span>
 2. <label for ="q32">Getting two heads</label> <input type="text" id="q32" data-answer="1/4"/> <span id="q32c" style="display:inline-block"></span>
