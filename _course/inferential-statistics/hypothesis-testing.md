@@ -106,4 +106,4 @@ You might want to look at my code for calculating standard deviation from the [m
 
 ## Summary
 
-In this section we have learned about hypothesis testing. Once you've completed the questions, you can move on to the next section, where we will look at a popular statistical test called the [Student's t-test](../t-test/).
+In this section we have learned about hypothesis testing. Once you've completed the questions, you can move on to the next section, where we will look at a statistical test called the [Chi-Square test](../chi-square/).
