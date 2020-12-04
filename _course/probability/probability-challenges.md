@@ -62,7 +62,7 @@ The first unit (a) is the "attacking" unit and has a strategic advantage by goin
 
 1. Probability of beating a more powerful opponent falls of gradually. The battle is still competative (no more than 85% chance of winning) within +- 3 levels.
 2. A unit with over 5 more power than its opponent almost always wins (95+%)
-2. A unit with a power level of `k` is twice as likely to win when against a unit of power level `k-1`
+2. A unit with a power level of `k` is twice* (*or some other constant factor) as likely to win when against a unit of power level `k-1`
 
 ### Resources
 
