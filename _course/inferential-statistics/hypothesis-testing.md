@@ -7,7 +7,11 @@ Inferential statistics are used for testing **hypotheses** - statements about ho
 
 Watch the video and then answer the questions below.
 
-## Video not yet available
+## Sixteen-minute video
+
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/qCChu5Z5lkk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also view this video [on YouTube](https://youtu.be/qCChu5Z5lkk)
 
 ---
 
@@ -106,4 +110,4 @@ You might want to look at my code for calculating standard deviation from the [m
 
 ## Summary
 
-In this section we have learned about hypothesis testing. Once you've completed the questions, you can move on to the next section, where we will look at a statistical test called the [Chi-Square test](../chi-square/).
+In this section we have learned about hypothesis testing. Once you've completed the questions, you can move on to the next section, where we will look at [z scores](../z-scores/).
