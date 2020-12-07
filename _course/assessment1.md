@@ -119,7 +119,7 @@ Some example file permissions and equivalent numbers are given below.
         /** 
         * Convert unix file permissions string to number
         * @param permissions - unix file permissions string such as `rw-rw-r--`
-        * @return A string containing the number expressed in octal
+        * @return An integer expressing the equivalent octal value
         **/ 
         static int filePermissionsToNumber(String permissions)
 
@@ -129,6 +129,7 @@ Some example file permissions and equivalent numbers are given below.
         * @return Unix file permissions string such as `rw-rw-r--`
         **/ 
         static String numberToFilePermissions(int num)
+
 
 
 ### Modular Arithmetic <span class="marks">[ 8 marks ]</span>
