@@ -25,3 +25,25 @@
     text-align:center;
     font-size: 200%;
 }
+
+.marks
+{
+    color: red;
+    font-weight: bold;
+}
+
+.model-answer
+{
+    background-color: lightcyan;
+}
+
+.model-answer pre
+{
+    background-color: lightcyan;
+}
+
+.model-answer::before {
+    content: "Model Answer";
+    background-color: darkslategray;
+    color: white;
+  }

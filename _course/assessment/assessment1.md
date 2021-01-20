@@ -6,13 +6,7 @@ permalink: /course/assessment1/
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-<style>
-    .marks
-    {
-        color: red;
-        font-weight: bold;
-    }
-</style>
+**Update:** The [model answer for Assessment 1 is available here](/course/assessment1-model)
 
 ## Rubric
 
