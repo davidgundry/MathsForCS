@@ -11,6 +11,7 @@ Propositional logic is a branch of logic that deals with **propositions**. A pro
 
 You can also view this video [on YouTube](https://youtu.be/e93Lgf0Y9jo)
 
+You can find [the slides here](/assets/slides/propositional-logic/introduction.pdf) and also as [.odp](/assets/slides/propositional-logic/introduction.odp).
 
 ---
 

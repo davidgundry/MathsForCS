@@ -13,6 +13,8 @@ Watch the video and then answer the questions below.
 
 You can also view this video [on YouTube](https://youtu.be/EgGuT6SxtCk)
 
+You can find [the slides here](/assets/slides/proof/contradiction.pdf) and also as [.odp](/assets/slides/proof/contradiction.odp).
+
 ---
 
 ## Key Points

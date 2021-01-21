@@ -13,6 +13,8 @@ Watch the video below for an introduction to this useful concept and then answer
 
 You can also view this video [on YouTube](https://youtu.be/Qrnt_Vxhvx0)
 
+You can find [the slides here](/assets/slides/set-theory/sets.pdf) and also as [.odp](/assets/slides/set-theory/sets.odp).
+
 ---
 
 ## Key Points

@@ -11,6 +11,8 @@ Charts make your data look fancy and also help you understand what your data is 
 
 You can also view this video [on YouTube](https://youtu.be/F_lktophuQw)
 
+You can find [the slides here](/assets/slides/descriptive-statistics/visualisation.pdf) and also as [.odp](/assets/slides/descriptive-statistics/visualisation.odp).
+
 ---
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>

@@ -13,6 +13,8 @@ Watch the video and then answer the questions below.
 
 You can also view this video [on YouTube](https://youtu.be/NZhnmXx-0XY)
 
+You can find [the slides here](/assets/slides/proof/cases.pdf) and also as [.odp](/assets/slides/proof/cases.odp).
+
 ---
 
 ## Key Points

@@ -13,6 +13,8 @@ Watch the video and then answer the questions below.
 
 You can also view this video [on YouTube](https://youtu.be/Kl8hfypEMo0)
 
+You can find [the slides here](/assets/slides/inferential-statistics/samples-and-populations.pdf) and also as [.odp](/assets/slides/inferential-statistics/samples-and-populations.odp).
+
 ---
 
 ## Key Points

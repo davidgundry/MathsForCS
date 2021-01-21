@@ -12,6 +12,8 @@ We have now seen three logical operators in propositoinal logic: conjunction (`â
 
 You can also view this video [on YouTube](https://youtu.be/cOKLrceYHUI)
 
+You can find [the slides here](/assets/slides/propositional-logic/implication.pdf) and also as [.odp](/assets/slides/propositional-logic/implication.odp).
+
 ---
 
 ## Key Points

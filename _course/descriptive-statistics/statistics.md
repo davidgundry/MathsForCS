@@ -11,6 +11,7 @@ In this section we're going to gain an overview of statistics, what it is, and w
 
 You can also view this video [on YouTube](https://youtu.be/iP61hCchq-E)
 
+You can find [the slides here](/assets/slides/descriptive-statistics/statistics.pdf) and also as [.odp](/assets/slides/descriptive-statistics/statistics.odp).
 
 ---
 

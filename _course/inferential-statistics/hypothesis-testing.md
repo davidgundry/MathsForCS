@@ -13,6 +13,8 @@ Watch the video and then answer the questions below.
 
 You can also view this video [on YouTube](https://youtu.be/qCChu5Z5lkk)
 
+You can find [the slides here](/assets/slides/inferential-statistics/hypothesis-testing.pdf) and also as [.odp](/assets/slides/inferential-statistics/hypothesis-testing.odp).
+
 ---
 
 ## Key Points

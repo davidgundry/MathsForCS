@@ -11,6 +11,8 @@ We have already seen negation in propositional logic (`¬`). Negation flips a tr
 
 You can also view this video [on YouTube](https://youtu.be/O5Bn3WNITy4)
 
+You can find [the slides here](/assets/slides/propositional-logic/conjunction.pdf) and also as [.odp](/assets/slides/propositional-logic/conjunction.odp).
+
 ---
 
 ## Key Points

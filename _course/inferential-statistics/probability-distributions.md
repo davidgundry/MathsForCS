@@ -13,6 +13,8 @@ Watch the video and then answer the questions below.
 
 You can also view this video [on YouTube](https://youtu.be/j65hvDbHtq8)
 
+You can find [the slides here](/assets/slides/inferential-statistics/probability-distributions.pdf) and also as [.odp](/assets/slides/inferential-statistics/probability-distributions.odp).
+
 ---
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>

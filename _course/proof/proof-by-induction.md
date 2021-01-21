@@ -13,6 +13,8 @@ Watch the video and then answer the questions below.
 
 You can also view this video [on YouTube](https://youtu.be/Z2EuIfNx10g)
 
+You can find [the slides here](/assets/slides/proof/induction.pdf) and also as [.odp](/assets/slides/proof/induction.odp).
+
 ---
 
 ## Key Points
