@@ -10,7 +10,7 @@ This is the model answer for [Assessment 1](/course/assessment1). Multiple metho
 
 In marking the assessment, partial marks are given for working, and for error carried forward (ECF), where an answer is correct but for an incorrect value brought forward from an earlier question for which the student has already lost marks.
 
-A demo of the [model answer code](https://repl.it/@davidgundry/MathsForCSAssessmentModelAnswer) is available on Replit. The test code that was used in marking the assessments is available on GitHub [for Java](https://github.com/davidgundry/MathsForCS_Assessment1TestsJava) and [for Python](https://github.com/davidgundry/MathsForCS_Assessment1TestsJava).
+A demo of the [model answer code](https://repl.it/@davidgundry/MathsForCSAssessmentModelAnswer) is available on Replit. The test code that was used in marking the assessments is available on GitHub [for Java](https://github.com/davidgundry/MathsForCS_Assessment1TestsJava) and [for Python](https://github.com/davidgundry/MathsForCS_Assessment1TestsPython).
 
 ## Part 1: Number Theory <span class="marks">[ 35 marks ]</span>
 
