@@ -6,8 +6,6 @@ permalink: /course/assessment1/
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-**Update:** The [model answer for Assessment 1 is available here](/course/assessment1-model)
-
 ## Rubric
 
 The coursework for this module is split into two. This is the first item of coursework for this module. It is worth 60% of the total module mark. The second item of coursework will be released later in the term and will be due in January and will be worth 40% of the total module mark.

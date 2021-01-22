@@ -11,5 +11,5 @@ The coursework for this module is split into two, the set and due dates and the 
 
 | Assessment                     | Mark | Set Date   | Due Date   | Due Time | Model Answer |
 | ------------                   |----- | ---------  | ---------  | -------- | ------------ |
-| [Assessment 1](../assessment1) | 60%  | 20/11/2020 | 11/12/2020 | 12:00 noon | [Model Answer](../assessment1-model)
+| [Assessment 1](../assessment1) | 60%  | 20/11/2020 | 11/12/2020 | 12:00 noon | not yet available |
 | [Assessment 2](../assessment2) | 40%  | 11/12/2020 | 11/01/2021 | 12:00 noon | not yet available |
