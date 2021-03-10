@@ -13,3 +13,4 @@ The coursework for this module is split into two, the set and due dates and the 
 | ------------                   |----- | ---------  | ---------  | -------- | ------------ |
 | [Assessment 1](../assessment1) | 60%  | 20/11/2020 | 11/12/2020 | 12:00 noon | not yet available |
 | [Assessment 2](../assessment2) | 40%  | 11/12/2020 | 11/01/2021 | 12:00 noon | not yet available |
+| [Resit](../resit)              | 100% | 10/03/2021 | 16/04/2021 | 12:00 noon | not yet available |
