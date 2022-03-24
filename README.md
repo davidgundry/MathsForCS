@@ -43,6 +43,9 @@ docker build --build-arg JEKYLL_BASEURL="/your-base/url" -t jekyll-doc-theme .
 ```
 docker run -p 8080:80 jekyll-doc-theme
 ```
+
 ## License
 
-Jekyll Doc theme is released under [the MIT license](LICENSE).
+The content of this website, excluding the linked videos, is licensed under the [CC-BY-SA 4.0 International license](LICENSE.md).
+
+Jekyll Doc theme is released under [the MIT license](LICENSE-Jekyll-Docs.md]).
