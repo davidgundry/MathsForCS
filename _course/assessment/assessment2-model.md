@@ -1,7 +1,6 @@
 ---
 title: Assessment 2 Model Answer
 permalink: /course/assessment2-model/
-published: false
 ---
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
